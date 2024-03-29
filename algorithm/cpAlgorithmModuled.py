@@ -1,16 +1,17 @@
-from ortools.sat.python import cp_model
 import json
-from datetime import datetime
-from collections import defaultdict
-from .functions import getMissions, getRequests, getSoldiers, datetime_to_hours
-from .algFunctions import add_new_mission_with_soldiers, print_as_table
 import logging
+from collections import defaultdict
+
+from ortools.sat.python import cp_model
+
+from .algFunctions import add_new_mission_with_soldiers
+from .functions import getMissions, getSoldiers, datetime_to_hours
 
 # Initialize logging
 logging.basicConfig(filename='error_log.txt', level=logging.ERROR, format='%(asctime)s:%(levelname)s:%(message)s')
 
-
 MIN_REST_HOURS = 6  # Minimal resting time in hours
+
 
 def is_soldier_available_for_mission(soldier, mission_start, mission_end):
     for request in soldier.requestsList:
@@ -21,38 +22,39 @@ def is_soldier_available_for_mission(soldier, mission_start, mission_end):
 
 
 def generate_mission_schedule(missions_arg, soldiers_arg):
-    
     try:
         missions = getMissions(json.loads(missions_arg))
         soldiers = getSoldiers(json.loads(soldiers_arg))
     except Exception as e:
         print(f"Error processing missions or soldiers data: {e}")
         return json.dumps({"error": "Failed to process missions or soldiers data."})
-    
+
+
+
     model = cp_model.CpModel()
 
     mission_intervals = {}
     soldier_mission_vars = {}
     mission_durations = {}
-    
-    
+
     for mission in missions:
         start_hours = datetime_to_hours(mission.startDate)
         end_hours = datetime_to_hours(mission.endDate)
         duration_hours = end_hours - start_hours
         missionId_key = str(mission._id)
-        mission_intervals[missionId_key] = model.NewIntervalVar(start_hours, duration_hours, end_hours, f'mission_interval_{missionId_key}')
+        mission_intervals[missionId_key] = model.NewIntervalVar(start_hours, duration_hours, end_hours,
+                                                                f'mission_interval_{missionId_key}')
         mission_durations[missionId_key] = duration_hours
-        
+
         for soldier in soldiers:
             soldierId_key = str(soldier.personalNumber)
             # Check if soldier is available for the mission considering their requests
             if is_soldier_available_for_mission(soldier, mission.startDate, mission.endDate):
-                soldier_mission_vars[(soldierId_key, missionId_key)] = model.NewBoolVar(f'soldier_{soldierId_key}mission{missionId_key}')
+                soldier_mission_vars[(soldierId_key, missionId_key)] = model.NewBoolVar(
+                    f'soldier_{soldierId_key}mission{missionId_key}')
             else:
                 # Soldier is not available, so we explicitly set this variable to False
                 soldier_mission_vars[(soldierId_key, missionId_key)] = model.NewConstant(False)
-
 
     mission_intervals = {}
     # Create an IntervalVar for each mission
@@ -76,15 +78,13 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
             soldierId_key = str(soldier.personalNumber)
             soldier_mission_vars[(soldierId_key, missionId_key)] = model.NewBoolVar(
                 f'soldier_{soldierId_key}mission{missionId_key}'
-        )
-
-
+            )
 
     ########################## try: constraint: fair durations: ##########################
 
     # Constraint: Balance mission hours among soldiers as evenly as possible
     #             Calculate the total mission hours per day
-    
+
     total_mission_hours = sum(mission_durations.values())
     total_soldier_count = sum(mission.soldierCount for mission in missions)
     if total_soldier_count > 0:
@@ -94,18 +94,19 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
         fair_share_hours_per_soldier = 0  # Handle case where there are no soldiers required
 
     # First, calculate the total hours assigned to each soldier
-    total_hours_per_soldier = {soldier_id: model.NewIntVar(0, 24 * len(missions), f"total_hours_{soldier_id}") for soldier_id in [str(s.personalNumber) for s in soldiers]}
+    total_hours_per_soldier = {soldier_id: model.NewIntVar(0, 24 * len(missions), f"total_hours_{soldier_id}") for
+                               soldier_id in [str(s.personalNumber) for s in soldiers]}
     # Calculate the total duration of missions each soldier is assigned to
     for soldier_id in total_hours_per_soldier:
-        soldier_missions_duration = [soldier_mission_vars[(soldier_id, mission_id)] * mission_durations[mission_id] for mission_id, _ in soldier_mission_vars.keys() if soldier_id in soldier_mission_vars]
+        soldier_missions_duration = [soldier_mission_vars[(soldier_id, mission_id)] * mission_durations[mission_id] for
+                                     mission_id, _ in soldier_mission_vars.keys() if soldier_id in soldier_mission_vars]
         model.Add(total_hours_per_soldier[soldier_id] >= round(fair_share_hours_per_soldier))
 
-
-########################## end of constraint #################################   
+    ########################## end of constraint #################################
     def sum_mission_hours_per_day(missions):
         missions_by_date = defaultdict(list)
         total_hours_per_day = defaultdict(int)
-        
+
         for mission in missions:
             # Assuming missions is a list of dictionaries with startDate and endDate in "%d/%m/%Y %H:%M" format
             date_key = mission['startDate'].split(' ')[0]  # Extract just the date part
@@ -113,12 +114,11 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
             end_hours = datetime_to_hours(mission['endDate'])
             duration_hours = end_hours - start_hours
             missions_by_date[date_key].append(duration_hours)
-        
+
         for date, durations in missions_by_date.items():
             total_hours_per_day[date] = sum(durations)
-        
+
         return total_hours_per_day
-    
 
     #     soldier_total_hours = {str(soldier.personalNumber): model.NewIntVar(0, 24, f"total_hours_{str(soldier.personalNumber)}") for soldier in soldiers}
     #     mission_durations = {}
@@ -149,21 +149,18 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
     # min_hours_var = model.NewIntVar(0, 24, 'min_hours')
     # # max_mission_count = model.NewIntVar(0, len(missions), 'max_mission_count')
     # # min_mission_count = model.NewIntVar(0, len(missions), 'min_mission_count')
-    
+
     # # Constraints to set max and min values correctly
-        
+
     # model.Add(max_hours_var - min_hours_var <= 3)
 
     # # Objective: Minimize the difference to balance the workload and the number of missions
     # model.Minimize(max_hours_var - min_hours_var)
 
-
-
-        # end of constraint fair durations
+    # end of constraint fair durations
 
     def dis_en_able_constraints(flag, action):
         flag = action
-
 
     # Constraint: Each mission must be assigned at least one soldier and by required soldiers number for the mission
     for missionId_key, interval_var in mission_intervals.items():
@@ -172,7 +169,6 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
         if required_soldiers is not None:
             model.Add(sum(soldier_mission_vars[(str(
                 soldier.personalNumber), missionId_key)] for soldier in soldiers) == required_soldiers)
-
 
     # constraint: a soldier cannot be assigned to more than 1 mission at a time:
     # def missions_overlap(mission1_id, mission2_id):
@@ -216,14 +212,14 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
             duration_hours = end_hours - start_hours
             total_hours += duration_hours
         total_hours_per_day[date] = total_hours
-        avarage_mission_hours_for_soldier[date] = total_hours_per_day[date]/len(soldiers)
+        avarage_mission_hours_for_soldier[date] = total_hours_per_day[date] / len(soldiers)
     # print(avarage_mission_hours_for_soldier)
 
     for soldier in soldiers:
         for date, avg_hours in avarage_mission_hours_for_soldier.items():
             # Calculate the upper limit as 130% of the average hours
             upper_limit_hours = avg_hours * 1.3
-            
+
             # Calculate the total hours assigned to the soldier for this date
             soldier_hours_for_date = []
             for mission in missions_by_date[date]:  # Assuming missions_by_date is available
@@ -232,7 +228,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
                     duration_hours = datetime_to_hours(mission.endDate) - datetime_to_hours(mission.startDate)
                     assigned_var = soldier_mission_vars[(soldier.personalNumber, mission_id)]
                     soldier_hours_for_date.append(assigned_var * duration_hours)
-                    
+
             if soldier_hours_for_date:  # If there are missions assigned to the soldier on this date
                 total_hours_for_date = sum(soldier_hours_for_date)
                 # Add constraint for total hours to be at least the average and not exceed the upper limit
@@ -261,20 +257,21 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
     except Exception as e:
         print(f"Error solving model: {e}")
         return json.dumps({"error": "Failed to solve the model."})
-    
+
     # mission_schedule = []
-    
-        
+
     if status == cp_model.OPTIMAL or status == cp_model.FEASIBLE:
         formatted_schedule = []  # Initialize an empty list for the formatted schedule
         for mission in missions:
             missionId_key = str(mission._id)
             if missionId_key in mission_intervals:
-                assigned_soldiers = [str(soldier.personalNumber) for soldier in soldiers if solver.BooleanValue(soldier_mission_vars[(str(soldier.personalNumber), missionId_key)])]
+                assigned_soldiers = [str(soldier.personalNumber) for soldier in soldiers if solver.BooleanValue(
+                    soldier_mission_vars[(str(soldier.personalNumber), missionId_key)])]
                 # Create a dictionary for the mission with the desired format
                 formatted_mission = {
                     "_id": mission._id,  # Assuming missionId is an integer; no need to convert to string here
-                    "missionType": mission.missionType,  # Assuming you have a missionType attribute in your mission objects
+                    "missionType": mission.missionType,
+                    # Assuming you have a missionType attribute in your mission objects
                     "startDate": mission.startDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
                     "endDate": mission.endDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
                     "soldierCount": len(assigned_soldiers),  # The count of assigned soldiers
@@ -289,28 +286,31 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
         return json.dumps({"error": "No solution was found."})
 
 
-
-
 def main():
-    with open('C:/Users/adler/OneDrive - Shenkar College/SCHOOL/Year3SM1/שיטות בהנדסת תוכנה/Tactease/algorithm/temp-missions.json', 'r') as file:
+    with open(
+            'C:/Users/adler/OneDrive - Shenkar College/SCHOOL/Year3SM1/שיטות בהנדסת תוכנה/Tactease/algorithm/temp-missions.json',
+            'r') as file:
         missions_json_str = file.read()
-    with open('C:/Users/adler/OneDrive - Shenkar College/SCHOOL/Year3SM1/שיטות בהנדסת תוכנה/Tactease/algorithm/temp-soldiers.json', 'r') as file:
+    with open(
+            'C:/Users/adler/OneDrive - Shenkar College/SCHOOL/Year3SM1/שיטות בהנדסת תוכנה/Tactease/algorithm/temp-soldiers.json',
+            'r') as file:
         soldiers_json_str = file.read()
-          
+
     missions = getMissions(json.loads(missions_json_str))
     schedule__json = generate_mission_schedule(missions_json_str, soldiers_json_str)
-    
+
     print("New mission is added")
     new_mission_details = {
         "_id": len(missions) + 1,
         "startDate": "12/02/2024 10:00",
         "endDate": "12/02/2024 14:00",
-        "soldierCount": 6 
+        "soldierCount": 6
     }
 
     updated_schedule_json_str = add_new_mission_with_soldiers(schedule__json, new_mission_details, soldiers_json_str)
     print(updated_schedule_json_str)
     # print_as_table(schedule__json)
+
 
 if __name__ == "__main__":
     main()

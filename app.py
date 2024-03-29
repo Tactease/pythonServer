@@ -1,7 +1,7 @@
 import os
 from flask import Flask, request, jsonify
 from flask_pymongo import PyMongo
-from flask_server.algorithm.cpAlgorithmModuled import generate_mission_schedule, add_new_mission_with_soldiers
+from algorithm.cpAlgorithmModuled import generate_mission_schedule, add_new_mission_with_soldiers
 
 app = Flask(__name__)
 app.config["MONGO_URI"] = (
