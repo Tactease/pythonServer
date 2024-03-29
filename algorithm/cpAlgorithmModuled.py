@@ -2,8 +2,8 @@ from ortools.sat.python import cp_model
 import json
 from datetime import datetime
 from collections import defaultdict
-from functions import getMissions, getRequests, getSoldiers, datetime_to_hours
-from algFunctions import add_new_mission_with_soldiers, print_as_table
+from .functions import getMissions, getRequests, getSoldiers, datetime_to_hours
+from .algFunctions import add_new_mission_with_soldiers, print_as_table
 import logging
 
 # Initialize logging

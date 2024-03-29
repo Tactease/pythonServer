@@ -2,7 +2,7 @@ from datetime import datetime, timedelta
 import json
 import pandas as pd
 from collections import defaultdict
-from functions import datetime_to_hours
+from .functions import datetime_to_hours
 
 
 

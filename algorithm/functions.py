@@ -1,12 +1,14 @@
-from datetime import datetime, timedelta
-from classes.mission import Mission
-from classes.soldier import Soldier
-from classes.request import Request, PersonalRequest, MedicalRequest
 import json
 import logging
+from datetime import datetime, timedelta
+
+from .classes.mission import Mission
+from .classes.request import Request, PersonalRequest, MedicalRequest
+from .classes.soldier import Soldier
 
 # Initialize logging
 logging.basicConfig(filename='error_log.txt', level=logging.ERROR, format='%(asctime)s:%(levelname)s:%(message)s')
+
 
 def datetime_to_hours(datetime_input):
     try:
@@ -18,11 +20,12 @@ def datetime_to_hours(datetime_input):
         else:
             current_datetime = datetime.strptime(datetime_input, datetime_format)
         duration_hours = round(
-            (current_datetime - reference_datetime).total_seconds()/3600)
+            (current_datetime - reference_datetime).total_seconds() / 3600)
         return duration_hours
     except ValueError as e:
         logging.error(f"Date conversion error: {e}")
         raise
+
 
 def hours_to_datetime(duration_hours):
     datetime_format = "%d/%m/%Y %H:%M"
@@ -63,6 +66,7 @@ def getRequests(requests_data):
         requests.append(request)
     return requests
 
+
 def parseRequests(requestList):
     requests = []
     for request_data in requestList:
@@ -85,13 +89,14 @@ def validate_mission(mission):
             raise ValueError(f"Mission {mission.get('_id', 'Unknown')} missing required data: {key}")
     datetime_to_hours(mission["startDate"])
     datetime_to_hours(mission["endDate"])
-    
+
+
 # def validate_soldier(soldier):
 #     required_keys = ["personalNumber", "fullName", "pakal"]
 #     for key in required_keys:
 #         if key not in soldier:
 #             raise ValueError(f"Soldier missing required data: {key}")
-    
+
 #     # Validate requestList
 #     if "requestList" in soldier:
 #         for request in soldier["requestList"]:
@@ -119,7 +124,6 @@ def load_json_file(file_path):
         raise
 
 
-
 def getMissions(missions_data):
     missions = []
     for mission_data in missions_data:
@@ -139,7 +143,7 @@ def getMissions(missions_data):
     return missions
 
 
-def getSoldiers(soldiers_data): 
+def getSoldiers(soldiers_data):
     soldiers = []
     for soldier_data in soldiers_data:
         try:
@@ -156,7 +160,8 @@ def getSoldiers(soldiers_data):
                         )
                         requestsList.append(request)
                     except ValueError as e:
-                        logging.error(f"Error processing request for soldier {soldier_data.get('personalNumber', 'Unknown')}: {e}")
+                        logging.error(
+                            f"Error processing request for soldier {soldier_data.get('personalNumber', 'Unknown')}: {e}")
 
             # Initialize a Soldier object
             soldier = Soldier(
@@ -172,8 +177,7 @@ def getSoldiers(soldiers_data):
             logging.error(f"Failed to process soldier {soldier_data.get('personalNumber', 'Unknown')}: {e}")
     return soldiers
 
-
-# def getSoldiers(soldiers_data): 
+# def getSoldiers(soldiers_data):
 #     soldiers = []
 #     for soldier_data in soldiers_data:
 #         try:
@@ -220,5 +224,3 @@ def getSoldiers(soldiers_data):
 #             )
 #         soldiers.append(soldier)
 #     return soldiers
-
-
