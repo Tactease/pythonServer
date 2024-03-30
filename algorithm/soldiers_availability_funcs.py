@@ -16,12 +16,13 @@ def is_soldier_available_for_mission(soldier, mission_start, mission_end):
 
 def find_available_soldiers(schedule, new_mission, soldiers):
     # Assuming soldiers is already a Python list or dict, so no need to parse it from a string
-    new_mission_start = parse_datetime(new_mission["startDate"])
-    new_mission_end = parse_datetime(new_mission["endDate"])
+    first_mission = new_mission[0]
+    new_mission_start = first_mission.startDate
+    new_mission_end = first_mission.endDate
+
     rest_period = timedelta(hours=4)
     available_soldiers = set()
-
-    all_soldiers_info = {soldier["personalNumber"]: soldier for soldier in soldiers}
+    all_soldiers_info = {soldier.personalNumber: soldier for soldier in soldiers}
     all_soldiers = set(all_soldiers_info.keys())
 
     for soldier_id in all_soldiers:
@@ -30,9 +31,9 @@ def find_available_soldiers(schedule, new_mission, soldiers):
 
         # Check for mission schedule conflicts
         for mission in schedule:
-            if soldier_id in mission["soldiersOnMission"]:
-                mission_start = parse_datetime(mission["startDate"])
-                mission_end = parse_datetime(mission["endDate"])
+            if soldier_id in mission.soldiersOnMission:
+                mission_start = parse_datetime(mission.startDate)
+                mission_end = parse_datetime(mission.endDate)
                 if not (
                         new_mission_end + rest_period <= mission_start or new_mission_start >= mission_end + rest_period):
                     soldier_is_available = False
@@ -40,9 +41,9 @@ def find_available_soldiers(schedule, new_mission, soldiers):
 
         # Check for request conflicts
         if soldier_is_available:
-            for request in soldier.get("requestList", []):
-                request_start = parse_datetime(request["startDate"])
-                request_end = parse_datetime(request["endDate"])
+            for request in soldier.requestsList:
+                request_start = request.start_date
+                request_end = request.end_date
                 if not (new_mission_end <= request_start or new_mission_start >= request_end):
                     soldier_is_available = False
                     break

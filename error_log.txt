@@ -811,3 +811,107 @@ AttributeError: 'str' object has no attribute 'startDate'
 2024-03-30 17:51:08,515:INFO:[33mPress CTRL+C to quit[0m
 2024-03-30 17:51:11,044:INFO:127.0.0.1 - - [30/Mar/2024 17:51:11] "[31m[1mPOST /add_mission HTTP/1.1[0m" 400 -
 2024-03-30 17:52:37,241:INFO:127.0.0.1 - - [30/Mar/2024 17:52:37] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 19:00:19,005:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:00:19,006:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:01:27,452:INFO:127.0.0.1 - - [30/Mar/2024 19:01:27] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 19:01:55,987:INFO:127.0.0.1 - - [30/Mar/2024 19:01:55] "[31m[1mPOST /add_mission HTTP/1.1[0m" 400 -
+2024-03-30 19:03:17,201:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:03:17,201:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:03:21,545:INFO:127.0.0.1 - - [30/Mar/2024 19:03:21] "[31m[1mPOST /add_mission HTTP/1.1[0m" 400 -
+2024-03-30 19:03:57,857:INFO:127.0.0.1 - - [30/Mar/2024 19:03:57] "[31m[1mPOST /add_mission HTTP/1.1[0m" 400 -
+2024-03-30 19:04:42,643:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:04:42,644:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:04:43,617:INFO:127.0.0.1 - - [30/Mar/2024 19:04:43] "[31m[1mPOST /add_mission HTTP/1.1[0m" 400 -
+2024-03-30 19:06:18,744:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:06:18,744:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:06:25,153:INFO:127.0.0.1 - - [30/Mar/2024 19:06:25] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:08:17,625:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:08:17,625:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:08:21,426:INFO:127.0.0.1 - - [30/Mar/2024 19:08:21] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:08:59,437:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:08:59,438:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:09:01,619:INFO:127.0.0.1 - - [30/Mar/2024 19:09:01] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:09:50,190:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:09:50,190:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:09:54,151:INFO:127.0.0.1 - - [30/Mar/2024 19:09:54] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:10:40,514:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:10:40,514:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:10:45,004:INFO:127.0.0.1 - - [30/Mar/2024 19:10:45] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:11:36,712:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:11:36,712:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:11:38,956:INFO:127.0.0.1 - - [30/Mar/2024 19:11:38] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:12:05,450:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:12:05,450:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:12:07,700:INFO:127.0.0.1 - - [30/Mar/2024 19:12:07] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:12:46,388:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:12:46,388:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:12:47,095:INFO:127.0.0.1 - - [30/Mar/2024 19:12:47] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:13:11,934:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:13:11,935:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:13:15,255:INFO:127.0.0.1 - - [30/Mar/2024 19:13:15] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:24:03,506:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:24:03,506:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:24:04,243:INFO:127.0.0.1 - - [30/Mar/2024 19:24:04] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:25:57,455:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:25:57,455:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:26:02,484:INFO:127.0.0.1 - - [30/Mar/2024 19:26:02] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:27:07,687:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:27:07,687:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:27:09,686:INFO:127.0.0.1 - - [30/Mar/2024 19:27:09] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:27:51,088:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:27:51,088:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:27:54,403:INFO:127.0.0.1 - - [30/Mar/2024 19:27:54] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:28:36,743:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:28:36,743:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:28:39,263:INFO:127.0.0.1 - - [30/Mar/2024 19:28:39] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:29:01,349:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:29:01,349:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:30:30,896:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:30:30,897:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:30:33,090:INFO:127.0.0.1 - - [30/Mar/2024 19:30:33] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:30:50,905:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:30:50,906:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:30:53,486:INFO:127.0.0.1 - - [30/Mar/2024 19:30:53] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:31:18,288:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:31:18,310:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:31:19,503:INFO:127.0.0.1 - - [30/Mar/2024 19:31:19] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:31:35,612:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:31:35,612:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:31:40,884:INFO:127.0.0.1 - - [30/Mar/2024 19:31:40] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:32:48,559:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:32:48,559:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:33:00,402:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:33:00,402:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:33:02,569:INFO:127.0.0.1 - - [30/Mar/2024 19:33:02] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:33:30,292:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:33:30,292:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:33:34,977:INFO:127.0.0.1 - - [30/Mar/2024 19:33:34] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:36:17,913:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:36:17,913:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:36:21,639:INFO:127.0.0.1 - - [30/Mar/2024 19:36:21] "POST /add_mission HTTP/1.1" 200 -
