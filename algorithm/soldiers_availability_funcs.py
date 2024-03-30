@@ -16,9 +16,8 @@ def is_soldier_available_for_mission(soldier, mission_start, mission_end):
 
 def find_available_soldiers(schedule, new_mission, soldiers):
     # Assuming soldiers is already a Python list or dict, so no need to parse it from a string
-    first_mission = new_mission[0]
-    new_mission_start = first_mission.startDate
-    new_mission_end = first_mission.endDate
+    new_mission_start = new_mission.startDate
+    new_mission_end = new_mission.endDate
 
     rest_period = timedelta(hours=4)
     available_soldiers = set()
@@ -32,8 +31,8 @@ def find_available_soldiers(schedule, new_mission, soldiers):
         # Check for mission schedule conflicts
         for mission in schedule:
             if soldier_id in mission.soldiersOnMission:
-                mission_start = parse_datetime(mission.startDate)
-                mission_end = parse_datetime(mission.endDate)
+                mission_start = mission.startDate
+                mission_end = mission.endDate
                 if not (
                         new_mission_end + rest_period <= mission_start or new_mission_start >= mission_end + rest_period):
                     soldier_is_available = False

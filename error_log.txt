@@ -915,3 +915,11 @@ AttributeError: 'str' object has no attribute 'startDate'
  * Running on http://127.0.0.1:5000
 2024-03-30 19:36:17,913:INFO:[33mPress CTRL+C to quit[0m
 2024-03-30 19:36:21,639:INFO:127.0.0.1 - - [30/Mar/2024 19:36:21] "POST /add_mission HTTP/1.1" 200 -
+2024-03-30 19:41:33,884:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:41:33,884:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:41:37,486:INFO:127.0.0.1 - - [30/Mar/2024 19:41:37] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 19:42:53,778:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 19:42:53,778:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 19:42:58,309:INFO:127.0.0.1 - - [30/Mar/2024 19:42:58] "POST /add_mission HTTP/1.1" 200 -
