@@ -719,3 +719,95 @@ AttributeError: 'Mission' object has no attribute 'missionId'. Did you mean: 'ge
  * Running on http://127.0.0.1:5000
 2024-03-30 15:51:35,101:INFO:[33mPress CTRL+C to quit[0m
 2024-03-30 15:51:37,227:INFO:127.0.0.1 - - [30/Mar/2024 15:51:37] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:59:55,373:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:59:55,373:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 16:00:37,449:INFO:127.0.0.1 - - [30/Mar/2024 16:00:37] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 16:03:02,193:ERROR:Date conversion error: time data '12/02/2024 24:00' does not match format '%d/%m/%Y %H:%M'
+2024-03-30 16:03:02,193:ERROR:Failed to process mission:
+2024-03-30 16:03:02,194:ERROR:Exception on /generate_schedule [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 23, in generate_schedule
+    schedule = generate_mission_schedule(missions_json_str, soldiers_json_str)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\cpAlgorithmModuled.py", line 39, in generate_mission_schedule
+    start_hours = datetime_to_hours(mission.startDate)
+                                    ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'startDate'
+2024-03-30 16:03:02,206:INFO:127.0.0.1 - - [30/Mar/2024 16:03:02] "[35m[1mPOST /generate_schedule HTTP/1.1[0m" 500 -
+2024-03-30 16:07:47,088:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 16:07:47,088:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 16:07:49,521:ERROR:Date conversion error: time data '12/02/2024 24:00' does not match format '%d/%m/%Y %H:%M'
+2024-03-30 16:07:49,521:ERROR:Failed to process mission:
+2024-03-30 16:07:49,522:ERROR:Exception on /generate_schedule [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 23, in generate_schedule
+    schedule = generate_mission_schedule(missions_json_str, soldiers_json_str)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\cpAlgorithmModuled.py", line 39, in generate_mission_schedule
+    start_hours = datetime_to_hours(mission.startDate)
+                                    ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'startDate'
+2024-03-30 16:07:49,530:INFO:127.0.0.1 - - [30/Mar/2024 16:07:49] "[35m[1mPOST /generate_schedule HTTP/1.1[0m" 500 -
+2024-03-30 16:08:17,342:INFO:127.0.0.1 - - [30/Mar/2024 16:08:17] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 16:15:26,497:INFO:127.0.0.1 - - [30/Mar/2024 16:15:26] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 16:16:15,813:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 16:16:15,814:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 16:16:19,844:INFO:127.0.0.1 - - [30/Mar/2024 16:16:19] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 16:19:08,405:INFO:127.0.0.1 - - [30/Mar/2024 16:19:08] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 16:19:52,080:INFO:127.0.0.1 - - [30/Mar/2024 16:19:52] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 16:45:46,475:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 16:45:46,475:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 16:45:51,466:INFO:127.0.0.1 - - [30/Mar/2024 16:45:51] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 16:46:31,538:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 16:46:31,539:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 16:53:58,324:INFO:127.0.0.1 - - [30/Mar/2024 16:53:58] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 16:58:00,178:INFO:127.0.0.1 - - [30/Mar/2024 16:58:00] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 17:00:21,305:INFO:127.0.0.1 - - [30/Mar/2024 17:00:21] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 17:00:29,674:INFO:127.0.0.1 - - [30/Mar/2024 17:00:29] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 17:01:20,822:INFO:127.0.0.1 - - [30/Mar/2024 17:01:20] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 17:24:24,637:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 17:24:24,637:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 17:24:46,218:INFO:127.0.0.1 - - [30/Mar/2024 17:24:46] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 17:28:05,524:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 17:28:05,524:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 17:28:07,164:INFO:127.0.0.1 - - [30/Mar/2024 17:28:07] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 17:34:04,838:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 17:34:04,839:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 17:34:09,331:INFO:127.0.0.1 - - [30/Mar/2024 17:34:09] "[31m[1mPOST /add_mission HTTP/1.1[0m" 400 -
+2024-03-30 17:51:08,515:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 17:51:08,515:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 17:51:11,044:INFO:127.0.0.1 - - [30/Mar/2024 17:51:11] "[31m[1mPOST /add_mission HTTP/1.1[0m" 400 -
+2024-03-30 17:52:37,241:INFO:127.0.0.1 - - [30/Mar/2024 17:52:37] "POST /generate_schedule HTTP/1.1" 200 -

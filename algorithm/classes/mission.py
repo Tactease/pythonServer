@@ -1,12 +1,14 @@
 from datetime import datetime
-from enum import Enum    
-    
+from enum import Enum
+
+
 class MissionType(Enum):
     PATROL_BY_FOOT = 1
     PATROL_BY_CAR = 2
     GUARD = 3
     WATCH = 4
     OPERATION = 5
+
 
 class Mission:
     missionId_counter = 1  # Class variable to auto-increment missionId
