@@ -385,3 +385,337 @@
 2024-03-29 15:52:34,898:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
 2024-03-29 15:52:34,898:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 13:30:31,360:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 13:30:31,381:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 14:47:00,493:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 14:47:00,493:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 14:50:42,738:ERROR:Failed to process mission:
+2024-03-30 14:50:43,056:INFO:127.0.0.1 - - [30/Mar/2024 14:50:43] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 14:55:46,736:ERROR:Failed to process mission:
+2024-03-30 14:55:46,746:INFO:127.0.0.1 - - [30/Mar/2024 14:55:46] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 14:56:32,051:ERROR:Exception on /add_mission [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 33, in add_mission
+    updated_schedule = add_new_mission_with_soldiers(schedule_json, new_mission_details, soldiers_json_str)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 128, in add_new_mission_with_soldiers
+    available_soldiers = find_available_soldiers(missions, new_mission_details, soldiers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 57, in find_available_soldiers
+    new_mission_start = parse_datetime(newMission["startDate"])
+                                       ~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-03-30 14:56:32,111:INFO:127.0.0.1 - - [30/Mar/2024 14:56:32] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 14:57:12,243:ERROR:Failed to process mission:
+2024-03-30 14:57:12,252:INFO:127.0.0.1 - - [30/Mar/2024 14:57:12] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:01:04,294:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:01:04,294:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:01:10,905:ERROR:Failed to process mission:
+2024-03-30 15:01:10,934:INFO:127.0.0.1 - - [30/Mar/2024 15:01:10] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:03:10,427:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:03:10,427:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:03:14,222:ERROR:Exception on /add_mission [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 35, in add_mission
+    updated_schedule = add_new_mission_with_soldiers(schedule_json, new_mission_details, soldiers_json_str)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 128, in add_new_mission_with_soldiers
+    available_soldiers = find_available_soldiers(missions, new_mission_details, soldiers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 57, in find_available_soldiers
+    new_mission_start = parse_datetime(newMission["startDate"])
+                                       ~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-03-30 15:03:14,226:INFO:127.0.0.1 - - [30/Mar/2024 15:03:14] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 15:03:19,112:ERROR:Exception on /add_mission [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 35, in add_mission
+    updated_schedule = add_new_mission_with_soldiers(schedule_json, new_mission_details, soldiers_json_str)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 128, in add_new_mission_with_soldiers
+    available_soldiers = find_available_soldiers(missions, new_mission_details, soldiers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 57, in find_available_soldiers
+    new_mission_start = parse_datetime(newMission["startDate"])
+                                       ~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-03-30 15:03:19,113:INFO:127.0.0.1 - - [30/Mar/2024 15:03:19] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 15:03:43,164:ERROR:Exception on /add_mission [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 35, in add_mission
+    updated_schedule = add_new_mission_with_soldiers(schedule_json, new_mission_details, soldiers_json_str)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 128, in add_new_mission_with_soldiers
+    available_soldiers = find_available_soldiers(missions, new_mission_details, soldiers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 57, in find_available_soldiers
+    new_mission_start = parse_datetime(newMission["startDate"])
+                                       ~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-03-30 15:03:43,165:INFO:127.0.0.1 - - [30/Mar/2024 15:03:43] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 15:03:58,671:ERROR:Failed to process mission:
+2024-03-30 15:03:58,698:INFO:127.0.0.1 - - [30/Mar/2024 15:03:58] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:07:19,208:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:07:19,208:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:07:59,690:ERROR:Failed to process mission:
+2024-03-30 15:07:59,715:ERROR:Exception on /generate_schedule [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 23, in generate_schedule
+    schedule = generate_mission_schedule(missions_json_str, soldiers_json_str)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\cpAlgorithmModuled.py", line 273, in generate_mission_schedule
+    "classId": mission.classId,
+               ^^^^^^^^^^^^^^^
+AttributeError: 'Mission' object has no attribute 'classId'
+2024-03-30 15:07:59,718:INFO:127.0.0.1 - - [30/Mar/2024 15:07:59] "[35m[1mPOST /generate_schedule HTTP/1.1[0m" 500 -
+2024-03-30 15:10:03,621:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:10:03,621:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:10:17,739:ERROR:Failed to process mission:
+2024-03-30 15:10:17,769:INFO:127.0.0.1 - - [30/Mar/2024 15:10:17] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:12:21,032:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:12:21,032:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:12:31,774:ERROR:Failed to process mission:
+2024-03-30 15:12:31,803:INFO:127.0.0.1 - - [30/Mar/2024 15:12:31] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:13:40,480:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:13:40,480:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:13:42,690:ERROR:Exception on /add_mission [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 33, in add_mission
+    updated_schedule = add_new_mission_with_soldiers(schedule_json, new_mission_details, soldiers_json_str)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 128, in add_new_mission_with_soldiers
+    available_soldiers = find_available_soldiers(missions, new_mission_details, soldiers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 57, in find_available_soldiers
+    new_mission_start = parse_datetime(newMission["startDate"])
+                                       ~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-03-30 15:13:42,695:INFO:127.0.0.1 - - [30/Mar/2024 15:13:42] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 15:14:05,073:ERROR:Failed to process mission:
+2024-03-30 15:14:05,094:INFO:127.0.0.1 - - [30/Mar/2024 15:14:05] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:16:20,880:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:16:20,880:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:16:25,504:ERROR:Exception on /add_mission [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 33, in add_mission
+    updated_schedule = add_new_mission_with_soldiers(schedule_json, new_mission_details, soldiers_json_str)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 128, in add_new_mission_with_soldiers
+    available_soldiers = find_available_soldiers(missions, new_mission_details, soldiers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 57, in find_available_soldiers
+    new_mission_start = parse_datetime(newMission["startDate"])
+                                       ~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-03-30 15:16:25,508:INFO:127.0.0.1 - - [30/Mar/2024 15:16:25] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 15:16:43,377:ERROR:Failed to process mission:
+2024-03-30 15:16:43,413:INFO:127.0.0.1 - - [30/Mar/2024 15:16:43] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:19:48,426:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:19:48,426:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:19:53,938:ERROR:Exception on /add_mission [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 33, in add_mission
+    updated_schedule = add_new_mission_with_soldiers(schedule_json, new_mission_details, soldiers_json_str)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 128, in add_new_mission_with_soldiers
+    available_soldiers = find_available_soldiers(missions, new_mission_details, soldiers)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\algFunctions.py", line 57, in find_available_soldiers
+    new_mission_start = parse_datetime(newMission["startDate"])
+                                       ~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2024-03-30 15:19:53,948:INFO:127.0.0.1 - - [30/Mar/2024 15:19:53] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-03-30 15:20:10,895:ERROR:Failed to process mission:
+2024-03-30 15:20:10,896:ERROR:Exception on /generate_schedule [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 23, in generate_schedule
+    schedule = generate_mission_schedule(missions_json_str, soldiers_json_str)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\cpAlgorithmModuled.py", line 33, in generate_mission_schedule
+    print(f"Processing mission1: {m.getMissionId()}")
+                                  ^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\classes\mission.py", line 30, in getMissionId
+    return self.missionId
+           ^^^^^^^^^^^^^^
+AttributeError: 'Mission' object has no attribute 'missionId'. Did you mean: 'getMissionId'?
+2024-03-30 15:20:10,903:INFO:127.0.0.1 - - [30/Mar/2024 15:20:10] "[35m[1mPOST /generate_schedule HTTP/1.1[0m" 500 -
+2024-03-30 15:20:31,862:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:20:31,863:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:20:36,749:ERROR:Failed to process mission:
+2024-03-30 15:20:36,750:ERROR:Exception on /generate_schedule [POST]
+Traceback (most recent call last):
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\.venv\Lib\site-packages\flask\app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\app.py", line 23, in generate_schedule
+    schedule = generate_mission_schedule(missions_json_str, soldiers_json_str)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\cpAlgorithmModuled.py", line 33, in generate_mission_schedule
+    print(f"Processing mission1: {m.getMissionId()}")
+                                  ^^^^^^^^^^^^^^^^
+  File "E:\Adi\Degree\Third Year\Semester A\Methods in Software Engineering\TactEaseCode\pythonServer\algorithm\classes\mission.py", line 30, in getMissionId
+    return self.missionId
+           ^^^^^^^^^^^^^^
+AttributeError: 'Mission' object has no attribute 'missionId'. Did you mean: 'getMissionId'?
+2024-03-30 15:20:36,756:INFO:127.0.0.1 - - [30/Mar/2024 15:20:36] "[35m[1mPOST /generate_schedule HTTP/1.1[0m" 500 -
+2024-03-30 15:22:07,421:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:22:07,421:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:22:17,730:ERROR:Failed to process mission:
+2024-03-30 15:22:17,767:INFO:127.0.0.1 - - [30/Mar/2024 15:22:17] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:23:06,129:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:23:06,129:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:26:35,687:ERROR:Failed to process mission:
+2024-03-30 15:26:35,724:INFO:127.0.0.1 - - [30/Mar/2024 15:26:35] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:27:50,699:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:27:50,700:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:30:10,280:ERROR:Failed to process mission:
+2024-03-30 15:30:10,327:INFO:127.0.0.1 - - [30/Mar/2024 15:30:10] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:31:01,640:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:31:01,641:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:31:31,528:ERROR:Failed to process mission:
+2024-03-30 15:31:31,563:INFO:127.0.0.1 - - [30/Mar/2024 15:31:31] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:32:08,421:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:32:08,421:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:32:25,750:ERROR:Failed to process mission:
+2024-03-30 15:32:25,786:INFO:127.0.0.1 - - [30/Mar/2024 15:32:25] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:41:57,831:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:41:57,831:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:42:00,585:INFO:127.0.0.1 - - [30/Mar/2024 15:42:00] "POST /generate_schedule HTTP/1.1" 200 -
+2024-03-30 15:51:35,101:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-30 15:51:35,101:INFO:[33mPress CTRL+C to quit[0m
+2024-03-30 15:51:37,227:INFO:127.0.0.1 - - [30/Mar/2024 15:51:37] "POST /generate_schedule HTTP/1.1" 200 -
