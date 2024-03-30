@@ -29,8 +29,6 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
         print(f"Error processing missions or soldiers data: {e}")
         return json.dumps({"error": "Failed to process missions or soldiers data."})
 
-
-
     model = cp_model.CpModel()
 
     mission_intervals = {}
@@ -239,6 +237,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
 
         # end of constraint fair durations
 
+
     for soldier in soldiers:
         soldier_id = str(soldier.personalNumber)
         for mission1_id in mission_intervals.keys():
@@ -269,9 +268,8 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
                     soldier_mission_vars[(str(soldier.personalNumber), missionId_key)])]
                 # Create a dictionary for the mission with the desired format
                 formatted_mission = {
-                    "_id": mission._id,  # Assuming missionId is an integer; no need to convert to string here
                     "missionType": mission.missionType,
-                    # Assuming you have a missionType attribute in your mission objects
+                    "classId": mission.classId,
                     "startDate": mission.startDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
                     "endDate": mission.endDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
                     "soldierCount": len(assigned_soldiers),  # The count of assigned soldiers

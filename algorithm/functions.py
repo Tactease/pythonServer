@@ -132,6 +132,7 @@ def getMissions(missions_data):
             mission = Mission(
                 missionId=str(mission_data["_id"]),
                 missionType=mission_data["missionType"],
+                classId=int(mission_data["classId"]),
                 startDate=mission_data["startDate"],
                 endDate=mission_data["endDate"],
                 soldierCount=int(mission_data["soldierCount"]),
@@ -140,6 +141,8 @@ def getMissions(missions_data):
             missions.append(mission)
         except Exception as e:
             logging.error(f"Failed to process mission:")
+            return json.dumps({"error": "Failed to process mission."})
+
     return missions
 
 
@@ -175,6 +178,7 @@ def getSoldiers(soldiers_data):
             soldiers.append(soldier)
         except Exception as e:
             logging.error(f"Failed to process soldier {soldier_data.get('personalNumber', 'Unknown')}: {e}")
+            return json.dumps({"error": "Failed to process soldier."})
     return soldiers
 
 # def getSoldiers(soldiers_data):
