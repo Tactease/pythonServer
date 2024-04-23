@@ -1,6 +1,6 @@
 
 from flask import Flask, request, jsonify
-
+import os
 from algorithm.generate_schedule.generate_schedule import generate_mission_schedule
 from algorithm.add_mission.add_mission import add_new_mission_with_soldiers
 
