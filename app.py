@@ -1,27 +1,11 @@
-from dotenv import load_dotenv
-import os
 
 from flask import Flask, request, jsonify
-from flask_pymongo import PyMongo
 
 from algorithm.generate_schedule.generate_schedule import generate_mission_schedule
 from algorithm.add_mission.add_mission import add_new_mission_with_soldiers
 
-load_dotenv()
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = (
-        "mongodb+srv://"
-        # + os.environ.get("DB_USER")
-        + os.getenv("DB_USER")
-        + ":"
-        # + os.environ.get("DB_PASS")
-        + os.getenv("DB_PASS")
-        + "@"
-        # + os.environ.get("DB_HOST")
-        + os.getenv("DB_HOST")
-)
-mongo = PyMongo(app)
 
 
 @app.errorhandler(400)
