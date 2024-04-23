@@ -923,3 +923,16 @@ AttributeError: 'str' object has no attribute 'startDate'
  * Running on http://127.0.0.1:5000
 2024-03-30 19:42:53,778:INFO:[33mPress CTRL+C to quit[0m
 2024-03-30 19:42:58,309:INFO:127.0.0.1 - - [30/Mar/2024 19:42:58] "POST /add_mission HTTP/1.1" 200 -
+2024-04-23 13:58:25,721:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-23 13:58:25,722:INFO:[33mPress CTRL+C to quit[0m
+2024-04-23 13:58:25,726:INFO: * Restarting with stat
+2024-04-23 13:58:28,939:WARNING: * Debugger is active!
+2024-04-23 13:58:28,952:INFO: * Debugger PIN: 119-020-653
+2024-04-23 13:59:49,883:ERROR:Date conversion error: time data '2024-02-15T02:30:00' does not match format '%d/%m/%Y %H:%M'
+2024-04-23 13:59:49,886:ERROR:Failed to process mission:
+2024-04-23 13:59:49,887:INFO:127.0.0.1 - - [23/Apr/2024 13:59:49] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-04-23 14:07:12,705:ERROR:Date conversion error: time data '2024-02-14T02:30:00' does not match format '%d/%m/%Y %H:%M'
+2024-04-23 14:07:12,705:ERROR:Failed to process mission:
+2024-04-23 14:07:12,707:INFO:127.0.0.1 - - [23/Apr/2024 14:07:12] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-04-23 14:36:05,477:INFO:127.0.0.1 - - [23/Apr/2024 14:36:05] "POST /add_mission HTTP/1.1" 200 -
