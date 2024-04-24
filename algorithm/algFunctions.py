@@ -53,10 +53,9 @@ def calculate_solder_mission_hours(missions):
     return soldier_mission_hours  # Ensure this dictionary is returned
 
 def find_available_soldiers(schedule, newMission, soldiers):
-    # Assuming soldiers is already a Python list or dict, so no need to parse it from a string
     new_mission_start = parse_datetime(newMission["startDate"])
     new_mission_end = parse_datetime(newMission["endDate"])
-    rest_period = timedelta(hours=4)
+    rest_period = timedelta(hours=12)  # Set the rest period (for example, 12 hours)
     available_soldiers = set()
 
     all_soldiers_info = {soldier["personalNumber"]: soldier for soldier in soldiers}
@@ -71,15 +70,17 @@ def find_available_soldiers(schedule, newMission, soldiers):
             if soldier_id in mission["soldiersOnMission"]:
                 mission_start = parse_datetime(mission["startDate"])
                 mission_end = parse_datetime(mission["endDate"])
+                # Adjusted to include rest period in the check
                 if not (new_mission_end + rest_period <= mission_start or new_mission_start >= mission_end + rest_period):
                     soldier_is_available = False
                     break
         
-        # Check for request conflicts
+        # Check for personal requests conflicts
         if soldier_is_available:
             for request in soldier.get("requestList", []):
                 request_start = parse_datetime(request["startDate"])
                 request_end = parse_datetime(request["endDate"])
+                # Ensure new mission does not overlap with personal requests
                 if not (new_mission_end <= request_start or new_mission_start >= request_end):
                     soldier_is_available = False
                     break
@@ -88,6 +89,7 @@ def find_available_soldiers(schedule, newMission, soldiers):
             available_soldiers.add(soldier_id)
 
     return available_soldiers
+
 
 
 def find_unassigned_soldiers(schedule_json_str, new_mission):
@@ -146,6 +148,40 @@ def add_new_mission_with_soldiers(schedule_json_str, new_mission_details, soldie
     missions.append(new_mission_details)
 
     return json.dumps(missions, indent=4)
+
+def pre_check_soldier_availability_for_all_missions(missions, soldiers, schedule):
+    all_checks = []
+    for mission in missions:
+        available_soldiers = find_available_soldiers(schedule, mission, soldiers)
+        needed = mission.get("soldierCount", 0)
+        if len(available_soldiers) < needed:
+            all_checks.append(False)
+        else:
+            all_checks.append(True)
+    return all(all_checks)  # Returns True if all missions can be scheduled
+
+def add_checked_missions(schedule_json_str, new_missions, soldiers_json):
+    schedule = json.loads(schedule_json_str)
+    soldiers = json.loads(soldiers_json)
+    
+    # Check if all missions can be successfully scheduled
+    if not pre_check_soldier_availability_for_all_missions(new_missions, soldiers, schedule):
+        print("Not all missions can be scheduled. No changes will be made.")
+        return schedule_json_str, [{"missionID": mission["missionId"], "status": "not scheduled"} for mission in new_missions]
+    
+    # If check is successful, proceed with adding missions
+    results = []
+    for mission in new_missions:
+        # This part will always succeed since we pre-checked
+        available_soldiers = find_available_soldiers(schedule, mission, soldiers)
+        selected_soldiers = list(available_soldiers)[:mission["soldierCount"]]
+        mission["soldiersOnMission"] = selected_soldiers
+        schedule.append(mission)
+        results.append({"missionID": mission["missionId"], "status": "added"})
+    
+    updated_schedule_json_str = json.dumps(schedule, indent=4)
+    return updated_schedule_json_str, results
+
 
 
 def find_min_hours_soldiers_for_day(soldier_mission_hours, specific_day):
