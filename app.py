@@ -2,7 +2,7 @@
 from flask import Flask, request, jsonify
 import os
 from algorithm.generate_schedule.generate_schedule import generate_mission_schedule
-from algorithm.add_mission.add_mission import add_new_mission_with_soldiers
+from algorithm.add_mission.add_mission import add_multiple_missions_with_soldiers
 
 
 app = Flask(__name__)
@@ -44,7 +44,7 @@ def add_mission():
         schedule_json = data['schedule']
         new_mission_details = data['new_mission']
         soldiers_json_str = data['soldiers']
-        updated_schedule = add_new_mission_with_soldiers(schedule_json, new_mission_details, soldiers_json_str)
+        updated_schedule = add_multiple_missions_with_soldiers(schedule_json, new_mission_details, soldiers_json_str)
         return jsonify(updated_schedule)
     except KeyError as e:
         return jsonify({"error": "Missing key in request", "message": str(e)}), 400
