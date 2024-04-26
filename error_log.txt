@@ -957,3 +957,20 @@ AttributeError: 'str' object has no attribute 'startDate'
 2024-04-23 18:48:34,168:INFO: * Restarting with stat
 2024-04-23 18:48:34,888:WARNING: * Debugger is active!
 2024-04-23 18:48:34,892:INFO: * Debugger PIN: 119-020-653
+2024-04-26 20:05:05,940:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-26 20:05:05,960:INFO:[33mPress CTRL+C to quit[0m
+2024-04-26 20:05:05,962:INFO: * Restarting with stat
+2024-04-26 20:05:07,036:WARNING: * Debugger is active!
+2024-04-26 20:05:07,046:INFO: * Debugger PIN: 199-358-660
+2024-04-26 20:16:11,732:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-26 20:16:30,079:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-26 20:16:30,079:INFO:[33mPress CTRL+C to quit[0m
+2024-04-26 20:16:30,082:INFO: * Restarting with stat
+2024-04-26 20:16:31,031:WARNING: * Debugger is active!
+2024-04-26 20:16:31,036:INFO: * Debugger PIN: 199-358-660
