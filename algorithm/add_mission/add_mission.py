@@ -7,45 +7,27 @@ from algorithm.soldiers_availability_funcs import find_available_soldiers
 # Initialize logging
 logging.basicConfig(filename='error_log.txt', level=logging.ERROR, format='%(asctime)s:%(levelname)s:%(message)s')
 
+def add_multiple_missions_with_soldiers(schedule_json_str, new_missions, soldiers_json):
+    original_schedule = json.loads(schedule_json_str)
+    temporary_schedule = original_schedule.copy()  # Work on a copy of the schedule
+    soldiers = json.loads(soldiers_json)
 
-def add_new_mission_with_soldiers(schedule_json, new_mission_json, soldiers_json):
-    try:
-        missions = getMissions(json.loads(schedule_json))
-        new_missions = getMissions(json.loads(new_mission_json))
-        soldiers = getSoldiers(json.loads(soldiers_json))
-
-        # Attempt to find available soldiers for the new mission
-        available_soldiers = find_available_soldiers(missions, new_missions[0], soldiers)
-
-        # Convert available_soldiers from a set to a list for slicing
+    results = []
+    for new_mission in new_missions:
+        available_soldiers = find_available_soldiers(temporary_schedule, new_mission, soldiers)
+        needed_soldiers_count = new_mission.get("soldierCount")
         available_soldiers_list = list(available_soldiers)
 
-        needed_soldiers_count = new_missions[0].soldierCount
-
-        # Proceed only if the exact number of needed soldiers is available or more
         if needed_soldiers_count is not None and len(available_soldiers_list) >= needed_soldiers_count:
-            # Select only the needed amount of soldiers if more are available
             selected_soldiers = available_soldiers_list[:needed_soldiers_count]
+            new_mission.soldiersOnMission = selected_soldiers
+            temporary_schedule.append(new_mission)  # Add new mission to the temporary schedule
+            results.append({"missionID": new_mission.missionId, "status": "added"})
         else:
-            # Handle the case where not enough soldiers are available
-            print(
-                f"Error: Not enough available soldiers for the mission. Needed: {needed_soldiers_count}, Available: {len(available_soldiers_list)}")
-            return {'error: Not enough available soldiers for the mission.'}  # or handle this case as needed
+            results.append({"missionID": new_mission.missionId, "status": "not enough soldiers", "available": len(available_soldiers_list)})
+            print(f"Failed to add mission {new_mission.missionId} due to insufficient soldiers. Rolling back all changes.")
+            return json.dumps(original_schedule, indent=4), results  # Return original schedule unchanged
 
-        # Assign the selected soldiers to the new mission and add it to the schedule
-        formatted_new_missions = []
-        for mission in new_missions:
-            formatted_mission = {
-                "missionType": mission.missionType,
-                "classId": mission.classId,
-                "startDate": mission.startDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
-                "endDate": mission.endDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
-                "soldierCount": mission.soldierCount,  # The count of assigned soldiers
-                "soldiersOnMission": selected_soldiers  # List of assigned soldier IDs
-            }
-            formatted_new_missions.append(formatted_mission)
-
-        return json.dumps(formatted_new_missions, indent=4)
-    except Exception as e:
-        print(f"Error {e}")
-        raise e
+    # If all missions added successfully
+    updated_schedule_json_str = json.dumps(temporary_schedule, indent=4)
+    return updated_schedule_json_str, results
