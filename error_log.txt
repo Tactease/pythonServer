@@ -1073,3 +1073,176 @@ AttributeError: 'str' object has no attribute 'startDate'
 2024-04-26 22:00:22,730:WARNING: * Debugger is active!
 2024-04-26 22:00:22,740:INFO: * Debugger PIN: 199-358-660
 2024-04-26 22:08:58,843:INFO:127.0.0.1 - - [26/Apr/2024 22:08:58] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 13:56:13,140:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 13:56:13,140:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 13:56:13,143:INFO: * Restarting with stat
+2024-04-27 13:56:14,477:WARNING: * Debugger is active!
+2024-04-27 13:56:14,497:INFO: * Debugger PIN: 199-358-660
+2024-04-27 13:57:14,039:INFO:127.0.0.1 - - [27/Apr/2024 13:57:14] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 13:57:20,870:INFO:127.0.0.1 - - [27/Apr/2024 13:57:20] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-04-27 13:58:38,640:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-27 13:58:38,767:INFO: * Restarting with stat
+2024-04-27 13:58:39,937:WARNING: * Debugger is active!
+2024-04-27 13:58:39,949:INFO: * Debugger PIN: 199-358-660
+2024-04-27 13:58:42,553:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 13:58:42,553:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 13:58:42,556:INFO: * Restarting with stat
+2024-04-27 13:58:43,584:WARNING: * Debugger is active!
+2024-04-27 13:58:43,591:INFO: * Debugger PIN: 199-358-660
+2024-04-27 13:58:45,897:INFO:127.0.0.1 - - [27/Apr/2024 13:58:45] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 13:59:07,969:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-27 13:59:08,081:INFO: * Restarting with stat
+2024-04-27 13:59:09,126:WARNING: * Debugger is active!
+2024-04-27 13:59:09,132:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:03:50,178:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\app.py', reloading
+2024-04-27 14:03:50,382:INFO: * Restarting with stat
+2024-04-27 14:03:52,039:WARNING: * Debugger is active!
+2024-04-27 14:03:52,046:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:07:02,069:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\errors\\error_handling.py', reloading
+2024-04-27 14:07:02,175:INFO: * Restarting with stat
+2024-04-27 14:07:03,564:WARNING: * Debugger is active!
+2024-04-27 14:07:03,570:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:07:38,177:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\app.py', reloading
+2024-04-27 14:07:38,284:INFO: * Restarting with stat
+2024-04-27 14:07:39,533:WARNING: * Debugger is active!
+2024-04-27 14:07:39,542:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:09:03,942:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\app.py', reloading
+2024-04-27 14:09:04,150:INFO: * Restarting with stat
+2024-04-27 14:09:05,281:WARNING: * Debugger is active!
+2024-04-27 14:09:05,286:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:09:15,502:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-27 14:09:15,697:INFO: * Restarting with stat
+2024-04-27 14:09:16,846:WARNING: * Debugger is active!
+2024-04-27 14:09:16,852:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:09:24,074:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-27 14:09:24,185:INFO: * Restarting with stat
+2024-04-27 14:09:25,406:WARNING: * Debugger is active!
+2024-04-27 14:09:25,413:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:09:33,564:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-27 14:09:33,689:INFO: * Restarting with stat
+2024-04-27 14:09:34,928:WARNING: * Debugger is active!
+2024-04-27 14:09:34,935:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:09:41,896:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 14:09:41,897:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 14:09:41,898:INFO: * Restarting with stat
+2024-04-27 14:09:43,050:WARNING: * Debugger is active!
+2024-04-27 14:09:43,059:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:09:44,753:INFO:127.0.0.1 - - [27/Apr/2024 14:09:44] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 14:11:08,127:INFO:127.0.0.1 - - [27/Apr/2024 14:11:08] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 14:11:55,394:INFO:127.0.0.1 - - [27/Apr/2024 14:11:55] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 14:17:46,833:INFO:127.0.0.1 - - [27/Apr/2024 14:17:46] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 14:19:12,895:INFO:127.0.0.1 - - [27/Apr/2024 14:19:12] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 14:19:44,138:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-27 14:19:44,259:INFO: * Restarting with stat
+2024-04-27 14:19:47,433:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 14:19:47,433:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 14:19:47,438:INFO: * Restarting with stat
+2024-04-27 14:19:48,659:WARNING: * Debugger is active!
+2024-04-27 14:19:48,667:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:19:52,193:INFO:127.0.0.1 - - [27/Apr/2024 14:19:52] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 14:20:13,548:INFO:127.0.0.1 - - [27/Apr/2024 14:20:13] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 14:21:17,065:INFO:127.0.0.1 - - [27/Apr/2024 14:21:17] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 14:21:31,595:INFO:127.0.0.1 - - [27/Apr/2024 14:21:31] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 14:21:48,659:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 14:21:48,659:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 14:21:48,661:INFO: * Restarting with stat
+2024-04-27 14:21:49,924:WARNING: * Debugger is active!
+2024-04-27 14:21:49,930:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:23:50,445:INFO:127.0.0.1 - - [27/Apr/2024 14:23:50] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 14:25:00,971:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 14:25:00,972:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 14:25:00,975:INFO: * Restarting with stat
+2024-04-27 14:25:02,243:WARNING: * Debugger is active!
+2024-04-27 14:25:02,249:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:25:34,910:INFO:127.0.0.1 - - [27/Apr/2024 14:25:34] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-04-27 14:26:11,625:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 14:26:11,626:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 14:26:11,628:INFO: * Restarting with stat
+2024-04-27 14:26:13,161:WARNING: * Debugger is active!
+2024-04-27 14:26:13,168:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:26:30,390:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 14:26:30,390:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 14:26:30,392:INFO: * Restarting with stat
+2024-04-27 14:26:31,679:WARNING: * Debugger is active!
+2024-04-27 14:26:31,685:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:26:40,405:INFO:127.0.0.1 - - [27/Apr/2024 14:26:40] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-04-27 14:29:13,730:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-27 14:29:13,846:INFO: * Restarting with stat
+2024-04-27 14:29:15,246:WARNING: * Debugger is active!
+2024-04-27 14:29:15,254:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:29:25,518:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-27 14:29:25,646:INFO: * Restarting with stat
+2024-04-27 14:29:26,664:WARNING: * Debugger is active!
+2024-04-27 14:29:26,669:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:29:36,841:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 14:29:36,842:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 14:29:36,845:INFO: * Restarting with stat
+2024-04-27 14:29:38,181:WARNING: * Debugger is active!
+2024-04-27 14:29:38,188:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:29:49,692:INFO:127.0.0.1 - - [27/Apr/2024 14:29:49] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-04-27 14:30:46,771:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 14:30:46,771:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 14:30:46,774:INFO: * Restarting with stat
+2024-04-27 14:30:48,198:WARNING: * Debugger is active!
+2024-04-27 14:30:48,204:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:30:50,371:INFO:127.0.0.1 - - [27/Apr/2024 14:30:50] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-04-27 14:31:20,366:INFO:127.0.0.1 - - [27/Apr/2024 14:31:20] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-04-27 14:32:06,713:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-27 14:32:06,840:INFO: * Restarting with stat
+2024-04-27 14:32:08,063:WARNING: * Debugger is active!
+2024-04-27 14:32:08,070:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:32:15,228:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-27 14:32:15,336:INFO: * Restarting with stat
+2024-04-27 14:32:16,526:WARNING: * Debugger is active!
+2024-04-27 14:32:16,533:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:32:18,883:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 14:32:18,883:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 14:32:18,885:INFO: * Restarting with stat
+2024-04-27 14:32:20,058:WARNING: * Debugger is active!
+2024-04-27 14:32:20,064:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:32:20,687:INFO:127.0.0.1 - - [27/Apr/2024 14:32:20] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-04-27 14:33:13,781:INFO:127.0.0.1 - - [27/Apr/2024 14:33:13] "[35m[1mPOST /add_mission HTTP/1.1[0m" 500 -
+2024-04-27 14:33:57,103:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-04-27 14:33:57,103:INFO:[33mPress CTRL+C to quit[0m
+2024-04-27 14:33:57,106:INFO: * Restarting with stat
+2024-04-27 14:33:58,198:WARNING: * Debugger is active!
+2024-04-27 14:33:58,203:INFO: * Debugger PIN: 199-358-660
+2024-04-27 14:34:00,127:INFO:127.0.0.1 - - [27/Apr/2024 14:34:00] "POST /add_mission HTTP/1.1" 200 -
+2024-04-27 14:34:04,351:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-04-27 14:34:04,493:INFO: * Restarting with stat

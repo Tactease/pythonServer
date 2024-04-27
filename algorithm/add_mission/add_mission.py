@@ -1,6 +1,6 @@
 import json
 import logging
-
+from flask import abort
 from algorithm.parse_functions import getMissions, getSoldiers
 from algorithm.soldiers_availability_funcs import find_available_soldiers
 
@@ -29,7 +29,7 @@ def add_multiple_missions_with_soldiers(schedule_json_str, new_missions, soldier
                 results.append({"_id": new_mission._id, "status": "added"})
             else:
                 print(f"Error: Not enough available soldiers for the mission. Needed: {needed_soldiers_count}, Available: {len(available_soldiers_list)}")
-                return {'error: Not enough available soldiers for the mission.'} 
+                return json.dumps({'error': 'Not enough available soldiers for the mission'})
             
         formatted_new_missions = []
         for mission in new_messions_to_add:
@@ -39,13 +39,12 @@ def add_multiple_missions_with_soldiers(schedule_json_str, new_missions, soldier
                 "startDate": mission.startDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
                 "endDate": mission.endDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
                 "soldierCount": mission.soldierCount,  # The count of assigned soldiers
-                "soldiersOnMission": selected_soldiers  # List of assigned soldier IDs
+                "soldiersOnMission": mission.soldiersOnMission  # List of assigned soldier IDs
             }
             formatted_new_missions.append(formatted_mission)
             
         return json.dumps(formatted_new_missions, indent=4)
-        
-    except Exception as e:
-        print(f"Error {e}")
-        raise e
+
+    except KeyError as e:
+        logging.error(f"Error: {e}")
    
