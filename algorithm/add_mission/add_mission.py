@@ -36,8 +36,8 @@ def add_multiple_missions_with_soldiers(schedule_json_str, new_missions, soldier
             formatted_mission = {
                 "missionType": mission.missionType,
                 "classId": mission.classId,
-                "startDate": mission.startDate.strftime("%d/%m/%y %H:%M"),  # Convert datetime objects to string
-                "endDate": mission.endDate.strftime("%d/%m/%y %H:%M"),  # Convert datetime objects to string
+                "startDate": mission.startDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
+                "endDate": mission.endDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
                 "soldierCount": mission.soldierCount,  # The count of assigned soldiers
                 "soldiersOnMission": selected_soldiers  # List of assigned soldier IDs
             }
