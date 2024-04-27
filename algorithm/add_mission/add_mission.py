@@ -15,8 +15,7 @@ def add_multiple_missions_with_soldiers(schedule_json_str, new_missions, soldier
         
         temporary_schedule = original_schedule.copy()
         results = []
-    
-
+        new_messions_to_add = []
         for new_mission in new_missions:
             available_soldiers = find_available_soldiers(temporary_schedule, new_mission, soldiers)
             needed_soldiers_count = new_mission.soldierCount
@@ -26,13 +25,14 @@ def add_multiple_missions_with_soldiers(schedule_json_str, new_missions, soldier
                 selected_soldiers = available_soldiers_list[:needed_soldiers_count]
                 new_mission.soldiersOnMission = selected_soldiers
                 temporary_schedule.append(new_mission)
+                new_messions_to_add.append(new_mission)
                 results.append({"_id": new_mission._id, "status": "added"})
             else:
                 print(f"Error: Not enough available soldiers for the mission. Needed: {needed_soldiers_count}, Available: {len(available_soldiers_list)}")
                 return {'error: Not enough available soldiers for the mission.'} 
             
         formatted_new_missions = []
-        for mission in temporary_schedule:
+        for mission in new_messions_to_add:
             formatted_mission = {
                 "missionType": mission.missionType,
                 "classId": mission.classId,
