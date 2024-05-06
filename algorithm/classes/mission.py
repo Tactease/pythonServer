@@ -1,6 +1,7 @@
 from datetime import datetime
-from enum import Enum    
-    
+from enum import Enum
+
+
 class MissionType(Enum):
     PATROL_BY_FOOT = 1
     PATROL_BY_CAR = 2
@@ -8,12 +9,14 @@ class MissionType(Enum):
     WATCH = 4
     OPERATION = 5
 
+
 class Mission:
     missionId_counter = 1  # Class variable to auto-increment missionId
 
-    def __init__(self, missionId, missionType, startDate, endDate, soldierCount, soldiersOnMission=[]):
+    def __init__(self, missionId, missionType, classId, startDate, endDate, soldierCount, soldiersOnMission=[]):
         self._id = missionId
         self.missionType = missionType
+        self.classId = classId
         self.startDate = datetime.strptime(startDate, "%d/%m/%Y %H:%M")
         self.endDate = datetime.strptime(endDate, "%d/%m/%Y %H:%M")
         self.soldierCount = soldierCount
@@ -26,13 +29,13 @@ class Mission:
         return Mission(missionType, start_date, end_date, soldiers)
 
     def getMissionId(self):
-        return self.missionId
+        return self._id
 
     def getMissionType(self):
         return self.missionType
 
     def getMissionHourLength(self):
-        return (self.end_date - self.start_date).total_seconds() / 3600
+        return (self.endDate - self.startDate).total_seconds() / 3600
 
     def getSoldierOnMission(self):
         return self.soldiersOnMission
