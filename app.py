@@ -1,27 +1,23 @@
-
 from flask import Flask, request, jsonify
 import os
 from algorithm.generate_schedule.generate_schedule import generate_mission_schedule
-from algorithm.add_mission.add_mission import add_new_mission_with_soldiers
+from algorithm.add_mission.add_mission import add_multiple_missions_with_soldiers
+from errors.error_handler import bad_request_error, not_found_error, internal_server_error
 
 
 app = Flask(__name__)
 
-
 @app.errorhandler(400)
-def bad_request_error(error):
-    return jsonify({"error": "Bad Request", "message": str(error)}), 400
-
+def handle_bad_request_error(error):
+    return bad_request_error(error)
 
 @app.errorhandler(404)
-def not_found_error(error):
-    return jsonify({"error": "Not Found", "message": str(error)}), 500
-
+def handle_not_found_error(error):
+    return not_found_error(error)
 
 @app.errorhandler(500)
-def internal_server_error(error):
-    return jsonify({"error": "Internal Server Error", "message": str(error)}), 500
-
+def handle_internal_server_error(error):
+    return internal_server_error(error)
 
 @app.route('/generate_schedule', methods=['POST'])
 def generate_schedule():
@@ -44,7 +40,7 @@ def add_mission():
         schedule_json = data['schedule']
         new_mission_details = data['new_mission']
         soldiers_json_str = data['soldiers']
-        updated_schedule = add_new_mission_with_soldiers(schedule_json, new_mission_details, soldiers_json_str)
+        updated_schedule = add_multiple_missions_with_soldiers(schedule_json, new_mission_details, soldiers_json_str)
         return jsonify(updated_schedule)
     except KeyError as e:
         return jsonify({"error": "Missing key in request", "message": str(e)}), 400
