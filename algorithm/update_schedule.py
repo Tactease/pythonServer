@@ -181,6 +181,7 @@ def change_soldier_upon_request_approved(missions_arg, soldiers_arg, request_app
             formatted_new_missions = []
             for mission in matching_missions:
                 formatted_mission = {
+                    "missionId": mission._id,
                     "missionType": mission.missionType,
                     "classId": mission.classId,
                     "startDate": mission.startDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
