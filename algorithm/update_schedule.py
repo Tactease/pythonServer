@@ -142,7 +142,7 @@ def change_soldier_upon_request_approved(missions_arg, soldiers_arg, request_app
         and mission.endDate >= matched_request.startDate
         and mission.startDate <= matched_request.endDate
     ]
-    
+    print(matching_missions)
     # Calculate available soldiers and their mission times
     available_soldier_times = defaultdict(int)
     for mission in missions:
@@ -183,7 +183,8 @@ def change_soldier_upon_request_approved(missions_arg, soldiers_arg, request_app
                 print(
                     f"Replaced soldier {request_approved_dict['personalNumber']} with {minimal_soldier_id} in mission {mission._id}"
                 )
-                
+            
+            print(matching_missions)
             formatted_new_missions = []
             for mission in matching_missions:
                 formatted_mission = {

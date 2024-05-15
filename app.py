@@ -73,6 +73,7 @@ def update_schedule():
         updated_schedule = change_soldier_upon_request_approved(
             missions, soldiers, request_approved
         )
+        print(updated_schedule)
         return jsonify(updated_schedule)
     except KeyError as e:
         return jsonify({"error": "Missing key in request", "message": str(e)}), 400

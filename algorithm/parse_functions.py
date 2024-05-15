@@ -85,12 +85,10 @@ def getSoldiers(soldiers_data):
                             requestsList.append(request)
                         except (KeyError, ValueError) as e:
                             logging.error(f"Error processing request for soldier {soldier_data.get('personalNumber', 'Unknown')}: {e}")
-                print(requestsList)
                 # Validate soldier data
                 required_soldier_keys = ["personalNumber", "fullName", "depClass", "pakal"]
                 if not all(key in soldier_data for key in required_soldier_keys):
                     raise ValueError(f"Missing required soldier keys in {soldier_data}")
-                print(requestsList)
                 # Initialize a Soldier object
                 soldier = Soldier(
                     personalNumber=int(soldier_data["personalNumber"]),
