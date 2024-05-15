@@ -18,16 +18,17 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
     try:
         missions = getMissions(json.loads(missions_arg))
         soldiers = getSoldiers(json.loads(soldiers_arg))
+        print("21")
     except Exception as e:
         # print(f"Error processing missions or soldiers data: {e}")
         # raise e
-        return json.dumps({"error": "Error processing missions or soldiers data."})
+        return json.dumps({"error": str(e)})
 
     model = cp_model.CpModel()
 
+    mission_intervals = {}
     soldier_mission_vars = {}
     mission_durations = {}
-
     for mission in missions:
         try:
             start_hours = datetime_to_hours(mission.startDate)
@@ -38,7 +39,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
                                                                     f'mission_interval_{missionId_key}')
             mission_durations[missionId_key] = duration_hours
         except Exception as e:
-            return json.dumps({"error": "Error processing missions or soldiers data."})
+            return json.dumps({"error": str(e)})
 
         for soldier in soldiers:
             soldierId_key = str(soldier.personalNumber)
@@ -63,7 +64,6 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
             end_hours,  # End
             f'mission_interval_{missionId_key}'  # Name
         )
-
     # Create a BoolVar for each soldier-mission pair
     soldier_mission_vars = {}
     for soldier in soldiers:
@@ -95,6 +95,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
         soldier_missions_duration = [soldier_mission_vars[(soldier_id, mission_id)] * mission_durations[mission_id] for
                                      mission_id, _ in soldier_mission_vars.keys() if soldier_id in soldier_mission_vars]
         model.Add(total_hours_per_soldier[soldier_id] >= round(fair_share_hours_per_soldier))
+
 
     ########################## end of constraint #################################
 
@@ -179,7 +180,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
                             soldier_mission_vars[(soldier_id, mission1_id)].Not(),
                             soldier_mission_vars[(soldier_id, mission2_id)].Not()
                         ])
-
+    print("182")
     try:
         solver = cp_model.CpSolver()
         status = solver.Solve(model)
@@ -209,6 +210,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
 
         # Convert the list of formatted missions to a JSON string with indentation for readability
         schedule_json_str = json.dumps(formatted_schedule, indent=4)
+
         return schedule_json_str
     else:
         return json.dumps({"error": "No solution was found."})
