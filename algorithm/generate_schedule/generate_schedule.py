@@ -18,7 +18,6 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
     try:
         missions = getMissions(json.loads(missions_arg))
         soldiers = getSoldiers(json.loads(soldiers_arg))
-        print("21")
     except Exception as e:
         # print(f"Error processing missions or soldiers data: {e}")
         # raise e
@@ -180,7 +179,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
                             soldier_mission_vars[(soldier_id, mission1_id)].Not(),
                             soldier_mission_vars[(soldier_id, mission2_id)].Not()
                         ])
-    print("182")
+
     try:
         solver = cp_model.CpSolver()
         status = solver.Solve(model)

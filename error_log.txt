@@ -1958,3 +1958,994 @@ AttributeError: 'str' object has no attribute 'startDate'
 2024-05-15 17:09:47,040:INFO: * Restarting with stat
 2024-05-15 17:09:48,328:WARNING: * Debugger is active!
 2024-05-15 17:09:48,334:INFO: * Debugger PIN: 199-358-660
+2024-05-15 17:17:57,032:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 17:17:57,033:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 17:17:57,035:INFO: * Restarting with stat
+2024-05-15 17:17:58,272:WARNING: * Debugger is active!
+2024-05-15 17:17:58,279:INFO: * Debugger PIN: 199-358-660
+2024-05-15 17:19:00,939:INFO:127.0.0.1 - - [15/May/2024 17:19:00] "[31m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 400 -
+2024-05-15 17:21:47,130:ERROR:Failed to process mission:
+2024-05-15 17:21:47,130:INFO:127.0.0.1 - - [15/May/2024 17:21:47] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-15 17:22:34,879:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 17:22:34,879:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 17:22:34,882:INFO: * Restarting with stat
+2024-05-15 17:22:35,931:WARNING: * Debugger is active!
+2024-05-15 17:22:35,937:INFO: * Debugger PIN: 199-358-660
+2024-05-15 17:22:52,192:ERROR:Failed to process mission:
+2024-05-15 17:22:52,193:INFO:127.0.0.1 - - [15/May/2024 17:22:52] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-15 17:55:05,728:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 17:55:05,728:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 17:55:05,730:INFO: * Restarting with stat
+2024-05-15 17:55:06,797:WARNING: * Debugger is active!
+2024-05-15 17:55:06,803:INFO: * Debugger PIN: 199-358-660
+2024-05-15 17:55:55,699:ERROR:Failed to process mission:
+2024-05-15 17:55:55,699:INFO:127.0.0.1 - - [15/May/2024 17:55:55] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 17:57:35,269:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\app.py', reloading
+2024-05-15 17:57:35,440:INFO: * Restarting with stat
+2024-05-15 17:58:13,859:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 17:58:13,859:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 17:58:13,863:INFO: * Restarting with stat
+2024-05-15 17:58:14,985:WARNING: * Debugger is active!
+2024-05-15 17:58:14,993:INFO: * Debugger PIN: 199-358-660
+2024-05-15 17:58:17,482:ERROR:Failed to process mission:
+2024-05-15 17:58:17,482:INFO:127.0.0.1 - - [15/May/2024 17:58:17] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 17:59:21,218:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 17:59:21,389:INFO: * Restarting with stat
+2024-05-15 17:59:22,675:WARNING: * Debugger is active!
+2024-05-15 17:59:22,683:INFO: * Debugger PIN: 199-358-660
+2024-05-15 17:59:30,819:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 17:59:30,949:INFO: * Restarting with stat
+2024-05-15 17:59:32,160:WARNING: * Debugger is active!
+2024-05-15 17:59:32,167:INFO: * Debugger PIN: 199-358-660
+2024-05-15 17:59:35,254:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 17:59:35,488:INFO: * Restarting with stat
+2024-05-15 17:59:36,865:WARNING: * Debugger is active!
+2024-05-15 17:59:36,872:INFO: * Debugger PIN: 199-358-660
+2024-05-15 17:59:41,972:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 17:59:42,110:INFO: * Restarting with stat
+2024-05-15 17:59:43,384:WARNING: * Debugger is active!
+2024-05-15 17:59:43,390:INFO: * Debugger PIN: 199-358-660
+2024-05-15 17:59:57,217:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 17:59:57,217:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 17:59:57,219:INFO: * Restarting with stat
+2024-05-15 17:59:58,322:WARNING: * Debugger is active!
+2024-05-15 17:59:58,328:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:00:12,648:ERROR:Failed to process mission:
+2024-05-15 18:00:12,649:INFO:127.0.0.1 - - [15/May/2024 18:00:12] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:01:12,640:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\app.py', reloading
+2024-05-15 18:01:12,940:INFO: * Restarting with stat
+2024-05-15 18:03:13,810:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:03:13,810:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:03:13,812:INFO: * Restarting with stat
+2024-05-15 18:03:15,302:WARNING: * Debugger is active!
+2024-05-15 18:03:15,324:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:03:17,243:ERROR:Failed to process mission:
+2024-05-15 18:03:17,243:INFO:127.0.0.1 - - [15/May/2024 18:03:17] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:04:35,060:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\generate_schedule\\generate_schedule.py', reloading
+2024-05-15 18:04:35,189:INFO: * Restarting with stat
+2024-05-15 18:04:36,478:WARNING: * Debugger is active!
+2024-05-15 18:04:36,484:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:04:41,614:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\generate_schedule\\generate_schedule.py', reloading
+2024-05-15 18:04:41,720:INFO: * Restarting with stat
+2024-05-15 18:04:42,926:WARNING: * Debugger is active!
+2024-05-15 18:04:42,932:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:04:49,115:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:04:49,323:INFO: * Restarting with stat
+2024-05-15 18:04:52,654:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:04:52,654:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:04:52,657:INFO: * Restarting with stat
+2024-05-15 18:04:54,252:WARNING: * Debugger is active!
+2024-05-15 18:04:54,259:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:04:55,064:ERROR:Failed to process mission:
+2024-05-15 18:04:55,064:INFO:127.0.0.1 - - [15/May/2024 18:04:55] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:05:36,077:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:05:36,201:INFO: * Restarting with stat
+2024-05-15 18:05:37,455:WARNING: * Debugger is active!
+2024-05-15 18:05:37,462:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:05:42,563:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:05:42,758:INFO: * Restarting with stat
+2024-05-15 18:05:44,366:WARNING: * Debugger is active!
+2024-05-15 18:05:44,375:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:05:46,520:INFO:127.0.0.1 - - [15/May/2024 18:05:46] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:05:54,986:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:05:54,986:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:05:54,988:INFO: * Restarting with stat
+2024-05-15 18:05:56,596:WARNING: * Debugger is active!
+2024-05-15 18:05:56,603:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:06:08,196:INFO:127.0.0.1 - - [15/May/2024 18:06:08] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:09:57,360:INFO:127.0.0.1 - - [15/May/2024 18:09:57] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:11:00,546:INFO:127.0.0.1 - - [15/May/2024 18:11:00] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:12:05,779:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:12:05,926:INFO: * Restarting with stat
+2024-05-15 18:12:07,384:WARNING: * Debugger is active!
+2024-05-15 18:12:07,397:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:12:15,614:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:12:15,784:INFO: * Restarting with stat
+2024-05-15 18:12:17,055:WARNING: * Debugger is active!
+2024-05-15 18:12:17,062:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:12:26,353:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:12:26,666:INFO: * Restarting with stat
+2024-05-15 18:12:29,863:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:12:29,863:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:12:29,865:INFO: * Restarting with stat
+2024-05-15 18:12:31,042:WARNING: * Debugger is active!
+2024-05-15 18:12:31,049:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:13:04,514:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:13:04,515:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:13:04,518:INFO: * Restarting with stat
+2024-05-15 18:13:05,682:WARNING: * Debugger is active!
+2024-05-15 18:13:05,688:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:13:18,580:INFO:127.0.0.1 - - [15/May/2024 18:13:18] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:13:56,592:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:13:56,710:INFO: * Restarting with stat
+2024-05-15 18:13:57,881:WARNING: * Debugger is active!
+2024-05-15 18:13:57,887:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:14:09,132:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:14:09,300:INFO: * Restarting with stat
+2024-05-15 18:14:12,314:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:14:12,314:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:14:12,316:INFO: * Restarting with stat
+2024-05-15 18:14:13,737:WARNING: * Debugger is active!
+2024-05-15 18:14:13,749:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:14:18,466:INFO:127.0.0.1 - - [15/May/2024 18:14:18] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:16:52,268:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:16:52,397:INFO: * Restarting with stat
+2024-05-15 18:16:53,557:WARNING: * Debugger is active!
+2024-05-15 18:16:53,564:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:16:58,930:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:16:58,931:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:16:58,934:INFO: * Restarting with stat
+2024-05-15 18:17:00,360:WARNING: * Debugger is active!
+2024-05-15 18:17:00,366:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:17:12,873:INFO:127.0.0.1 - - [15/May/2024 18:17:12] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 18:19:28,160:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\app.py', reloading
+2024-05-15 18:19:28,316:INFO: * Restarting with stat
+2024-05-15 18:19:30,099:WARNING: * Debugger is active!
+2024-05-15 18:19:30,111:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:19:34,220:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:19:34,323:INFO: * Restarting with stat
+2024-05-15 18:19:38,761:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:19:38,761:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:19:38,765:INFO: * Restarting with stat
+2024-05-15 18:19:40,298:WARNING: * Debugger is active!
+2024-05-15 18:19:40,305:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:19:42,060:INFO:127.0.0.1 - - [15/May/2024 18:19:42] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:19:59,408:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:19:59,408:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:19:59,410:INFO: * Restarting with stat
+2024-05-15 18:20:00,509:WARNING: * Debugger is active!
+2024-05-15 18:20:00,516:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:20:05,738:INFO:127.0.0.1 - - [15/May/2024 18:20:05] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:20:30,259:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:20:30,381:INFO: * Restarting with stat
+2024-05-15 18:20:31,803:WARNING: * Debugger is active!
+2024-05-15 18:20:31,814:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:20:37,499:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:20:37,500:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:20:37,501:INFO: * Restarting with stat
+2024-05-15 18:20:39,269:WARNING: * Debugger is active!
+2024-05-15 18:20:39,281:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:20:41,854:INFO:127.0.0.1 - - [15/May/2024 18:20:41] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 18:20:51,548:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:20:53,660:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:20:53,660:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:20:53,665:INFO: * Restarting with stat
+2024-05-15 18:20:55,338:WARNING: * Debugger is active!
+2024-05-15 18:20:55,352:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:20:56,527:INFO:127.0.0.1 - - [15/May/2024 18:20:56] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:21:56,954:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:21:57,094:INFO: * Restarting with stat
+2024-05-15 18:21:59,229:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:21:59,231:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:21:59,235:INFO: * Restarting with stat
+2024-05-15 18:22:00,600:WARNING: * Debugger is active!
+2024-05-15 18:22:00,607:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:22:01,441:INFO:127.0.0.1 - - [15/May/2024 18:22:01] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:22:35,257:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:22:35,399:INFO: * Restarting with stat
+2024-05-15 18:22:40,245:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:22:40,245:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:22:40,247:INFO: * Restarting with stat
+2024-05-15 18:22:41,787:WARNING: * Debugger is active!
+2024-05-15 18:22:41,794:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:22:42,085:INFO:127.0.0.1 - - [15/May/2024 18:22:42] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 18:23:12,523:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:23:12,623:INFO: * Restarting with stat
+2024-05-15 18:23:20,398:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:23:20,399:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:23:20,404:INFO: * Restarting with stat
+2024-05-15 18:23:21,712:WARNING: * Debugger is active!
+2024-05-15 18:23:21,718:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:23:25,020:INFO:127.0.0.1 - - [15/May/2024 18:23:25] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 18:24:44,247:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:24:44,349:INFO: * Restarting with stat
+2024-05-15 18:24:53,347:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:24:53,347:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:24:53,351:INFO: * Restarting with stat
+2024-05-15 18:24:54,560:WARNING: * Debugger is active!
+2024-05-15 18:24:54,580:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:24:56,220:INFO:127.0.0.1 - - [15/May/2024 18:24:56] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 18:25:44,544:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:25:44,687:INFO: * Restarting with stat
+2024-05-15 18:25:47,987:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:25:47,987:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:25:47,990:INFO: * Restarting with stat
+2024-05-15 18:25:49,519:WARNING: * Debugger is active!
+2024-05-15 18:25:49,525:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:25:50,282:INFO:127.0.0.1 - - [15/May/2024 18:25:50] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 18:25:59,614:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:25:59,614:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:25:59,616:INFO: * Restarting with stat
+2024-05-15 18:26:00,771:WARNING: * Debugger is active!
+2024-05-15 18:26:00,779:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:26:08,967:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:26:09,114:INFO: * Restarting with stat
+2024-05-15 18:26:10,401:WARNING: * Debugger is active!
+2024-05-15 18:26:10,407:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:26:12,732:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:26:12,732:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:26:12,735:INFO: * Restarting with stat
+2024-05-15 18:26:14,203:WARNING: * Debugger is active!
+2024-05-15 18:26:14,210:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:26:17,486:INFO:127.0.0.1 - - [15/May/2024 18:26:17] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 18:27:30,688:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:27:32,735:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:27:32,735:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:27:32,739:INFO: * Restarting with stat
+2024-05-15 18:27:33,899:WARNING: * Debugger is active!
+2024-05-15 18:27:33,916:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:27:42,796:INFO:127.0.0.1 - - [15/May/2024 18:27:42] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:27:50,171:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:27:50,296:INFO: * Restarting with stat
+2024-05-15 18:27:51,505:WARNING: * Debugger is active!
+2024-05-15 18:27:51,515:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:29:35,947:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:29:36,076:INFO: * Restarting with stat
+2024-05-15 18:29:37,313:WARNING: * Debugger is active!
+2024-05-15 18:29:37,322:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:29:41,420:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:29:41,516:INFO: * Restarting with stat
+2024-05-15 18:29:42,731:WARNING: * Debugger is active!
+2024-05-15 18:29:42,745:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:30:14,033:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:30:14,033:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:30:14,035:INFO: * Restarting with stat
+2024-05-15 18:30:15,200:WARNING: * Debugger is active!
+2024-05-15 18:30:15,208:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:30:18,852:INFO:127.0.0.1 - - [15/May/2024 18:30:18] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 18:30:49,701:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:30:49,844:INFO: * Restarting with stat
+2024-05-15 18:30:52,350:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:30:52,350:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:30:52,354:INFO: * Restarting with stat
+2024-05-15 18:30:54,009:WARNING: * Debugger is active!
+2024-05-15 18:30:54,017:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:30:55,217:INFO:127.0.0.1 - - [15/May/2024 18:30:55] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 18:32:44,355:INFO:127.0.0.1 - - [15/May/2024 18:32:44] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:33:49,956:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:33:50,088:INFO: * Restarting with stat
+2024-05-15 18:33:53,251:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:33:53,251:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:33:53,254:INFO: * Restarting with stat
+2024-05-15 18:33:54,766:WARNING: * Debugger is active!
+2024-05-15 18:33:54,772:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:33:55,711:INFO:127.0.0.1 - - [15/May/2024 18:33:55] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:34:04,054:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:34:04,281:INFO: * Restarting with stat
+2024-05-15 18:34:05,617:WARNING: * Debugger is active!
+2024-05-15 18:34:05,628:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:34:07,915:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:34:07,915:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:34:07,918:INFO: * Restarting with stat
+2024-05-15 18:34:08,954:WARNING: * Debugger is active!
+2024-05-15 18:34:08,960:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:34:14,440:INFO:127.0.0.1 - - [15/May/2024 18:34:14] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:34:28,281:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:34:28,483:INFO: * Restarting with stat
+2024-05-15 18:34:31,406:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:34:31,406:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:34:31,411:INFO: * Restarting with stat
+2024-05-15 18:34:33,069:WARNING: * Debugger is active!
+2024-05-15 18:34:33,082:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:34:33,186:INFO:127.0.0.1 - - [15/May/2024 18:34:33] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:35:18,066:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:35:18,296:INFO: * Restarting with stat
+2024-05-15 18:35:19,696:WARNING: * Debugger is active!
+2024-05-15 18:35:19,703:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:35:54,190:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:35:54,300:INFO: * Restarting with stat
+2024-05-15 18:35:57,506:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:35:57,507:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:35:57,511:INFO: * Restarting with stat
+2024-05-15 18:35:59,032:WARNING: * Debugger is active!
+2024-05-15 18:35:59,039:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:35:59,757:INFO:127.0.0.1 - - [15/May/2024 18:35:59] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:36:08,262:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:36:08,380:INFO: * Restarting with stat
+2024-05-15 18:36:13,537:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:36:13,538:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:36:13,548:INFO: * Restarting with stat
+2024-05-15 18:36:14,927:WARNING: * Debugger is active!
+2024-05-15 18:36:14,933:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:36:14,960:INFO:127.0.0.1 - - [15/May/2024 18:36:14] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:36:35,390:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:36:35,520:INFO: * Restarting with stat
+2024-05-15 18:36:36,931:WARNING: * Debugger is active!
+2024-05-15 18:36:36,938:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:36:40,625:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:36:40,627:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:36:40,629:INFO: * Restarting with stat
+2024-05-15 18:36:42,034:WARNING: * Debugger is active!
+2024-05-15 18:36:42,041:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:36:43,047:INFO:127.0.0.1 - - [15/May/2024 18:36:43] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:36:56,326:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:36:56,567:INFO: * Restarting with stat
+2024-05-15 18:37:03,099:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:37:03,099:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:37:03,101:INFO: * Restarting with stat
+2024-05-15 18:37:04,597:WARNING: * Debugger is active!
+2024-05-15 18:37:04,603:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:37:05,782:INFO:127.0.0.1 - - [15/May/2024 18:37:05] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 18:37:20,036:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:37:20,263:INFO: * Restarting with stat
+2024-05-15 18:37:25,041:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:37:25,041:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:37:25,048:INFO: * Restarting with stat
+2024-05-15 18:37:26,431:WARNING: * Debugger is active!
+2024-05-15 18:37:26,438:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:37:26,465:INFO:127.0.0.1 - - [15/May/2024 18:37:26] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:37:50,831:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:37:51,093:INFO: * Restarting with stat
+2024-05-15 18:37:52,330:WARNING: * Debugger is active!
+2024-05-15 18:37:52,335:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:37:54,299:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:37:54,300:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:37:54,301:INFO: * Restarting with stat
+2024-05-15 18:37:55,512:WARNING: * Debugger is active!
+2024-05-15 18:37:55,520:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:37:57,485:INFO:127.0.0.1 - - [15/May/2024 18:37:57] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:38:23,907:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:38:24,027:INFO: * Restarting with stat
+2024-05-15 18:38:54,987:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:38:54,988:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:38:54,993:INFO: * Restarting with stat
+2024-05-15 18:38:56,699:WARNING: * Debugger is active!
+2024-05-15 18:38:56,707:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:38:56,735:INFO:127.0.0.1 - - [15/May/2024 18:38:56] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:41:05,957:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 18:41:06,309:INFO: * Restarting with stat
+2024-05-15 18:41:09,031:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:41:09,031:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:41:09,034:INFO: * Restarting with stat
+2024-05-15 18:41:10,548:WARNING: * Debugger is active!
+2024-05-15 18:41:10,555:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:41:10,583:INFO:127.0.0.1 - - [15/May/2024 18:41:10] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:42:59,793:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:42:59,793:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:42:59,795:INFO: * Restarting with stat
+2024-05-15 18:43:01,040:WARNING: * Debugger is active!
+2024-05-15 18:43:01,046:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:43:03,805:INFO:127.0.0.1 - - [15/May/2024 18:43:03] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:44:49,759:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:44:49,759:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:44:49,761:INFO: * Restarting with stat
+2024-05-15 18:44:50,864:WARNING: * Debugger is active!
+2024-05-15 18:44:50,871:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:44:54,740:INFO:127.0.0.1 - - [15/May/2024 18:44:54] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:45:54,812:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:45:54,812:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:45:54,815:INFO: * Restarting with stat
+2024-05-15 18:45:56,337:WARNING: * Debugger is active!
+2024-05-15 18:45:56,350:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:45:56,911:INFO:127.0.0.1 - - [15/May/2024 18:45:56] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:46:07,217:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:46:07,217:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:46:07,220:INFO: * Restarting with stat
+2024-05-15 18:46:08,883:WARNING: * Debugger is active!
+2024-05-15 18:46:08,890:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:46:09,896:INFO:127.0.0.1 - - [15/May/2024 18:46:09] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:46:38,316:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:46:38,531:INFO: * Restarting with stat
+2024-05-15 18:46:42,400:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:46:42,400:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:46:42,404:INFO: * Restarting with stat
+2024-05-15 18:46:43,994:WARNING: * Debugger is active!
+2024-05-15 18:46:44,000:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:46:45,766:INFO:127.0.0.1 - - [15/May/2024 18:46:45] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:47:32,191:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:47:32,359:INFO: * Restarting with stat
+2024-05-15 18:47:35,370:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:47:35,371:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:47:35,375:INFO: * Restarting with stat
+2024-05-15 18:47:36,612:WARNING: * Debugger is active!
+2024-05-15 18:47:36,618:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:47:39,900:ERROR:Error processing request for soldier 1234567: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '14/05/2024 16:25', 'endDate': '16/05/2024 16:25', 'note': 'im diagnosed as slow', 'status': 'Rejected', '_id': '663a2bd47cc33a8e322a8053'}
+2024-05-15 18:47:39,900:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 18:47:39,900:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 18:47:39,900:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 18:47:39,900:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 18:47:39,900:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 18:47:39,900:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 18:47:39,900:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 18:47:39,905:INFO:127.0.0.1 - - [15/May/2024 18:47:39] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:48:28,381:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:48:28,495:INFO: * Restarting with stat
+2024-05-15 18:48:30,476:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:48:30,476:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:48:30,479:INFO: * Restarting with stat
+2024-05-15 18:48:32,391:WARNING: * Debugger is active!
+2024-05-15 18:48:32,399:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:48:33,727:ERROR:Error processing request for soldier 1234567: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '14/05/2024 16:25', 'endDate': '16/05/2024 16:25', 'note': 'im diagnosed as slow', 'status': 'Rejected', '_id': '663a2bd47cc33a8e322a8053'}
+2024-05-15 18:48:33,728:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 18:48:33,730:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 18:48:33,731:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 18:48:33,733:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 18:48:33,734:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 18:48:33,747:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 18:48:33,748:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 18:48:33,749:INFO:127.0.0.1 - - [15/May/2024 18:48:33] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:49:17,120:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:49:17,334:INFO: * Restarting with stat
+2024-05-15 18:49:18,829:WARNING: * Debugger is active!
+2024-05-15 18:49:18,835:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:49:20,853:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:49:20,854:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:49:20,862:INFO: * Restarting with stat
+2024-05-15 18:49:22,233:WARNING: * Debugger is active!
+2024-05-15 18:49:22,246:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:49:22,564:ERROR:Error processing request for soldier 1234567: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '14/05/2024 16:25', 'endDate': '16/05/2024 16:25', 'note': 'im diagnosed as slow', 'status': 'Rejected', '_id': '663a2bd47cc33a8e322a8053'}
+2024-05-15 18:49:22,565:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 18:49:22,566:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 18:49:22,567:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 18:49:22,567:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 18:49:22,568:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 18:49:22,569:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 18:49:22,570:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 18:49:22,583:INFO:127.0.0.1 - - [15/May/2024 18:49:22] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:49:57,849:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:49:58,030:INFO: * Restarting with stat
+2024-05-15 18:49:59,370:WARNING: * Debugger is active!
+2024-05-15 18:49:59,377:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:50:04,490:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:50:04,628:INFO: * Restarting with stat
+2024-05-15 18:50:06,913:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:50:06,914:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:50:06,916:INFO: * Restarting with stat
+2024-05-15 18:50:08,329:WARNING: * Debugger is active!
+2024-05-15 18:50:08,335:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:50:10,100:ERROR:Error processing request for soldier 1234567: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '14/05/2024 16:25', 'endDate': '16/05/2024 16:25', 'note': 'im diagnosed as slow', 'status': 'Rejected', '_id': '663a2bd47cc33a8e322a8053'}
+2024-05-15 18:50:10,100:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 18:50:10,100:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 18:50:10,100:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 18:50:10,101:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 18:50:10,101:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 18:50:10,101:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 18:50:10,101:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 18:50:10,102:INFO:127.0.0.1 - - [15/May/2024 18:50:10] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:50:51,993:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:50:52,156:INFO: * Restarting with stat
+2024-05-15 18:50:53,986:WARNING: * Debugger is active!
+2024-05-15 18:50:53,991:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:50:56,845:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:50:56,846:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:50:56,848:INFO: * Restarting with stat
+2024-05-15 18:50:58,067:WARNING: * Debugger is active!
+2024-05-15 18:50:58,078:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:51:03,286:ERROR:Error processing request for soldier 1234567: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '14/05/2024 16:25', 'endDate': '16/05/2024 16:25', 'note': 'im diagnosed as slow', 'status': 'Rejected', '_id': '663a2bd47cc33a8e322a8053'}
+2024-05-15 18:51:03,286:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 18:51:03,287:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 18:51:03,287:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 18:51:03,287:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 18:51:03,287:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 18:51:03,294:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 18:51:03,298:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 18:51:03,300:INFO:127.0.0.1 - - [15/May/2024 18:51:03] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:53:22,047:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:53:22,158:INFO: * Restarting with stat
+2024-05-15 18:53:23,460:WARNING: * Debugger is active!
+2024-05-15 18:53:23,467:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:53:27,986:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:53:27,987:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:53:27,989:INFO: * Restarting with stat
+2024-05-15 18:53:29,886:WARNING: * Debugger is active!
+2024-05-15 18:53:29,896:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:53:30,431:ERROR:Error processing request for soldier 1234567: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '14/05/2024 16:25', 'endDate': '16/05/2024 16:25', 'note': 'im diagnosed as slow', 'status': 'Rejected', '_id': '663a2bd47cc33a8e322a8053'}
+2024-05-15 18:53:30,434:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 18:53:30,434:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 18:53:30,455:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 18:53:30,455:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 18:53:30,456:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 18:53:30,458:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 18:53:30,461:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 18:53:30,466:INFO:127.0.0.1 - - [15/May/2024 18:53:30] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:55:05,824:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:55:05,998:INFO: * Restarting with stat
+2024-05-15 18:55:07,465:WARNING: * Debugger is active!
+2024-05-15 18:55:07,481:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:55:46,122:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:55:46,284:INFO: * Restarting with stat
+2024-05-15 18:55:48,275:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:55:48,275:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:55:48,279:INFO: * Restarting with stat
+2024-05-15 18:55:49,922:WARNING: * Debugger is active!
+2024-05-15 18:55:49,930:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:55:50,080:ERROR:Error processing request for soldier 1234567: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '14/05/2024 16:25', 'endDate': '16/05/2024 16:25', 'note': 'im diagnosed as slow', 'status': 'Rejected', '_id': '663a2bd47cc33a8e322a8053'}
+2024-05-15 18:55:50,081:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 18:55:50,081:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 18:55:50,082:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 18:55:50,082:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 18:55:50,082:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 18:55:50,083:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 18:55:50,085:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 18:55:50,089:INFO:127.0.0.1 - - [15/May/2024 18:55:50] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:58:07,088:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:58:07,305:INFO: * Restarting with stat
+2024-05-15 18:58:08,718:WARNING: * Debugger is active!
+2024-05-15 18:58:08,731:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:59:14,839:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:59:14,944:INFO: * Restarting with stat
+2024-05-15 18:59:21,950:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:59:21,950:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:59:21,952:INFO: * Restarting with stat
+2024-05-15 18:59:23,376:WARNING: * Debugger is active!
+2024-05-15 18:59:23,387:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:59:24,576:ERROR:Error processing request for soldier 1234567: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '14/05/2024 16:25', 'endDate': '16/05/2024 16:25', 'note': 'im diagnosed as slow', 'status': 'Rejected', '_id': '663a2bd47cc33a8e322a8053'}
+2024-05-15 18:59:24,576:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 18:59:24,576:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 18:59:24,577:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 18:59:24,577:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 18:59:24,577:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 18:59:24,586:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 18:59:24,587:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 18:59:24,591:INFO:127.0.0.1 - - [15/May/2024 18:59:24] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 18:59:44,765:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 18:59:44,865:INFO: * Restarting with stat
+2024-05-15 18:59:53,626:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 18:59:53,626:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 18:59:53,628:INFO: * Restarting with stat
+2024-05-15 18:59:55,217:WARNING: * Debugger is active!
+2024-05-15 18:59:55,224:INFO: * Debugger PIN: 199-358-660
+2024-05-15 18:59:55,991:ERROR:Error processing request for soldier 1234567: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '14/05/2024 16:25', 'endDate': '16/05/2024 16:25', 'note': 'im diagnosed as slow', 'status': 'Rejected', '_id': '663a2bd47cc33a8e322a8053'}
+2024-05-15 18:59:55,991:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 18:59:55,991:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 18:59:55,992:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 18:59:55,992:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 18:59:55,993:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 18:59:55,993:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 18:59:55,995:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 18:59:56,000:INFO:127.0.0.1 - - [15/May/2024 18:59:56] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:00:41,831:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 19:00:43,875:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:00:43,875:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:00:43,877:INFO: * Restarting with stat
+2024-05-15 19:00:45,083:WARNING: * Debugger is active!
+2024-05-15 19:00:45,090:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:00:46,154:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 19:00:46,261:INFO: * Restarting with stat
+2024-05-15 19:00:47,664:WARNING: * Debugger is active!
+2024-05-15 19:00:47,670:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:00:50,153:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:00:50,154:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:00:50,156:INFO: * Restarting with stat
+2024-05-15 19:00:52,270:WARNING: * Debugger is active!
+2024-05-15 19:00:52,278:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:00:54,260:ERROR:Failed to process soldier 1234567: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:00:54,261:ERROR:Failed to process soldier 8765421: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:00:54,261:ERROR:Failed to process soldier 1122334: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:00:54,263:ERROR:Failed to process soldier 9879654: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:00:54,265:ERROR:Failed to process soldier 6546546: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:00:54,267:ERROR:Failed to process soldier 5555555: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:00:54,270:INFO:127.0.0.1 - - [15/May/2024 19:00:54] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:01:43,193:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\classes\\request.py', reloading
+2024-05-15 19:01:43,311:INFO: * Restarting with stat
+2024-05-15 19:01:44,458:WARNING: * Debugger is active!
+2024-05-15 19:01:44,589:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:01:48,884:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\classes\\request.py', reloading
+2024-05-15 19:01:48,994:INFO: * Restarting with stat
+2024-05-15 19:01:50,356:WARNING: * Debugger is active!
+2024-05-15 19:01:50,363:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:02:01,563:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\classes\\request.py', reloading
+2024-05-15 19:02:01,717:INFO: * Restarting with stat
+2024-05-15 19:02:03,539:WARNING: * Debugger is active!
+2024-05-15 19:02:03,551:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:02:06,632:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:02:06,633:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:02:06,635:INFO: * Restarting with stat
+2024-05-15 19:02:07,875:WARNING: * Debugger is active!
+2024-05-15 19:02:07,881:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:02:15,657:INFO:127.0.0.1 - - [15/May/2024 19:02:15] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:02:33,276:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 19:02:33,402:INFO: * Restarting with stat
+2024-05-15 19:02:41,389:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:02:41,389:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:02:41,391:INFO: * Restarting with stat
+2024-05-15 19:02:42,637:WARNING: * Debugger is active!
+2024-05-15 19:02:42,643:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:02:45,539:INFO:127.0.0.1 - - [15/May/2024 19:02:45] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:03:03,247:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 19:03:03,489:INFO: * Restarting with stat
+2024-05-15 19:03:04,595:WARNING: * Debugger is active!
+2024-05-15 19:03:04,601:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:03:07,592:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:03:07,593:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:03:07,595:INFO: * Restarting with stat
+2024-05-15 19:03:09,006:WARNING: * Debugger is active!
+2024-05-15 19:03:09,014:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:03:09,569:ERROR:Failed to process soldier 1234567: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:03:09,570:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 19:03:09,570:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 19:03:09,573:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 19:03:09,574:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 19:03:09,581:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 19:03:09,588:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 19:03:09,589:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 19:03:09,592:INFO:127.0.0.1 - - [15/May/2024 19:03:09] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:03:32,430:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 19:03:32,626:INFO: * Restarting with stat
+2024-05-15 19:03:34,992:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:03:34,992:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:03:34,994:INFO: * Restarting with stat
+2024-05-15 19:03:36,925:WARNING: * Debugger is active!
+2024-05-15 19:03:36,931:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:03:38,689:ERROR:Failed to process soldier 1234567: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:03:38,689:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 19:03:38,690:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 19:03:38,691:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 19:03:38,692:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 19:03:38,694:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 19:03:38,695:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 19:03:38,697:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 19:03:38,702:INFO:127.0.0.1 - - [15/May/2024 19:03:38] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:05:48,022:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 19:05:48,117:INFO: * Restarting with stat
+2024-05-15 19:05:49,382:WARNING: * Debugger is active!
+2024-05-15 19:05:49,388:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:06:16,803:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 19:06:17,115:INFO: * Restarting with stat
+2024-05-15 19:06:20,148:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:06:20,148:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:06:20,150:INFO: * Restarting with stat
+2024-05-15 19:06:21,955:WARNING: * Debugger is active!
+2024-05-15 19:06:21,963:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:06:30,381:ERROR:Failed to process soldier 1234567: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:06:30,381:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 19:06:30,382:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 19:06:30,382:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 19:06:30,382:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 19:06:30,383:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 19:06:30,383:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 19:06:30,383:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 19:06:30,385:INFO:127.0.0.1 - - [15/May/2024 19:06:30] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:07:14,934:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 19:07:15,068:INFO: * Restarting with stat
+2024-05-15 19:07:16,447:WARNING: * Debugger is active!
+2024-05-15 19:07:16,458:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:07:23,725:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:07:23,725:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:07:23,730:INFO: * Restarting with stat
+2024-05-15 19:07:25,045:WARNING: * Debugger is active!
+2024-05-15 19:07:25,051:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:07:27,206:ERROR:Failed to process soldier 1234567: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:07:27,206:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 19:07:27,206:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 19:07:27,207:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 19:07:27,207:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 19:07:27,209:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 19:07:27,209:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 19:07:27,210:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 19:07:27,213:INFO:127.0.0.1 - - [15/May/2024 19:07:27] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:08:47,309:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 19:08:47,434:INFO: * Restarting with stat
+2024-05-15 19:08:49,033:WARNING: * Debugger is active!
+2024-05-15 19:08:49,044:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:09:01,260:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 19:09:01,508:INFO: * Restarting with stat
+2024-05-15 19:09:04,232:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:09:04,232:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:09:04,235:INFO: * Restarting with stat
+2024-05-15 19:09:05,711:WARNING: * Debugger is active!
+2024-05-15 19:09:05,717:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:09:05,795:ERROR:Failed to process soldier 1234567: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:09:05,795:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 19:09:05,795:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 19:09:05,796:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 19:09:05,796:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 19:09:05,796:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 19:09:05,797:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 19:09:05,798:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 19:09:05,800:INFO:127.0.0.1 - - [15/May/2024 19:09:05] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:14:15,273:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 19:14:15,449:INFO: * Restarting with stat
+2024-05-15 19:14:18,020:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:14:18,020:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:14:18,024:INFO: * Restarting with stat
+2024-05-15 19:14:19,581:WARNING: * Debugger is active!
+2024-05-15 19:14:19,588:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:14:19,614:ERROR:Failed to process soldier 1234567: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:14:19,615:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '20/05/2024 14:00', 'endDate': '05/06/2024 14:00', 'note': 'have a flight to JAPAN', 'status': 'Approved', '_id': '6640b60a89738982cbe1368b'}
+2024-05-15 19:14:19,615:ERROR:Error processing request for soldier 8765421: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6644b3410dc905b982589b4a'}
+2024-05-15 19:14:19,616:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '03/06/2024 14:00', 'endDate': '04/06/2024 14:00', 'note': 'driving exam', 'status': 'Approved', '_id': '6640b75089738982cbe136cd'}
+2024-05-15 19:14:19,616:ERROR:Error processing request for soldier 1122334: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '05/06/2024 14:00', 'endDate': '06/06/2024 14:00', 'note': 'doctor appoitnment', 'status': 'Approved', '_id': '6640b87689738982cbe137c6'}
+2024-05-15 19:14:19,617:ERROR:Error processing request for soldier 9879654: Missing required request keys in {'requestType': 'MEDICAL_REQUEST', 'startDate': '24/05/2024 14:00', 'endDate': '26/05/2024 14:00', 'note': 'watching naruto', 'status': 'Rejected', '_id': '6640b8ff89738982cbe13886'}
+2024-05-15 19:14:19,618:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'status': 'Approved', '_id': '65e61b334e9645b1142bf696'}
+2024-05-15 19:14:19,620:ERROR:Error processing request for soldier 5555555: Missing required request keys in {'requestType': 'PERSONAL_REQUEST', 'startDate': '21/05/2024 08:00', 'endDate': '24/05/2024 08:00', 'note': 'Exam in automations', 'status': 'Pending', '_id': '6640bad189738982cbe13c0d'}
+2024-05-15 19:14:19,623:INFO:127.0.0.1 - - [15/May/2024 19:14:19] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:14:39,955:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 19:14:40,077:INFO: * Restarting with stat
+2024-05-15 19:14:41,305:WARNING: * Debugger is active!
+2024-05-15 19:14:41,325:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:14:44,648:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:14:44,648:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:14:44,651:INFO: * Restarting with stat
+2024-05-15 19:14:46,169:WARNING: * Debugger is active!
+2024-05-15 19:14:46,181:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:14:46,915:ERROR:Failed to process soldier 1234567: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:14:46,915:ERROR:Failed to process soldier 8765421: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:14:46,916:ERROR:Failed to process soldier 1122334: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:14:46,917:ERROR:Failed to process soldier 9879654: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:14:46,917:ERROR:Failed to process soldier 6546546: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:14:46,918:ERROR:Failed to process soldier 5555555: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:14:46,923:INFO:127.0.0.1 - - [15/May/2024 19:14:46] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:15:00,438:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-15 19:15:00,550:INFO: * Restarting with stat
+2024-05-15 19:15:01,810:WARNING: * Debugger is active!
+2024-05-15 19:15:01,817:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:15:11,280:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:15:11,280:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:15:11,282:INFO: * Restarting with stat
+2024-05-15 19:15:13,310:WARNING: * Debugger is active!
+2024-05-15 19:15:13,320:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:15:14,640:ERROR:Failed to process soldier 1234567: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:15:14,641:ERROR:Failed to process soldier 8765421: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:15:14,641:ERROR:Failed to process soldier 1122334: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:15:14,642:ERROR:Failed to process soldier 9879654: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:15:14,651:ERROR:Failed to process soldier 6546546: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:15:14,654:ERROR:Failed to process soldier 5555555: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:15:14,657:INFO:127.0.0.1 - - [15/May/2024 19:15:14] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:16:01,126:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\classes\\request.py', reloading
+2024-05-15 19:16:01,326:INFO: * Restarting with stat
+2024-05-15 19:16:04,485:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:16:04,485:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:16:04,487:INFO: * Restarting with stat
+2024-05-15 19:16:05,917:WARNING: * Debugger is active!
+2024-05-15 19:16:05,923:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:16:05,949:ERROR:Failed to process soldier 1234567: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:16:05,949:ERROR:Failed to process soldier 8765421: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:16:05,949:ERROR:Failed to process soldier 1122334: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:16:05,949:ERROR:Failed to process soldier 9879654: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:16:05,950:ERROR:Failed to process soldier 6546546: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:16:05,950:ERROR:Failed to process soldier 5555555: Request.__init__() missing 1 required positional argument: 'daysOffType'
+2024-05-15 19:16:05,953:INFO:127.0.0.1 - - [15/May/2024 19:16:05] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:16:36,494:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\classes\\request.py', reloading
+2024-05-15 19:16:36,613:INFO: * Restarting with stat
+2024-05-15 19:16:37,966:WARNING: * Debugger is active!
+2024-05-15 19:16:37,973:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:16:40,715:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:16:40,715:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:16:40,719:INFO: * Restarting with stat
+2024-05-15 19:16:42,137:WARNING: * Debugger is active!
+2024-05-15 19:16:42,146:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:16:42,202:INFO:127.0.0.1 - - [15/May/2024 19:16:42] "[35m[1mPOST /update_schedule HTTP/1.1[0m" 500 -
+2024-05-15 19:17:24,889:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 19:17:25,036:INFO: * Restarting with stat
+2024-05-15 19:17:32,876:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:17:32,876:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:17:32,882:INFO: * Restarting with stat
+2024-05-15 19:17:34,334:WARNING: * Debugger is active!
+2024-05-15 19:17:34,340:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:17:35,721:INFO:127.0.0.1 - - [15/May/2024 19:17:35] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 19:18:48,523:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 19:18:48,720:INFO: * Restarting with stat
+2024-05-15 19:18:51,023:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.220:5000
+2024-05-15 19:18:51,023:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 19:18:51,026:INFO: * Restarting with stat
+2024-05-15 19:18:52,661:WARNING: * Debugger is active!
+2024-05-15 19:18:52,672:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:18:53,091:INFO:127.0.0.1 - - [15/May/2024 19:18:53] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-15 19:19:33,353:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 19:19:33,463:INFO: * Restarting with stat
+2024-05-15 19:19:34,608:WARNING: * Debugger is active!
+2024-05-15 19:19:34,614:INFO: * Debugger PIN: 199-358-660
+2024-05-15 19:19:38,696:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 19:19:38,827:INFO: * Restarting with stat
