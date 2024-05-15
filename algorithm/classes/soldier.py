@@ -1,5 +1,7 @@
 # from request import Request
 from enum import Enum
+from datetime import datetime
+from .request import getRequest
 
 class PAKAL(Enum):
     DRIVER = 1
@@ -20,7 +22,7 @@ class daysoffType(Enum):
     DALET=2
     
 class Soldier:
-    def __init__(self, personalNumber, fullName, classId, className, pakal, requestsList=None):
+    def __init__(self, personalNumber, fullName, classId, className, pakal, requestsList):
         self.personalNumber = personalNumber
         self.fullName = fullName
         self.classId = classId
@@ -38,9 +40,26 @@ class Soldier:
     def getRequests(self):
         return self.requestsList
 
-    def getSpecificRequest(self, request_id):
+    def getSpecificRequest(self, index):
+        print(f"Fetching request at index {index} for soldier {self.fullName}")
+        try:
+            request = self.requestsList[index]
+            print(f"Found request: {request}")
+            return request
+        except IndexError:
+            print(f"No request found at index {index}")
+            return None
+    
+    def has_conflicting_requests(self, start_buffer, end_buffer):
+        print("in has_conflicting_requests")
         for request in self.requestsList:
-            if request.request_id == request_id:
-                return request
-        return None
+            request_start = request.startDate
+            request_end = request.endDate
+            # Check for any overlap between the request time and the buffer time
+            if request.status == 'Approved' and not (request_end <= start_buffer or request_start >= end_buffer):
+                return True
+        return False
+    
+        
+        
     

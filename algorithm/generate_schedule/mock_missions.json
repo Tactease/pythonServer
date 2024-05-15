@@ -1,0 +1,29 @@
+[
+    {
+      "_id": "662cd7c79391db315e2ae38a",
+      "classId": 40,
+      "missionType": "MISSION",
+      "startDate": "28/04/2024 17:15",
+      "endDate": "28/04/2024 23:15",
+      "soldierCount": 5,
+      "soldiersOnMission": [
+        "8765421",
+        "6589711"
+      ],
+      "__v": 0
+    },
+    {
+      "_id": "662cd7c79391db315e2ae38c",
+      "classId": 40,
+      "missionType": "WATCH",
+      "startDate": "28/04/2024 12:16",
+      "endDate": "28/04/2024 16:16",
+      "soldierCount": 2,
+      "soldiersOnMission": [
+        "8765421",
+        "6589711"
+      ],
+      "__v": 0
+    }
+  ]
+  

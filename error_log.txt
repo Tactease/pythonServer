@@ -1246,3 +1246,603 @@ AttributeError: 'str' object has no attribute 'startDate'
 2024-04-27 14:34:00,127:INFO:127.0.0.1 - - [27/Apr/2024 14:34:00] "POST /add_mission HTTP/1.1" 200 -
 2024-04-27 14:34:04,351:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
 2024-04-27 14:34:04,493:INFO: * Restarting with stat
+2024-05-07 16:20:49,013:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 16:20:49,013:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 16:20:49,026:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 16:20:49,891:WARNING: * Debugger is active!
+2024-05-07 16:20:49,897:INFO: * Debugger PIN: 127-398-117
+2024-05-07 16:20:59,587:INFO:127.0.0.1 - - [07/May/2024 16:20:59] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 16:22:05,736:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 16:22:05,739:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 16:22:05,740:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 16:22:05,740:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 16:22:06,332:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 16:22:07,309:WARNING: * Debugger is active!
+2024-05-07 16:22:07,316:INFO: * Debugger PIN: 127-398-117
+2024-05-07 16:22:20,228:INFO:127.0.0.1 - - [07/May/2024 16:22:20] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 16:22:33,139:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 16:22:33,139:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 16:22:33,149:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 16:22:34,260:WARNING: * Debugger is active!
+2024-05-07 16:22:34,268:INFO: * Debugger PIN: 127-398-117
+2024-05-07 16:22:39,789:INFO:127.0.0.1 - - [07/May/2024 16:22:39] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 16:22:48,520:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 16:22:48,520:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 16:22:48,845:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 16:22:49,645:WARNING: * Debugger is active!
+2024-05-07 16:22:49,651:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:23:42,790:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\classes\\schedule.py', reloading
+2024-05-07 18:23:44,165:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:23:45,954:WARNING: * Debugger is active!
+2024-05-07 18:23:45,961:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:24:04,764:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:24:05,573:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:24:06,407:WARNING: * Debugger is active!
+2024-05-07 18:24:06,413:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:36:28,518:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:36:28,519:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:36:28,534:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:36:29,790:WARNING: * Debugger is active!
+2024-05-07 18:36:29,800:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:39:17,224:INFO:127.0.0.1 - - [07/May/2024 18:39:17] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:39:51,465:INFO:127.0.0.1 - - [07/May/2024 18:39:51] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:40:09,899:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\compat.py', reloading
+2024-05-07 18:40:09,964:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\junitxml.py', reloading
+2024-05-07 18:40:09,995:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\legacypath.py', reloading
+2024-05-07 18:40:10,056:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\logging.py', reloading
+2024-05-07 18:40:10,100:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\monkeypatch.py', reloading
+2024-05-07 18:40:10,118:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\recwarn.py', reloading
+2024-05-07 18:40:10,140:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\tmpdir.py', reloading
+2024-05-07 18:40:10,865:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:40:12,374:WARNING: * Debugger is active!
+2024-05-07 18:40:12,384:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:40:24,730:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:40:24,730:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:40:24,732:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:40:24,995:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:40:26,172:WARNING: * Debugger is active!
+2024-05-07 18:40:26,178:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:40:26,568:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:40:26,568:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:40:27,387:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:40:28,655:WARNING: * Debugger is active!
+2024-05-07 18:40:28,662:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:40:28,734:INFO:127.0.0.1 - - [07/May/2024 18:40:28] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:42:46,368:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:42:46,370:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:42:46,370:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:42:46,981:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:42:48,444:WARNING: * Debugger is active!
+2024-05-07 18:42:48,455:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:42:53,328:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:42:53,330:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:42:53,330:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:42:53,827:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:42:56,769:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:42:56,769:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:42:56,776:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:42:58,014:WARNING: * Debugger is active!
+2024-05-07 18:42:58,022:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:43:05,777:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:43:05,778:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:43:05,779:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:43:05,779:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:43:06,475:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:43:07,959:WARNING: * Debugger is active!
+2024-05-07 18:43:07,967:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:43:18,188:INFO:127.0.0.1 - - [07/May/2024 18:43:18] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:43:35,985:INFO:127.0.0.1 - - [07/May/2024 18:43:35] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:43:48,014:INFO:127.0.0.1 - - [07/May/2024 18:43:48] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:43:49,901:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:43:49,902:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:43:50,990:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:43:52,221:WARNING: * Debugger is active!
+2024-05-07 18:43:52,227:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:44:01,340:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:44:01,341:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:44:01,351:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:44:02,485:WARNING: * Debugger is active!
+2024-05-07 18:44:02,494:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:44:06,197:INFO:127.0.0.1 - - [07/May/2024 18:44:06] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:44:19,781:INFO:127.0.0.1 - - [07/May/2024 18:44:19] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:45:08,392:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:45:08,393:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:45:08,555:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:45:09,557:WARNING: * Debugger is active!
+2024-05-07 18:45:09,563:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:45:10,318:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:45:10,318:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:45:10,781:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:45:11,764:WARNING: * Debugger is active!
+2024-05-07 18:45:11,773:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:45:23,610:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:45:23,610:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:45:23,612:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:45:23,613:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:45:24,311:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:45:25,911:WARNING: * Debugger is active!
+2024-05-07 18:45:25,920:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:45:29,644:INFO:127.0.0.1 - - [07/May/2024 18:45:29] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:45:40,036:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:45:40,036:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:45:40,049:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:45:41,212:WARNING: * Debugger is active!
+2024-05-07 18:45:41,221:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:45:45,492:INFO:127.0.0.1 - - [07/May/2024 18:45:45] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:46:01,766:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:46:01,766:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:46:01,767:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:46:02,189:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:46:03,201:WARNING: * Debugger is active!
+2024-05-07 18:46:03,208:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:46:05,871:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:46:05,872:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:46:05,873:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:46:05,873:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:46:06,505:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:46:16,353:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:46:16,353:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:46:16,373:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:46:17,809:WARNING: * Debugger is active!
+2024-05-07 18:46:17,817:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:46:18,917:INFO:127.0.0.1 - - [07/May/2024 18:46:18] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:46:39,106:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:46:39,107:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:46:40,117:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:46:41,071:WARNING: * Debugger is active!
+2024-05-07 18:46:41,079:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:47:42,134:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:47:42,135:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:47:42,135:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:47:43,053:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:47:49,567:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:47:49,567:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:47:49,581:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:47:50,829:WARNING: * Debugger is active!
+2024-05-07 18:47:50,840:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:47:52,886:INFO:127.0.0.1 - - [07/May/2024 18:47:52] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:47:57,293:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:47:57,295:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:47:57,296:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:47:58,332:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:47:59,461:WARNING: * Debugger is active!
+2024-05-07 18:47:59,469:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:48:02,403:INFO:127.0.0.1 - - [07/May/2024 18:48:02] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:48:14,807:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:48:14,807:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:48:14,820:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:48:16,074:WARNING: * Debugger is active!
+2024-05-07 18:48:16,081:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:48:27,748:INFO:127.0.0.1 - - [07/May/2024 18:48:27] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:48:32,896:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:48:32,897:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:48:32,897:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:48:32,898:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:48:33,836:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:48:34,960:WARNING: * Debugger is active!
+2024-05-07 18:48:34,971:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:48:36,036:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:48:36,037:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:48:36,037:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:48:36,039:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:48:36,332:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:48:44,342:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:48:44,344:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:48:44,363:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:48:45,667:WARNING: * Debugger is active!
+2024-05-07 18:48:45,676:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:48:49,732:INFO:127.0.0.1 - - [07/May/2024 18:48:49] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:49:17,195:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:49:17,196:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:49:18,248:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:49:19,290:WARNING: * Debugger is active!
+2024-05-07 18:49:19,297:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:52:02,509:INFO:127.0.0.1 - - [07/May/2024 18:52:02] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:52:21,952:INFO:127.0.0.1 - - [07/May/2024 18:52:21] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:54:17,446:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:54:17,446:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:54:17,447:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:54:17,447:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:54:18,003:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:54:19,356:WARNING: * Debugger is active!
+2024-05-07 18:54:19,365:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:54:29,567:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:54:29,567:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:54:29,588:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:54:31,679:WARNING: * Debugger is active!
+2024-05-07 18:54:31,691:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:54:32,335:INFO:127.0.0.1 - - [07/May/2024 18:54:32] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:54:52,474:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:54:52,474:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:54:52,927:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:54:53,967:WARNING: * Debugger is active!
+2024-05-07 18:54:53,974:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:55:00,229:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:00,229:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:00,230:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:00,231:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:01,339:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:55:02,250:WARNING: * Debugger is active!
+2024-05-07 18:55:02,256:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:55:10,003:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:10,003:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:10,004:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:10,663:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:55:11,598:WARNING: * Debugger is active!
+2024-05-07 18:55:11,603:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:55:14,404:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:14,404:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:14,406:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:14,878:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:55:15,821:WARNING: * Debugger is active!
+2024-05-07 18:55:15,827:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:55:17,925:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:17,926:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:17,926:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:17,926:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:18,097:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:55:19,294:WARNING: * Debugger is active!
+2024-05-07 18:55:19,302:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:55:28,647:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:55:28,648:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:55:28,670:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:55:30,102:WARNING: * Debugger is active!
+2024-05-07 18:55:30,110:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:55:30,249:INFO:127.0.0.1 - - [07/May/2024 18:55:30] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:55:41,286:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:41,287:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:55:41,712:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:56:04,589:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:56:04,590:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:56:04,611:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:56:06,297:WARNING: * Debugger is active!
+2024-05-07 18:56:06,308:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:56:06,587:INFO:127.0.0.1 - - [07/May/2024 18:56:06] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:56:12,031:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:12,033:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:12,033:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:12,764:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:56:13,894:WARNING: * Debugger is active!
+2024-05-07 18:56:13,900:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:56:15,488:INFO:127.0.0.1 - - [07/May/2024 18:56:15] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:56:20,373:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:20,374:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:20,374:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:20,375:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:21,429:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:56:22,886:WARNING: * Debugger is active!
+2024-05-07 18:56:22,901:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:56:24,456:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:24,459:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:24,459:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:24,459:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:25,631:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:56:27,122:WARNING: * Debugger is active!
+2024-05-07 18:56:27,130:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:56:29,014:INFO:127.0.0.1 - - [07/May/2024 18:56:29] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:56:37,571:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:56:37,572:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:56:37,591:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:56:39,010:WARNING: * Debugger is active!
+2024-05-07 18:56:39,018:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:56:42,658:INFO:127.0.0.1 - - [07/May/2024 18:56:42] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:56:47,571:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:47,572:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:47,573:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:47,573:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:48,615:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:56:49,639:WARNING: * Debugger is active!
+2024-05-07 18:56:49,646:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:56:52,781:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:52,782:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:52,782:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:52,783:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:56:52,947:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:56:58,829:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 18:56:58,830:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 18:56:58,842:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:57:00,581:WARNING: * Debugger is active!
+2024-05-07 18:57:00,592:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:57:00,659:INFO:127.0.0.1 - - [07/May/2024 18:57:00] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 18:57:04,942:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:57:04,943:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:57:04,943:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:57:04,943:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:57:05,972:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:57:07,026:WARNING: * Debugger is active!
+2024-05-07 18:57:07,032:INFO: * Debugger PIN: 127-398-117
+2024-05-07 18:57:33,593:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:57:33,593:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 18:57:34,457:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 18:57:35,544:WARNING: * Debugger is active!
+2024-05-07 18:57:35,552:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:01:10,605:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:01:10,606:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:01:10,607:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:01:11,505:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:01:12,472:WARNING: * Debugger is active!
+2024-05-07 19:01:12,480:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:02:25,065:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:25,067:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:25,067:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:25,068:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:25,561:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:02:26,727:WARNING: * Debugger is active!
+2024-05-07 19:02:26,733:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:02:27,288:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:27,288:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:27,980:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:02:29,105:WARNING: * Debugger is active!
+2024-05-07 19:02:29,111:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:02:29,231:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:29,231:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:29,232:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:30,433:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:02:31,847:WARNING: * Debugger is active!
+2024-05-07 19:02:31,854:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:02:32,114:INFO:127.0.0.1 - - [07/May/2024 19:02:32] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:02:44,364:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:44,365:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:44,366:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:45,593:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:02:46,867:WARNING: * Debugger is active!
+2024-05-07 19:02:46,924:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:02:51,543:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 19:02:51,543:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 19:02:51,565:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:02:52,982:WARNING: * Debugger is active!
+2024-05-07 19:02:52,990:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:02:53,315:INFO:127.0.0.1 - - [07/May/2024 19:02:53] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:02:59,955:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:59,956:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:59,958:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:02:59,958:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:03:00,403:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:03:02,229:WARNING: * Debugger is active!
+2024-05-07 19:03:02,236:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:03:04,663:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:03:04,663:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:03:04,663:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:03:04,664:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:03:05,575:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:03:06,866:WARNING: * Debugger is active!
+2024-05-07 19:03:06,874:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:03:06,970:INFO:127.0.0.1 - - [07/May/2024 19:03:06] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:03:10,993:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:03:10,993:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:03:10,994:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:03:11,387:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:03:12,411:WARNING: * Debugger is active!
+2024-05-07 19:03:12,418:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:03:29,293:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:03:29,294:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:03:29,294:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:03:30,121:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:03:31,534:WARNING: * Debugger is active!
+2024-05-07 19:03:31,553:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:04:25,737:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:04:25,738:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:04:26,717:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:04:27,819:WARNING: * Debugger is active!
+2024-05-07 19:04:27,826:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:22:32,071:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:32,074:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:32,075:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:32,961:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:22:33,928:WARNING: * Debugger is active!
+2024-05-07 19:22:33,935:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:22:43,292:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:43,293:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:43,294:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:43,294:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:43,554:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:22:44,457:WARNING: * Debugger is active!
+2024-05-07 19:22:44,462:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:22:49,565:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:49,566:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:49,834:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:22:50,899:WARNING: * Debugger is active!
+2024-05-07 19:22:50,922:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:22:51,032:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:51,033:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:51,033:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:22:52,130:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:23:02,636:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 19:23:02,636:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 19:23:02,654:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:23:03,694:WARNING: * Debugger is active!
+2024-05-07 19:23:03,700:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:23:08,233:INFO:127.0.0.1 - - [07/May/2024 19:23:08] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:23:12,161:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\schedule\\__init__.py', reloading
+2024-05-07 19:23:13,178:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:23:14,245:WARNING: * Debugger is active!
+2024-05-07 19:23:14,250:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:23:22,863:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:22,865:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:22,865:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:22,865:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:23,793:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:23:24,750:WARNING: * Debugger is active!
+2024-05-07 19:23:24,756:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:23:30,564:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:30,564:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:30,566:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:30,566:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:31,163:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:23:32,160:WARNING: * Debugger is active!
+2024-05-07 19:23:32,165:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:23:38,926:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:38,928:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:38,928:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:38,928:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:39,560:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:23:40,467:WARNING: * Debugger is active!
+2024-05-07 19:23:40,473:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:23:42,033:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:42,033:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:42,034:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:42,034:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:23:42,722:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:23:43,645:WARNING: * Debugger is active!
+2024-05-07 19:23:43,653:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:23:45,624:INFO:127.0.0.1 - - [07/May/2024 19:23:45] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:23:47,155:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\classes\\schedule.py', reloading
+2024-05-07 19:23:48,034:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:23:49,043:WARNING: * Debugger is active!
+2024-05-07 19:23:49,051:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:23:56,215:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 19:23:56,215:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 19:23:56,223:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:23:57,569:WARNING: * Debugger is active!
+2024-05-07 19:23:57,579:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:23:58,376:INFO:127.0.0.1 - - [07/May/2024 19:23:58] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:24:12,838:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:24:12,838:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:24:12,838:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:24:12,840:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:24:13,354:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:24:14,240:WARNING: * Debugger is active!
+2024-05-07 19:24:14,248:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:24:24,410:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 19:24:24,410:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 19:24:24,428:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:24:25,599:WARNING: * Debugger is active!
+2024-05-07 19:24:25,605:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:24:29,507:INFO:127.0.0.1 - - [07/May/2024 19:24:29] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:24:36,093:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:24:36,094:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:24:36,095:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:24:36,095:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:24:37,177:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:24:38,143:WARNING: * Debugger is active!
+2024-05-07 19:24:38,149:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:24:40,295:INFO:127.0.0.1 - - [07/May/2024 19:24:40] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:24:50,138:INFO:127.0.0.1 - - [07/May/2024 19:24:50] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:24:56,608:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 19:24:56,610:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 19:24:56,617:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:24:58,389:WARNING: * Debugger is active!
+2024-05-07 19:24:58,399:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:24:58,650:INFO:127.0.0.1 - - [07/May/2024 19:24:58] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:25:54,621:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:25:54,621:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:25:55,664:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:25:56,671:WARNING: * Debugger is active!
+2024-05-07 19:25:56,679:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:26:19,299:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:26:19,299:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:26:20,453:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:26:21,652:WARNING: * Debugger is active!
+2024-05-07 19:26:21,662:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:26:23,051:INFO:127.0.0.1 - - [07/May/2024 19:26:23] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:26:36,802:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-07 19:26:36,803:INFO:[33mPress CTRL+C to quit[0m
+2024-05-07 19:26:36,813:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:26:38,052:WARNING: * Debugger is active!
+2024-05-07 19:26:38,063:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:26:39,837:INFO:127.0.0.1 - - [07/May/2024 19:26:39] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-07 19:26:50,833:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:26:50,834:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:26:50,834:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:26:50,834:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:26:51,724:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:26:52,573:WARNING: * Debugger is active!
+2024-05-07 19:26:52,580:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:27:10,137:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:27:10,138:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:27:10,138:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:27:11,319:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:27:12,764:WARNING: * Debugger is active!
+2024-05-07 19:27:12,777:INFO: * Debugger PIN: 127-398-117
+2024-05-07 19:27:46,206:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:27:46,207:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-07 19:27:47,085:INFO: * Restarting with watchdog (windowsapi)
+2024-05-07 19:27:47,800:WARNING: * Debugger is active!
+2024-05-07 19:27:47,805:INFO: * Debugger PIN: 127-398-117
+2024-05-08 08:59:00,428:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\app.py', reloading
+2024-05-08 08:59:01,695:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\parse_functions.py', reloading
+2024-05-08 08:59:01,696:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\soldiers_availability_funcs.py', reloading
+2024-05-08 08:59:06,563:INFO: * Restarting with watchdog (windowsapi)
+2024-05-08 08:59:11,716:WARNING: * Debugger is active!
+2024-05-08 08:59:11,724:INFO: * Debugger PIN: 127-398-117
+2024-05-08 10:21:16,375:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\classes\\schedule.py', reloading
+2024-05-08 10:21:17,720:INFO: * Restarting with watchdog (windowsapi)
+2024-05-08 10:21:20,575:WARNING: * Debugger is active!
+2024-05-08 10:21:20,583:INFO: * Debugger PIN: 127-398-117
+2024-05-08 16:38:46,040:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\classes\\schedule.py', reloading
+2024-05-08 17:55:13,115:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://30.30.12.224:5000
+2024-05-08 17:55:13,115:INFO:[33mPress CTRL+C to quit[0m
+2024-05-08 17:55:13,131:INFO: * Restarting with watchdog (windowsapi)
+2024-05-08 17:55:14,041:WARNING: * Debugger is active!
+2024-05-08 17:55:14,048:INFO: * Debugger PIN: 127-398-117
+2024-05-08 17:55:14,976:INFO:127.0.0.1 - - [08/May/2024 17:55:14] "[35m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 500 -
+2024-05-08 17:55:27,298:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-08 17:55:27,299:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-08 17:55:27,300:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-08 17:55:27,827:INFO: * Restarting with watchdog (windowsapi)

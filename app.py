@@ -2,7 +2,10 @@ from flask import Flask, request, jsonify
 import os
 from algorithm.generate_schedule.generate_schedule import generate_mission_schedule
 from algorithm.add_mission.add_mission import add_multiple_missions_with_soldiers
-from errors.error_handler import bad_request_error, not_found_error, internal_server_error
+from algorithm.errors.error_handler import bad_request_error, not_found_error, internal_server_error
+from algorithm.update_schedule import change_soldier_upon_request_approved
+import json
+from algorithm.parse_functions import getMissions, getSoldiers
 
 
 app = Flask(__name__)
@@ -46,6 +49,24 @@ def add_mission():
         return jsonify({"error": "Missing key in request", "message": str(e)}), 400
     except Exception as e:
         return jsonify({"error": "Internal Server Error", "message": str(e)}), 500
+    
+    
+@app.route('/change_soldier_upon_request_approved', methods=['POST'])
+def change_soldier_upon_request_approved_route():
+  try:
+    data = request.json
+    missions = data['missions']
+    soldiers = data['soldiers']
+    request_approved = data['request_approved']
+
+    updated_schedule = change_soldier_upon_request_approved(missions, soldiers, request_approved)
+    # Convert the updated schedule to JSON before returning
+    # print(updated_schedule)
+    return jsonify(updated_schedule)
+  except KeyError as e:
+    return jsonify({"error": "Missing key in request", "message": str(e)}), 400
+  except Exception as e:
+    return jsonify({"error": "Internal Server Error", "message": str(e)}), 500
 
 
 if __name__ == '__main__':

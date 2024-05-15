@@ -1,9 +1,10 @@
 import json
+from flask import jsonify
 import logging
 from collections import defaultdict
+from algorithm.errors.error_handler import internal_server_error, bad_request_error, not_found_error
 
 from ortools.sat.python import cp_model
-
 from algorithm.soldiers_availability_funcs import is_soldier_available_for_mission
 from algorithm.parse_functions import getMissions, getSoldiers, datetime_to_hours
 
@@ -18,12 +19,12 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
         missions = getMissions(json.loads(missions_arg))
         soldiers = getSoldiers(json.loads(soldiers_arg))
     except Exception as e:
-        print(f"Error processing missions or soldiers data: {e}")
-        raise e
+        # print(f"Error processing missions or soldiers data: {e}")
+        # raise e
+        return json.dumps({"error": "Error processing missions or soldiers data."})
 
     model = cp_model.CpModel()
 
-    mission_intervals = {}
     soldier_mission_vars = {}
     mission_durations = {}
 
@@ -37,8 +38,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
                                                                     f'mission_interval_{missionId_key}')
             mission_durations[missionId_key] = duration_hours
         except Exception as e:
-            print(f"Error processing")
-            raise e
+            return json.dumps({"error": "Error processing missions or soldiers data."})
 
         for soldier in soldiers:
             soldierId_key = str(soldier.personalNumber)
@@ -112,9 +112,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
             start1, end1 = mission_intervals[mission1_id].StartExpr(), mission_intervals[mission1_id].EndExpr()
             start2, end2 = mission_intervals[mission2_id].StartExpr(), mission_intervals[mission2_id].EndExpr()
         except KeyError as e:
-            logging.error(f"Missing mission start/end date: {e}")
-            raise e
-            return False
+            return json.dumps({"error": "Missing mission start/end date."})
         return not (end1 <= start2 or start1 >= end2)
 
     soldier_assigned_vars = {}
@@ -187,7 +185,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
         status = solver.Solve(model)
     except Exception as e:
         print(f"Error solving model: {e}")
-        raise e
+        return json.dumps({"error": "Error solving model."})
 
     # mission_schedule = []
 

@@ -43,3 +43,6 @@ class Mission:
     def updateSoldiers(self, updatedsoldiersOnMission):
         self.soldiersOnMission = updatedsoldiersOnMission
         self.soldiersCount = len(updatedsoldiersOnMission)
+        
+    def contains_soldier(self, personalNumber):
+        return str(personalNumber) in (str(s) for s in self.soldiersOnMission)

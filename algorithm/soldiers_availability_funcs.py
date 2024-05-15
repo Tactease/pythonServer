@@ -9,7 +9,7 @@ logging.basicConfig(filename='error_log.txt', level=logging.ERROR, format='%(asc
 def is_soldier_available_for_mission(soldier, mission_start, mission_end):
     for request in soldier.requestsList:
         # Check if the mission's time period overlaps with any of the soldier's requests
-        if not (mission_end <= request.start_date or mission_start >= request.end_date):
+        if request.status == 'Approved' and not (mission_end <= request.start_date or mission_start >= request.end_date):
             return False  # Soldier is not available if any request overlaps with the mission
     return True
 
@@ -43,7 +43,7 @@ def find_available_soldiers(schedule, new_mission, soldiers):
             for request in soldier.requestsList:
                 request_start = request.start_date
                 request_end = request.end_date
-                if not (new_mission_end <= request_start or new_mission_start >= request_end):
+                if request.status == 'Approved' and not (new_mission_end <= request_start or new_mission_start >= request_end):
                     soldier_is_available = False
                     break
 

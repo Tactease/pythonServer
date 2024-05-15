@@ -1,4 +1,5 @@
 import json
+
 import logging
 from flask import abort
 from algorithm.parse_functions import getMissions, getSoldiers
