@@ -10,10 +10,9 @@ from algorithm.errors.error_handler import (
 from algorithm.update_schedule import change_soldier_upon_request_approved
 import json
 from algorithm.parse_functions import getMissions, getSoldiers
-from flask_cors import CORS
+
 
 app = Flask(__name__)
-CORS(app)
 
 
 @app.errorhandler(400)
