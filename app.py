@@ -53,13 +53,9 @@ def update_schedule():
         soldiers = data["soldiers"]
         request_approved = data["request_approved"]
         
-        try:
-            updated_schedule = change_soldier_upon_request_approved(
-                missions, soldiers, request_approved
-            )
-        except Exception as e:
-            return json.dumps({"error": str(e)})
-    
+        updated_schedule = change_soldier_upon_request_approved(
+            missions, soldiers, request_approved
+        )
         print(updated_schedule)
         return jsonify(updated_schedule)
     except KeyError as e:
@@ -70,6 +66,4 @@ def update_schedule():
 
 if __name__ == "__main__":
     port = os.environ.get("PORT", 5000)
-    print(port)
     app.run(debug=True, host="0.0.0.0", port=port)
-    

@@ -8,17 +8,20 @@ class Request:
         self.startDate = datetime.strptime(startDate, datetime_format)
         self.endDate = datetime.strptime(endDate, datetime_format)
         self.status = status
+    
+    def __str__(self):
+        return f"requestType: {self.requestType} (startDate: {self.startDate}, endDate: {self.endDate}, status: {self.status})"
 
 
 class MedicalRequest(Request):
     def __init__(
-        self, requestType, startDate, endDate, file, fileName, status
+        self, requestType, startDate, endDate, status
     ):
         super().__init__(requestType, startDate, endDate, status)
-        self.file = file  # This could be a path to the file
-        self.fileName = fileName
 
-
+    def __str__(self):
+        return f"requestType: {self.requestType} (startDate: {self.startDate}, endDate: {self.endDate}, status: {self.status})"
+    
 class PersonalRequest(Request):
     def __init__(self, requestType, startDate, endDate, note, status):
         super().__init__(requestType, startDate, endDate, status)

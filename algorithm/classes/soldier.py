@@ -32,7 +32,7 @@ class Soldier:
         self.requestsList = requestsList if requestsList is not None else []
 
     def __str__(self):
-        return f"Soldier: {self.fullName} (ID: {self.personalNumber}, Class: {self.className}, Pakal: {self.pakal})"
+        return f"Soldier: {self.fullName} (ID: {self.personalNumber}, Class: {self.className}, Pakal: {self.pakal}, requestList: {self.requestsList})"
 
     def addRequest(self, request):
         self.requestsList.append(request)
