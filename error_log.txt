@@ -943,11 +943,11 @@ AttributeError: 'str' object has no attribute 'startDate'
 2024-04-23 18:18:10,922:INFO: * Restarting with stat
 2024-04-23 18:18:11,881:WARNING: * Debugger is active!
 2024-04-23 18:18:11,888:INFO: * Debugger PIN: 119-020-653
-2024-04-23 18:21:17,898:INFO: * Detected change in 'C:\\Users\\оешп\\OneDrive\\Desktop\\Dev\\3rd year\\Methods\\Tactease\\PythonServer\\pythonServer\\app.py', reloading
+2024-04-23 18:21:17,898:INFO: * Detected change in 'C:\\Users\\пїЅпїЅпїЅпїЅ\\OneDrive\\Desktop\\Dev\\3rd year\\Methods\\Tactease\\PythonServer\\pythonServer\\app.py', reloading
 2024-04-23 18:21:18,000:INFO: * Restarting with stat
 2024-04-23 18:21:19,046:WARNING: * Debugger is active!
 2024-04-23 18:21:19,050:INFO: * Debugger PIN: 119-020-653
-2024-04-23 18:47:47,136:INFO: * Detected change in 'C:\\Users\\оешп\\OneDrive\\Desktop\\Dev\\3rd year\\Methods\\Tactease\\PythonServer\\pythonServer\\app.py', reloading
+2024-04-23 18:47:47,136:INFO: * Detected change in 'C:\\Users\\пїЅпїЅпїЅпїЅ\\OneDrive\\Desktop\\Dev\\3rd year\\Methods\\Tactease\\PythonServer\\pythonServer\\app.py', reloading
 2024-04-23 18:47:47,262:INFO: * Restarting with stat
 2024-04-23 18:47:48,355:WARNING: * Debugger is active!
 2024-04-23 18:47:48,367:INFO: * Debugger PIN: 119-020-653
@@ -3441,3 +3441,7 @@ AttributeError: 'str' object has no attribute 'startDate'
 2024-05-25 15:12:53,615:INFO:127.0.0.1 - - [25/May/2024 15:12:53] "POST /update_schedule HTTP/1.1" 200 -
 2024-05-25 15:13:10,263:INFO:127.0.0.1 - - [25/May/2024 15:13:10] "POST /update_schedule HTTP/1.1" 200 -
 2024-05-25 15:13:17,356:INFO:127.0.0.1 - - [25/May/2024 15:13:17] "POST /update_schedule HTTP/1.1" 200 -
+2024-05-25 15:46:43,286:INFO: * Detected change in 'e:\\Adi\\Degree\\Third Year\\Semester A\\Methods in Software Engineering\\TactEaseCode\\pythonServer\\app.py', reloading
+2024-05-25 15:46:43,412:INFO: * Restarting with stat
+2024-05-25 15:46:44,464:WARNING: * Debugger is active!
+2024-05-25 15:46:44,471:INFO: * Debugger PIN: 199-358-660
