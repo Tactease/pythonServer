@@ -108,7 +108,7 @@ def find_matched_request(soldiers, personalNumber, index):
                 print("out if find_matched_request with request")
                 return soldier.requestsList[index]
             else:
-                 return None
+                return None
             # Soldier not found
     print("out of find_matched_request with none")
     return None
@@ -119,34 +119,42 @@ def change_soldier_upon_request_approved(missions_arg, soldiers_arg, request_app
         missions = getMissions(json.loads(missions_arg))
         soldiers = getSoldiers(json.loads(soldiers_arg))
         request_approved_dict = json.loads(request_approved)
-        request_personal_num = str(request_approved_dict["personalNumber"]) 
+        request_personal_num = str(request_approved_dict["personalNumber"])
     except Exception as e:
         return json.dumps({"error": str(e)})
-        
+
     try:
         matched_request = find_matched_request(
-            soldiers, request_approved_dict["personalNumber"], request_approved_dict["index"]
-        )  
+            soldiers,
+            request_approved_dict["personalNumber"],
+            request_approved_dict["index"],
+        )
         if not matched_request:
             return jsonify({"error": "Request not found"}), 400
     except Exception as e:
         return json.dumps({"error": str(e)})
 
     print(matched_request)
-    
+
     buffer_start = matched_request.startDate - timedelta(days=3)
     buffer_end = matched_request.endDate + timedelta(days=3)
 
     # Find the missions the unavailable soldier is part of during the request period
-    
+
     matching_missions = []
     for mission in missions:
-        if request_personal_num in mission.soldiersOnMission and mission.endDate >= matched_request.startDate and mission.startDate <= matched_request.endDate:
+        if (
+            request_personal_num in mission.soldiersOnMission
+            and mission.endDate >= matched_request.startDate
+            and mission.startDate <= matched_request.endDate
+        ):
             matching_missions.append(mission)
 
     for mission in matching_missions:
         print(mission)
-    
+
+    if not matching_missions:
+        return json.dumps({"error": "No matching missions found."})
 
     # Calculate available soldiers and their mission times
     available_soldier_times = defaultdict(int)
@@ -184,28 +192,37 @@ def change_soldier_upon_request_approved(missions_arg, soldiers_arg, request_app
         try:
             for mission in matching_missions:
                 mission.soldiersOnMission.remove(request_personal_num)
-                mission.soldiersOnMission.append(minimal_soldier_id)
+                mission.soldiersOnMission.append(str(minimal_soldier_id))
                 print(
                     f"Replaced soldier {request_approved_dict['personalNumber']} with {minimal_soldier_id} in mission {mission._id}"
                 )
-            
+
             print(matching_missions)
             formatted_new_missions = []
             for mission in matching_missions:
                 formatted_mission = {
-                    "missionId": mission._id,
+                    "_id": mission._id,
                     "missionType": mission.missionType,
                     "classId": mission.classId,
-                    "startDate": mission.startDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
-                    "endDate": mission.endDate.strftime("%d/%m/%Y %H:%M"),  # Convert datetime objects to string
+                    "startDate": mission.startDate.strftime(
+                        "%d/%m/%Y %H:%M"
+                    ),  # Convert datetime objects to string
+                    "endDate": mission.endDate.strftime(
+                        "%d/%m/%Y %H:%M"
+                    ),  # Convert datetime objects to string
                     "soldierCount": mission.soldierCount,  # The count of assigned soldiers
-                    "soldiersOnMission": mission.soldiersOnMission  # List of assigned soldier IDs
+                    "soldiersOnMission": [
+                        str(soldier_id) for soldier_id in mission.soldiersOnMission
+                    ],  # List of assigned soldier IDs converted to strings
                 }
                 formatted_new_missions.append(formatted_mission)
-                    
+
             return json.dumps(formatted_new_missions)
         except Exception as e:
             return json.dumps({"error": str(e)})
     else:
         print("No suitable replacement found.")
-        return jsonify({"error": "No suitable replacement found"}), 404
+        data = {
+            "message": "No suitable replacement found.",
+        }
+        return json.dumps(data)
