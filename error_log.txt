@@ -1908,3 +1908,12 @@ AttributeError: 'str' object has no attribute 'startDate'
 2024-05-25 15:41:34,358:INFO: * Debugger PIN: 732-473-947
 2024-05-25 15:42:11,467:INFO:127.0.0.1 - - [25/May/2024 15:42:11] "[35m[1mPOST /change_soldier_upon_request_approved%0A HTTP/1.1[0m" 500 -
 2024-05-25 15:42:19,867:INFO:127.0.0.1 - - [25/May/2024 15:42:19] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
+2024-05-25 15:47:16,642:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.100.102.55:5000
+2024-05-25 15:47:16,642:INFO:[33mPress CTRL+C to quit[0m
+2024-05-25 15:47:16,644:INFO: * Restarting with stat
+2024-05-25 15:47:17,301:WARNING: * Debugger is active!
+2024-05-25 15:47:17,303:INFO: * Debugger PIN: 732-473-947
+2024-05-25 15:47:18,864:INFO:127.0.0.1 - - [25/May/2024 15:47:18] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
