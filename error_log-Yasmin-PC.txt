@@ -1846,65 +1846,663 @@ AttributeError: 'str' object has no attribute 'startDate'
 2024-05-08 17:55:27,299:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
 2024-05-08 17:55:27,300:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
 2024-05-08 17:55:27,827:INFO: * Restarting with watchdog (windowsapi)
-2024-05-25 15:21:13,526:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-05-15 20:28:45,978:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://10.100.102.55:5000
-2024-05-25 15:21:13,527:INFO:[33mPress CTRL+C to quit[0m
-2024-05-25 15:21:13,530:INFO: * Restarting with stat
-2024-05-25 15:21:14,737:WARNING: * Debugger is active!
-2024-05-25 15:21:14,739:INFO: * Debugger PIN: 732-473-947
-2024-05-25 15:23:47,914:INFO:127.0.0.1 - - [25/May/2024 15:23:47] "[35m[1mGET /generate_schedule%0A HTTP/1.1[0m" 500 -
-2024-05-25 15:27:40,600:INFO:127.0.0.1 - - [25/May/2024 15:27:40] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
-2024-05-25 15:29:05,260:INFO:127.0.0.1 - - [25/May/2024 15:29:05] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
-2024-05-25 15:29:43,065:INFO:127.0.0.1 - - [25/May/2024 15:29:43] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
-2024-05-25 15:30:05,410:INFO:127.0.0.1 - - [25/May/2024 15:30:05] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
-2024-05-25 15:30:24,457:INFO:127.0.0.1 - - [25/May/2024 15:30:24] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
-2024-05-25 15:31:45,240:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\app.py', reloading
-2024-05-25 15:31:45,462:INFO: * Restarting with stat
-2024-05-25 15:31:49,225:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-05-15 20:28:45,981:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 20:28:45,997:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 20:28:47,039:WARNING: * Debugger is active!
+2024-05-15 20:28:47,046:INFO: * Debugger PIN: 127-398-117
+2024-05-15 20:28:47,104:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flask\\__main__.py', reloading
+2024-05-15 20:28:47,271:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 20:28:48,447:WARNING: * Debugger is active!
+2024-05-15 20:28:48,453:INFO: * Debugger PIN: 127-398-117
+2024-05-15 20:28:48,502:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyarrow\\__init__.py', reloading
+2024-05-15 20:28:48,502:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyasn1_modules\\__init__.py', reloading
+2024-05-15 20:28:48,503:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\__init__.py', reloading
+2024-05-15 20:28:48,509:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\errors.py', reloading
+2024-05-15 20:28:48,512:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\main.py', reloading
+2024-05-15 20:28:48,518:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\networks.py', reloading
+2024-05-15 20:28:48,523:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\types.py', reloading
+2024-05-15 20:28:48,533:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\warnings.py', reloading
+2024-05-15 20:28:48,533:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\deprecated\\tools.py', reloading
+2024-05-15 20:28:48,535:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic_core\\core_schema.py', reloading
+2024-05-15 20:28:48,552:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\_internal\\_generate_schema.py', reloading
+2024-05-15 20:28:48,563:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\annotated_handlers.py', reloading
+2024-05-15 20:28:48,565:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\config.py', reloading
+2024-05-15 20:28:48,569:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\fields.py', reloading
+2024-05-15 20:28:48,573:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\functional_serializers.py', reloading
+2024-05-15 20:28:48,576:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\functional_validators.py', reloading
+2024-05-15 20:28:48,579:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\json_schema.py', reloading
+2024-05-15 20:28:48,586:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\type_adapter.py', reloading
+2024-05-15 20:28:48,593:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\version.py', reloading
+2024-05-15 20:28:48,596:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\deprecated\\class_validators.py', reloading
+2024-05-15 20:28:48,597:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\deprecated\\config.py', reloading
+2024-05-15 20:28:48,599:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic\\root_model.py', reloading
+2024-05-15 20:28:48,601:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydantic_core\\__init__.py', reloading
+2024-05-15 20:28:48,610:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydeck\\__init__.py', reloading
+2024-05-15 20:28:48,611:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pygad\\__init__.py', reloading
+2024-05-15 20:28:48,611:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\__init__.py', reloading
+2024-05-15 20:28:48,617:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\util.py', reloading
+2024-05-15 20:28:48,620:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\exceptions.py', reloading
+2024-05-15 20:28:48,622:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\actions.py', reloading
+2024-05-15 20:28:48,624:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\results.py', reloading
+2024-05-15 20:28:48,629:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\core.py', reloading
+2024-05-15 20:28:48,657:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\helpers.py', reloading
+2024-05-15 20:28:48,682:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyparsing\\unicode.py', reloading
+2024-05-15 20:28:48,717:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pytest\\__init__.py', reloading
+2024-05-15 20:28:48,739:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\__init__.py', reloading
+2024-05-15 20:28:48,741:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\_version.py', reloading
+2024-05-15 20:28:48,741:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\_code\\__init__.py', reloading
+2024-05-15 20:28:48,743:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\_code\\code.py', reloading
+2024-05-15 20:28:48,753:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\assertion\\__init__.py', reloading
+2024-05-15 20:28:48,780:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\config\\exceptions.py', reloading
+2024-05-15 20:28:48,781:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\config\\argparsing.py', reloading
+2024-05-15 20:28:48,862:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\freeze_support.py', reloading
+2024-05-15 20:28:48,876:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\main.py', reloading
+2024-05-15 20:28:48,881:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\mark\\__init__.py', reloading
+2024-05-15 20:28:48,883:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\mark\\structures.py', reloading
+2024-05-15 20:28:48,887:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\nodes.py', reloading
+2024-05-15 20:28:48,892:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\outcomes.py', reloading
+2024-05-15 20:28:48,894:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\pytester.py', reloading
+2024-05-15 20:28:48,907:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\python.py', reloading
+2024-05-15 20:28:48,914:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\python_api.py', reloading
+2024-05-15 20:28:48,920:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\reports.py', reloading
+2024-05-15 20:28:48,923:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\runner.py', reloading
+2024-05-15 20:28:48,926:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\stash.py', reloading
+2024-05-15 20:28:48,927:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\terminal.py', reloading
+2024-05-15 20:28:48,939:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\_pytest\\warning_types.py', reloading
+2024-05-15 20:28:48,941:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\referencing\\__init__.py', reloading
+2024-05-15 20:28:48,943:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\referencing\\_core.py', reloading
+2024-05-15 20:28:48,955:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\rich\\__init__.py', reloading
+2024-05-15 20:28:48,963:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\rsa\\__init__.py', reloading
+2024-05-15 20:28:48,967:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\rsa\\key.py', reloading
+2024-05-15 20:28:48,978:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\rsa\\pkcs1.py', reloading
+2024-05-15 20:28:48,981:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\safetensors\\__init__.py', reloading
+2024-05-15 20:28:48,982:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\schedule\\__init__.py', reloading
+2024-05-15 20:28:48,990:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\conftest.py', reloading
+2024-05-15 20:28:48,992:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\constants\\__init__.py', reloading
+2024-05-15 20:28:49,003:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\constants\\_codata.py', reloading
+2024-05-15 20:28:49,074:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\constants\\_constants.py', reloading
+2024-05-15 20:28:49,081:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\datasets\\__init__.py', reloading
+2024-05-15 20:28:49,083:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\datasets\\_fetchers.py', reloading
+2024-05-15 20:28:49,086:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\datasets\\_download_all.py', reloading
+2024-05-15 20:28:49,089:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\datasets\\_utils.py', reloading
+2024-05-15 20:28:49,093:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\misc\\__init__.py', reloading
+2024-05-15 20:28:49,096:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\misc\\_common.py', reloading
+2024-05-15 20:28:49,100:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\version.py', reloading
+2024-05-15 20:28:49,101:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\__config__.py', reloading
+2024-05-15 20:28:49,103:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\__init__.py', reloading
+2024-05-15 20:28:49,136:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\cluster\\__init__.py', reloading
+2024-05-15 20:28:49,139:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\__init__.py', reloading
+2024-05-15 20:28:49,146:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_basic.py', reloading
+2024-05-15 20:28:49,151:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_realtransforms.py', reloading
+2024-05-15 20:28:49,153:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_fftlog.py', reloading
+2024-05-15 20:28:49,161:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_fftlog_multimethods.py', reloading
+2024-05-15 20:28:49,163:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_helper.py', reloading
+2024-05-15 20:28:49,166:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_backend.py', reloading
+2024-05-15 20:28:49,171:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fft\\_pocketfft\\helper.py', reloading
+2024-05-15 20:28:49,173:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fftpack\\__init__.py', reloading
+2024-05-15 20:28:49,178:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fftpack\\_basic.py', reloading
+2024-05-15 20:28:49,180:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fftpack\\_pseudo_diffs.py', reloading
+2024-05-15 20:28:49,185:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fftpack\\_helper.py', reloading
+2024-05-15 20:28:49,186:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\fftpack\\_realtransforms.py', reloading
+2024-05-15 20:28:49,187:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\integrate\\__init__.py', reloading
+2024-05-15 20:28:49,197:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\integrate\\_quadrature.py', reloading
+2024-05-15 20:28:49,204:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\integrate\\_odepack_py.py', reloading
+2024-05-15 20:28:49,209:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\integrate\\_quadpack_py.py', reloading
+2024-05-15 20:28:49,216:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\integrate\\_ode.py', reloading
+2024-05-15 20:28:49,221:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\__init__.py', reloading
+2024-05-15 20:28:49,229:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_interpolate.py', reloading
+2024-05-15 20:28:49,238:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_fitpack_py.py', reloading
+2024-05-15 20:28:49,243:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_fitpack2.py', reloading
+2024-05-15 20:28:49,251:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_rbfinterp.py', reloading
+2024-05-15 20:28:49,262:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_polyint.py', reloading
+2024-05-15 20:28:49,264:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_cubic.py', reloading
+2024-05-15 20:28:49,278:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_ndgriddata.py', reloading
+2024-05-15 20:28:49,279:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_bsplines.py', reloading
+2024-05-15 20:28:49,300:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_pade.py', reloading
+2024-05-15 20:28:49,302:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\interpolate\\_rgi.py', reloading
+2024-05-15 20:28:49,304:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\io\\__init__.py', reloading
+2024-05-15 20:28:49,315:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\__init__.py', reloading
+2024-05-15 20:28:49,321:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_misc.py', reloading
+2024-05-15 20:28:49,323:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_basic.py', reloading
+2024-05-15 20:28:49,331:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_decomp.py', reloading
+2024-05-15 20:28:49,335:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_decomp_lu.py', reloading
+2024-05-15 20:28:49,338:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_decomp_ldl.py', reloading
+2024-05-15 20:28:49,341:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_decomp_cholesky.py', reloading
+2024-05-15 20:28:49,343:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_decomp_qr.py', reloading
+2024-05-15 20:28:49,345:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_decomp_qz.py', reloading
+2024-05-15 20:28:49,346:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_decomp_svd.py', reloading
+2024-05-15 20:28:49,348:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_decomp_schur.py', reloading
+2024-05-15 20:28:49,351:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_decomp_polar.py', reloading
+2024-05-15 20:28:49,366:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_matfuncs.py', reloading
+2024-05-15 20:28:49,370:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\blas.py', reloading
+2024-05-15 20:28:49,383:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\lapack.py', reloading
+2024-05-15 20:28:49,410:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_special_matrices.py', reloading
+2024-05-15 20:28:49,412:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_solvers.py', reloading
+2024-05-15 20:28:49,415:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_procrustes.py', reloading
+2024-05-15 20:28:49,417:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_sketches.py', reloading
+2024-05-15 20:28:49,418:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\linalg\\_decomp_cossin.py', reloading
+2024-05-15 20:28:49,420:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\__init__.py', reloading
+2024-05-15 20:28:49,424:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_filters.py', reloading
+2024-05-15 20:28:49,429:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_fourier.py', reloading
+2024-05-15 20:28:49,431:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_interpolation.py', reloading
+2024-05-15 20:28:49,433:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_measurements.py', reloading
+2024-05-15 20:28:49,439:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\ndimage\\_morphology.py', reloading
+2024-05-15 20:28:49,443:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\odr\\__init__.py', reloading
+2024-05-15 20:28:49,446:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\odr\\_odrpack.py', reloading
+2024-05-15 20:28:49,450:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\odr\\_models.py', reloading
+2024-05-15 20:28:49,452:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\optimize\\__init__.py', reloading
+2024-05-15 20:28:49,458:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\optimize\\_optimize.py', reloading
+2024-05-15 20:28:49,471:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\optimize\\_minimize.py', reloading
+2024-05-15 20:28:49,478:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\optimize\\_root.py', reloading
+2024-05-15 20:28:49,481:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\optimize\\_root_scalar.py', reloading
+2024-05-15 20:28:49,483:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\optimize\\_minpack_py.py', reloading
+2024-05-15 20:28:49,487:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\optimize\\_zeros_py.py', reloading
+2024-05-15 20:28:49,493:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\optimize\\_nonlin.py', reloading
+2024-05-15 20:28:49,497:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\signal\\__init__.py', reloading
+2024-05-15 20:28:49,656:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 20:28:50,692:WARNING: * Debugger is active!
+2024-05-15 20:28:50,699:INFO: * Debugger PIN: 127-398-117
+2024-05-15 20:28:50,802:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\sympy\\printing\\smtlib.py', reloading
+2024-05-15 20:28:50,817:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\__init__.py', reloading
+2024-05-15 20:28:50,831:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\retry.py', reloading
+2024-05-15 20:28:50,832:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\nap.py', reloading
+2024-05-15 20:28:50,833:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\stop.py', reloading
+2024-05-15 20:28:50,834:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\wait.py', reloading
+2024-05-15 20:28:50,836:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\before.py', reloading
+2024-05-15 20:28:50,837:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\after.py', reloading
+2024-05-15 20:28:50,837:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\before_sleep.py', reloading
+2024-05-15 20:28:50,838:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tenacity\\_asyncio.py', reloading
+2024-05-15 20:28:50,840:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tensorboard\\__init__.py', reloading
+2024-05-15 20:28:50,847:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tensorboard_data_server\\__init__.py', reloading
+2024-05-15 20:28:50,849:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tensorflow\\__init__.py', reloading
+2024-05-15 20:28:50,961:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tensorflow_estimator\\__init__.py', reloading
+2024-05-15 20:28:50,962:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tensorflow_io_gcs_filesystem\\__init__.py', reloading
+2024-05-15 20:28:50,962:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\termcolor\\__init__.py', reloading
+2024-05-15 20:28:50,964:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\termcolor\\termcolor.py', reloading
+2024-05-15 20:28:50,965:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tiktoken\\__init__.py', reloading
+2024-05-15 20:28:50,967:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tiktoken\\core.py', reloading
+2024-05-15 20:28:50,973:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tiktoken\\model.py', reloading
+2024-05-15 20:28:50,976:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tiktoken\\registry.py', reloading
+2024-05-15 20:28:50,979:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tlz\\__init__.py', reloading
+2024-05-15 20:28:50,982:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tomli\\__init__.py', reloading
+2024-05-15 20:28:50,983:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tomli\\_parser.py', reloading
+2024-05-15 20:28:50,989:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\toolz\\__init__.py', reloading
+2024-05-15 20:28:50,989:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\__init__.py', reloading
+2024-05-15 20:28:51,221:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\functional.py', reloading
+2024-05-15 20:28:51,234:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_tensor.py', reloading
+2024-05-15 20:28:51,238:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\storage.py', reloading
+2024-05-15 20:28:51,246:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\random.py', reloading
+2024-05-15 20:28:51,247:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\serialization.py', reloading
+2024-05-15 20:28:51,253:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_tensor_str.py', reloading
+2024-05-15 20:28:51,259:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_lowrank.py', reloading
+2024-05-15 20:28:51,262:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\autograd\\__init__.py', reloading
+2024-05-15 20:28:51,266:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\autograd\\grad_mode.py', reloading
+2024-05-15 20:28:51,268:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\signal\\__init__.py', reloading
+2024-05-15 20:28:51,269:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_lobpcg.py', reloading
+2024-05-15 20:28:51,273:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\func\\__init__.py', reloading
+2024-05-15 20:28:51,276:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torch\\_functorch\\vmap.py', reloading
+2024-05-15 20:28:51,280:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torchgen\\__init__.py', reloading
+2024-05-15 20:28:51,280:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tornado\\__init__.py', reloading
+2024-05-15 20:28:51,282:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\traitlets\\__init__.py', reloading
+2024-05-15 20:28:51,286:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\traitlets\\traitlets.py', reloading
+2024-05-15 20:28:51,297:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\traitlets\\_version.py', reloading
+2024-05-15 20:28:51,298:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\traitlets\\utils\\bunch.py', reloading
+2024-05-15 20:28:51,299:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\traitlets\\utils\\decorators.py', reloading
+2024-05-15 20:28:51,300:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\traitlets\\utils\\importstring.py', reloading
+2024-05-15 20:28:51,301:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\transformers\\__init__.py', reloading
+2024-05-15 20:28:51,301:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tritonclient\\__init__.py', reloading
+2024-05-15 20:28:51,302:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tritonclientutils\\__init__.py', reloading
+2024-05-15 20:28:51,303:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tritongrpcclient\\__init__.py', reloading
+2024-05-15 20:28:51,303:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tritonhttpclient\\__init__.py', reloading
+2024-05-15 20:28:51,304:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\twilio\\__init__.py', reloading
+2024-05-15 20:28:51,304:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tzdata\\__init__.py', reloading
+2024-05-15 20:28:51,305:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tzlocal\\__init__.py', reloading
+2024-05-15 20:28:51,309:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tzlocal\\win32.py', reloading
+2024-05-15 20:28:51,314:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tzlocal\\utils.py', reloading
+2024-05-15 20:28:51,315:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\__init__.py', reloading
+2024-05-15 20:28:51,322:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\connectionpool.py', reloading
+2024-05-15 20:28:51,329:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\filepost.py', reloading
+2024-05-15 20:28:51,330:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\poolmanager.py', reloading
+2024-05-15 20:28:51,331:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\response.py', reloading
+2024-05-15 20:28:51,337:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\util\\request.py', reloading
+2024-05-15 20:28:51,341:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\util\\retry.py', reloading
+2024-05-15 20:28:51,344:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\util\\timeout.py', reloading
+2024-05-15 20:28:51,345:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\urllib3\\util\\url.py', reloading
+2024-05-15 20:28:51,348:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\uvicorn\\__init__.py', reloading
+2024-05-15 20:28:51,351:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\uvicorn\\config.py', reloading
+2024-05-15 20:28:51,359:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\uvicorn\\main.py', reloading
+2024-05-15 20:28:51,367:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\uvicorn\\server.py', reloading
+2024-05-15 20:28:51,373:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\validators\\__init__.py', reloading
+2024-05-15 20:28:51,378:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\validators\\card.py', reloading
+2024-05-15 20:28:51,380:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\validators\\hashes.py', reloading
+2024-05-15 20:28:51,380:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\validators\\i18n\\__init__.py', reloading
+2024-05-15 20:28:51,381:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\validators\\i18n\\es.py', reloading
+2024-05-15 20:28:51,383:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\validators\\i18n\\fi.py', reloading
+2024-05-15 20:28:51,384:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\validators\\ip_address.py', reloading
+2024-05-15 20:28:51,386:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\validators\\utils.py', reloading
+2024-05-15 20:28:51,387:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\watchdog\\__init__.py', reloading
+2024-05-15 20:28:51,391:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\wcwidth\\__init__.py', reloading
+2024-05-15 20:28:51,394:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\wcwidth\\wcwidth.py', reloading
+2024-05-15 20:28:51,396:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\wcwidth\\unicode_versions.py', reloading
+2024-05-15 20:28:51,396:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\__init__.py', reloading
+2024-05-15 20:28:51,397:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\serving.py', reloading
+2024-05-15 20:28:51,404:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\werkzeug\\test.py', reloading
+2024-05-15 20:28:51,414:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\wheel\\__init__.py', reloading
+2024-05-15 20:28:51,415:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\wrapt\\__init__.py', reloading
+2024-05-15 20:28:51,415:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\xlsxwriter\\__init__.py', reloading
+2024-05-15 20:28:51,415:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\yapf\\__init__.py', reloading
+2024-05-15 20:28:51,416:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\yapftests\\__init__.py', reloading
+2024-05-15 20:28:51,417:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\zipp\\__init__.py', reloading
+2024-05-15 20:28:51,425:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\zmq\\constants.py', reloading
+2024-05-15 20:28:51,435:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\zmq\\error.py', reloading
+2024-05-15 20:28:51,437:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\zmq\\sugar\\context.py', reloading
+2024-05-15 20:28:51,442:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\zmq\\sugar\\frame.py', reloading
+2024-05-15 20:28:51,443:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\zmq\\sugar\\poll.py', reloading
+2024-05-15 20:28:51,443:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\zmq\\sugar\\socket.py', reloading
+2024-05-15 20:28:51,447:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\zmq\\sugar\\tracker.py', reloading
+2024-05-15 20:28:51,447:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\zmq\\sugar\\version.py', reloading
+2024-05-15 20:28:51,451:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pythonwin\\pywin\\__init__.py', reloading
+2024-05-15 20:28:51,894:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 20:28:52,655:WARNING: * Debugger is active!
+2024-05-15 20:28:52,660:INFO: * Debugger PIN: 127-398-117
+2024-05-15 20:30:42,638:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 20:30:42,641:INFO:127.0.0.1 - - [15/May/2024 20:30:42] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 20:33:07,641:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 20:33:07,643:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 20:33:07,644:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 20:33:08,942:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 20:33:12,992:WARNING: * Debugger is active!
+2024-05-15 20:33:12,998:INFO: * Debugger PIN: 127-398-117
+2024-05-15 20:33:14,574:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 20:33:14,575:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 20:33:14,575:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 20:33:15,272:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 20:33:16,368:WARNING: * Debugger is active!
+2024-05-15 20:33:16,377:INFO: * Debugger PIN: 127-398-117
+2024-05-15 20:37:38,093:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://10.100.102.55:5000
-2024-05-25 15:31:49,225:INFO:[33mPress CTRL+C to quit[0m
-2024-05-25 15:31:49,229:INFO: * Restarting with stat
-2024-05-25 15:31:50,782:WARNING: * Debugger is active!
-2024-05-25 15:31:50,786:INFO: * Debugger PIN: 732-473-947
-2024-05-25 15:32:03,419:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-05-15 20:37:38,093:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 20:37:38,107:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 20:37:39,563:WARNING: * Debugger is active!
+2024-05-15 20:37:39,574:INFO: * Debugger PIN: 127-398-117
+2024-05-15 20:50:49,751:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 20:50:49,758:INFO:127.0.0.1 - - [15/May/2024 20:50:49] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:03:00,503:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-05-15 21:03:00,957:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:03:02,520:WARNING: * Debugger is active!
+2024-05-15 21:03:02,527:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:03:39,270:INFO:127.0.0.1 - - [15/May/2024 21:03:39] "[35m[1mPOST /flaskController/generate_schedule HTTP/1.1[0m" 500 -
+2024-05-15 21:04:15,572:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://10.100.102.55:5000
-2024-05-25 15:32:03,419:INFO:[33mPress CTRL+C to quit[0m
-2024-05-25 15:32:03,421:INFO: * Restarting with stat
-2024-05-25 15:32:04,622:WARNING: * Debugger is active!
-2024-05-25 15:32:04,627:INFO: * Debugger PIN: 732-473-947
-2024-05-25 15:33:21,553:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-05-15 21:04:15,573:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 21:04:15,578:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:04:16,405:WARNING: * Debugger is active!
+2024-05-15 21:04:16,410:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:13:11,900:INFO:127.0.0.1 - - [15/May/2024 21:13:11] "[35m[1mPOST /flask/generate_schedule HTTP/1.1[0m" 500 -
+2024-05-15 21:13:48,418:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 21:13:48,421:INFO:127.0.0.1 - - [15/May/2024 21:13:48] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:14:07,066:INFO:127.0.0.1 - - [15/May/2024 21:14:07] "POST /generate_schedule HTTP/1.1" 200 -
+2024-05-15 21:14:19,855:INFO:127.0.0.1 - - [15/May/2024 21:14:19] "[35m[1mPOST /flask/generate_schedule HTTP/1.1[0m" 500 -
+2024-05-15 21:14:26,974:INFO:127.0.0.1 - - [15/May/2024 21:14:26] "[35m[1mPOST /flaskController/generate_schedule HTTP/1.1[0m" 500 -
+2024-05-15 21:23:07,186:INFO:127.0.0.1 - - [15/May/2024 21:23:07] "[35m[1mPOST /flask/generate_schedule HTTP/1.1[0m" 500 -
+2024-05-15 21:32:56,741:INFO:127.0.0.1 - - [15/May/2024 21:32:56] "[35m[1mPOST /flask/generate_schedule HTTP/1.1[0m" 500 -
+2024-05-15 21:34:25,552:INFO:127.0.0.1 - - [15/May/2024 21:34:25] "[35m[1mPOST /test HTTP/1.1[0m" 500 -
+2024-05-15 21:34:31,254:INFO:127.0.0.1 - - [15/May/2024 21:34:31] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-05-15 21:34:36,080:INFO:127.0.0.1 - - [15/May/2024 21:34:36] "[31m[1mPOST /change_soldier_upon_request_approved HTTP/1.1[0m" 400 -
+2024-05-15 21:44:27,716:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\soldiers_availability_funcs.py', reloading
+2024-05-15 21:44:29,163:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:44:30,598:WARNING: * Debugger is active!
+2024-05-15 21:44:30,603:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:48:30,085:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\ortools\\sat\\python\\cp_model.py', reloading
+2024-05-15 21:48:30,333:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2024-05-15 21:48:30,362:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\core\\overrides.py', reloading
+2024-05-15 21:48:30,845:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:48:32,656:WARNING: * Debugger is active!
+2024-05-15 21:48:32,664:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:48:36,352:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 21:48:36,364:INFO:127.0.0.1 - - [15/May/2024 21:48:36] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:49:05,228:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\classes\\soldier.py', reloading
+2024-05-15 21:49:05,988:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:49:07,522:WARNING: * Debugger is active!
+2024-05-15 21:49:07,532:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:49:59,572:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:49:59,574:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:49:59,574:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:49:59,574:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:49:59,575:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:49:59,900:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\classes\\request.py', reloading
+2024-05-15 21:50:00,792:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:50:02,494:WARNING: * Debugger is active!
+2024-05-15 21:50:02,501:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:50:04,772:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:50:04,773:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:50:05,996:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:50:07,976:WARNING: * Debugger is active!
+2024-05-15 21:50:07,983:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:50:12,693:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 21:50:12,697:INFO:127.0.0.1 - - [15/May/2024 21:50:12] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:50:44,419:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://10.100.102.55:5000
-2024-05-25 15:33:21,555:INFO:[33mPress CTRL+C to quit[0m
-2024-05-25 15:33:21,556:INFO: * Restarting with stat
-2024-05-25 15:33:22,401:WARNING: * Debugger is active!
-2024-05-25 15:33:22,403:INFO: * Debugger PIN: 732-473-947
-2024-05-25 15:33:25,470:INFO:127.0.0.1 - - [25/May/2024 15:33:25] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
-2024-05-25 15:34:20,386:INFO:127.0.0.1 - - [25/May/2024 15:34:20] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
-2024-05-25 15:34:29,189:INFO:127.0.0.1 - - [25/May/2024 15:34:29] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
-2024-05-25 15:39:15,948:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-05-15 21:50:44,420:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 21:50:44,439:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:50:45,881:WARNING: * Debugger is active!
+2024-05-15 21:50:45,887:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:50:45,946:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 21:50:45,947:INFO:127.0.0.1 - - [15/May/2024 21:50:45] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:50:56,327:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\errors\\error_handler.py', reloading
+2024-05-15 21:50:57,442:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:50:58,590:WARNING: * Debugger is active!
+2024-05-15 21:50:58,599:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:51:13,753:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:51:13,754:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:51:13,755:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:51:13,755:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:51:14,277:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:51:15,204:WARNING: * Debugger is active!
+2024-05-15 21:51:15,209:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:51:18,686:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:51:18,687:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:51:18,687:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:51:18,687:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:51:19,540:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:51:20,874:WARNING: * Debugger is active!
+2024-05-15 21:51:20,887:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:51:21,560:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:51:21,564:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:51:21,565:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:51:22,190:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:51:23,850:WARNING: * Debugger is active!
+2024-05-15 21:51:23,860:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:51:24,706:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 21:51:24,710:INFO:127.0.0.1 - - [15/May/2024 21:51:24] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:52:01,209:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\classes\\soldier.py', reloading
+2024-05-15 21:52:01,210:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\classes\\soldier.py', reloading
+2024-05-15 21:52:01,211:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\classes\\soldier.py', reloading
+2024-05-15 21:52:01,211:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\classes\\soldier.py', reloading
+2024-05-15 21:52:01,542:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:52:03,534:WARNING: * Debugger is active!
+2024-05-15 21:52:03,540:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:52:12,674:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 21:52:12,675:INFO:127.0.0.1 - - [15/May/2024 21:52:12] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:52:39,233:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:52:39,235:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:52:39,235:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:52:39,236:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:52:40,076:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:52:41,342:WARNING: * Debugger is active!
+2024-05-15 21:52:41,348:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:55:24,114:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://10.100.102.55:5000
-2024-05-25 15:39:15,948:INFO:[33mPress CTRL+C to quit[0m
-2024-05-25 15:39:15,949:INFO: * Restarting with stat
-2024-05-25 15:39:17,015:WARNING: * Debugger is active!
-2024-05-25 15:39:17,017:INFO: * Debugger PIN: 732-473-947
-2024-05-25 15:39:21,290:INFO:127.0.0.1 - - [25/May/2024 15:39:21] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
-2024-05-25 15:41:33,528:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-05-15 21:55:24,115:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 21:55:24,132:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:55:25,468:WARNING: * Debugger is active!
+2024-05-15 21:55:25,476:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:55:31,377:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 21:55:31,389:INFO:127.0.0.1 - - [15/May/2024 21:55:31] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:55:42,953:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:42,954:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:42,954:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:42,955:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:43,354:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:55:44,775:WARNING: * Debugger is active!
+2024-05-15 21:55:44,782:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:55:47,663:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:47,664:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:47,664:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:47,664:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:48,061:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:55:49,013:WARNING: * Debugger is active!
+2024-05-15 21:55:49,022:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:55:52,049:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:52,050:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:52,050:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:52,389:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:55:53,543:WARNING: * Debugger is active!
+2024-05-15 21:55:53,548:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:55:56,473:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:56,475:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:56,476:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:56,476:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:55:56,860:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:55:58,246:WARNING: * Debugger is active!
+2024-05-15 21:55:58,253:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:56:00,172:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:00,173:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:00,174:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:00,174:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:00,568:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:56:02,316:WARNING: * Debugger is active!
+2024-05-15 21:56:02,324:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:56:02,990:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 21:56:02,991:INFO:127.0.0.1 - - [15/May/2024 21:56:02] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:56:13,389:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:13,390:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:13,390:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:13,390:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:13,877:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:56:14,670:WARNING: * Debugger is active!
+2024-05-15 21:56:14,675:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:56:18,042:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:18,043:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:18,043:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:18,044:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:18,937:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:56:20,025:WARNING: * Debugger is active!
+2024-05-15 21:56:20,035:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:56:21,725:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:21,726:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:21,727:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:22,344:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:56:23,488:WARNING: * Debugger is active!
+2024-05-15 21:56:23,496:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:56:24,098:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:24,101:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:24,102:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:24,102:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:24,718:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:56:25,823:WARNING: * Debugger is active!
+2024-05-15 21:56:25,849:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:56:27,649:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:27,651:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:27,651:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:27,651:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:28,145:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:56:29,130:WARNING: * Debugger is active!
+2024-05-15 21:56:29,137:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:56:31,571:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:31,572:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:56:32,434:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:56:33,969:WARNING: * Debugger is active!
+2024-05-15 21:56:33,977:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:56:34,688:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 21:56:34,691:INFO:127.0.0.1 - - [15/May/2024 21:56:34] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:57:35,007:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:57:35,009:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:57:35,009:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:57:35,010:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:57:36,088:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:57:37,215:WARNING: * Debugger is active!
+2024-05-15 21:57:37,222:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:57:41,086:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 21:57:41,087:INFO:127.0.0.1 - - [15/May/2024 21:57:41] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:58:13,596:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:58:13,597:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:58:13,597:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:58:13,597:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:58:14,562:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:58:15,596:WARNING: * Debugger is active!
+2024-05-15 21:58:15,604:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:58:17,476:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:58:17,476:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:58:17,477:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:58:17,857:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:58:18,758:WARNING: * Debugger is active!
+2024-05-15 21:58:18,764:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:59:02,100:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://10.100.102.55:5000
-2024-05-25 15:41:33,528:INFO:[33mPress CTRL+C to quit[0m
-2024-05-25 15:41:33,530:INFO: * Restarting with stat
-2024-05-25 15:41:34,354:WARNING: * Debugger is active!
-2024-05-25 15:41:34,358:INFO: * Debugger PIN: 732-473-947
-2024-05-25 15:42:11,467:INFO:127.0.0.1 - - [25/May/2024 15:42:11] "[35m[1mPOST /change_soldier_upon_request_approved%0A HTTP/1.1[0m" 500 -
-2024-05-25 15:42:19,867:INFO:127.0.0.1 - - [25/May/2024 15:42:19] "[35m[1mPOST /generate_schedule%0A HTTP/1.1[0m" 500 -
+2024-05-15 21:59:02,100:INFO:[33mPress CTRL+C to quit[0m
+2024-05-15 21:59:02,109:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:59:03,188:WARNING: * Debugger is active!
+2024-05-15 21:59:03,197:INFO: * Debugger PIN: 127-398-117
+2024-05-15 21:59:18,213:ERROR:Error processing request for soldier 6546546: Missing required request keys in {'requestType': 'UPDATED', 'daysOffType': 'UPDATED', 'startDate': '22/02/2024 14:00', 'endDate': '22/02/2024 16:00', 'note': 'kakapopo', 'fileName': 'sick_note.jpg'}
+2024-05-15 21:59:18,215:INFO:127.0.0.1 - - [15/May/2024 21:59:18] "POST /change_soldier_upon_request_approved HTTP/1.1" 200 -
+2024-05-15 21:59:34,423:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:59:34,426:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:59:34,426:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:59:34,427:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\update_schedule.py', reloading
+2024-05-15 21:59:35,584:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 21:59:37,646:WARNING: * Debugger is active!
+2024-05-15 21:59:37,652:INFO: * Debugger PIN: 127-398-117
+2024-05-15 22:05:02,811:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\algorithm\\add_mission\\add_mission.py', reloading
+2024-05-15 22:05:03,402:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 22:05:04,458:WARNING: * Debugger is active!
+2024-05-15 22:05:04,464:INFO: * Debugger PIN: 127-398-117
+2024-05-15 22:14:02,135:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\app.py', reloading
+2024-05-15 22:14:02,136:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\app.py', reloading
+2024-05-15 22:14:02,138:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\SCHOOL\\Year3SM1\\methods_in_software_development\\pythonServer\\app.py', reloading
+2024-05-15 22:14:02,673:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 22:14:05,008:WARNING: * Debugger is active!
+2024-05-15 22:14:05,015:INFO: * Debugger PIN: 127-398-117
+2024-05-15 22:23:20,155:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\argparse.py', reloading
+2024-05-15 22:23:20,228:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\logging\\config.py', reloading
+2024-05-15 22:23:20,232:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\logging\\handlers.py', reloading
+2024-05-15 22:23:20,259:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\optparse.py', reloading
+2024-05-15 22:23:20,287:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\concurrent\\futures\\thread.py', reloading
+2024-05-15 22:23:20,576:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+2024-05-15 22:23:20,728:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+2024-05-15 22:23:20,841:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\__init__.py', reloading
+2024-05-15 22:23:20,846:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\context.py', reloading
+2024-05-15 22:23:20,850:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\process.py', reloading
+2024-05-15 22:23:20,855:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\reduction.py', reloading
+2024-05-15 22:23:20,865:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\pool.py', reloading
+2024-05-15 22:23:20,866:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\colorsys.py', reloading
+2024-05-15 22:23:20,869:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\util.py', reloading
+2024-05-15 22:23:20,872:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\multiprocessing\\connection.py', reloading
+2024-05-15 22:23:21,405:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 22:23:26,491:WARNING: * Debugger is active!
+2024-05-15 22:23:26,501:INFO: * Debugger PIN: 127-398-117
+2024-05-15 22:23:26,785:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pylab.py', reloading
+2024-05-15 22:23:26,787:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\matplotlib\\pylab.py', reloading
+2024-05-15 22:23:27,060:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\typing\\__init__.py', reloading
+2024-05-15 22:23:27,301:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\_typing\\_scalars.py', reloading
+2024-05-15 22:23:27,430:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numpy\\_typing\\_nbit.py', reloading
+2024-05-15 22:23:27,441:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\IPython\\__init__.py', reloading
+2024-05-15 22:23:27,661:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\IPython\\core\\interactiveshell.py', reloading
+2024-05-15 22:23:28,217:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 22:23:30,534:WARNING: * Debugger is active!
+2024-05-15 22:23:30,543:INFO: * Debugger PIN: 127-398-117
+2024-05-15 22:23:30,827:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\distutils\\__init__.py', reloading
+2024-05-15 22:23:30,828:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\idlelib\\__init__.py', reloading
+2024-05-15 22:23:30,829:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\lib2to3\\__init__.py', reloading
+2024-05-15 22:23:30,830:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\turtledemo\\__init__.py', reloading
+2024-05-15 22:23:30,830:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\wsgiref\\__init__.py', reloading
+2024-05-15 22:23:30,831:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\__phello__\\__init__.py', reloading
+2024-05-15 22:23:30,831:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\absl\\__init__.py', reloading
+2024-05-15 22:23:30,832:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\adodbapi\\__init__.py', reloading
+2024-05-15 22:23:30,832:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\astunparse\\__init__.py', reloading
+2024-05-15 22:23:30,833:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\blackd\\__init__.py', reloading
+2024-05-15 22:23:30,833:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\blib2to3\\__init__.py', reloading
+2024-05-15 22:23:30,835:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cohere\\__init__.py', reloading
+2024-05-15 22:23:30,835:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\cpmpy\\__init__.py', reloading
+2024-05-15 22:23:30,836:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\csp\\__init__.py', reloading
+2024-05-15 22:23:30,836:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\dill\\__init__.py', reloading
+2024-05-15 22:23:30,837:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\faiss\\__init__.py', reloading
+2024-05-15 22:23:30,838:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\flatbuffers\\__init__.py', reloading
+2024-05-15 22:23:30,838:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\functorch\\__init__.py', reloading
+2024-05-15 22:23:30,839:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\gast\\__init__.py', reloading
+2024-05-15 22:23:30,839:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\gitdb\\__init__.py', reloading
+2024-05-15 22:23:30,840:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\h5py\\__init__.py', reloading
+2024-05-15 22:23:30,840:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\idna\\__init__.py', reloading
+2024-05-15 22:23:30,841:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\jedi\\__init__.py', reloading
+2024-05-15 22:23:30,842:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\matplotlib_inline\\__init__.py', reloading
+2024-05-15 22:23:30,842:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\mpl_toolkits\\__init__.py', reloading
+2024-05-15 22:23:30,843:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\mpmath\\__init__.py', reloading
+2024-05-15 22:23:30,844:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\namex\\__init__.py', reloading
+2024-05-15 22:23:30,844:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\nlpcloud\\__init__.py', reloading
+2024-05-15 22:23:30,845:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\numexpr\\__init__.py', reloading
+2024-05-15 22:23:30,846:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\openlm\\__init__.py', reloading
+2024-05-15 22:23:30,846:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\opt_einsum\\__init__.py', reloading
+2024-05-15 22:23:30,847:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\ortools\\__init__.py', reloading
+2024-05-15 22:23:30,847:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pasta\\__init__.py', reloading
+2024-05-15 22:23:30,848:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyarrow\\__init__.py', reloading
+2024-05-15 22:23:30,849:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pyasn1_modules\\__init__.py', reloading
+2024-05-15 22:23:30,849:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pydeck\\__init__.py', reloading
+2024-05-15 22:23:30,849:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pygad\\__init__.py', reloading
+2024-05-15 22:23:30,851:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\safetensors\\__init__.py', reloading
+2024-05-15 22:23:30,851:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\conftest.py', reloading
+2024-05-15 22:23:30,852:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\scipy\\version.py', reloading
+2024-05-15 22:23:30,852:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\smmap\\__init__.py', reloading
+2024-05-15 22:23:30,852:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\spacycloud\\__init__.py', reloading
+2024-05-15 22:23:30,853:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tensorboard_data_server\\__init__.py', reloading
+2024-05-15 22:23:30,854:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tensorflow_estimator\\__init__.py', reloading
+2024-05-15 22:23:30,854:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tensorflow_io_gcs_filesystem\\__init__.py', reloading
+2024-05-15 22:23:30,854:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tlz\\__init__.py', reloading
+2024-05-15 22:23:30,855:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\toolz\\__init__.py', reloading
+2024-05-15 22:23:30,856:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\torchgen\\__init__.py', reloading
+2024-05-15 22:23:30,858:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\transformers\\__init__.py', reloading
+2024-05-15 22:23:30,859:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tritonclient\\__init__.py', reloading
+2024-05-15 22:23:30,860:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tritonclientutils\\__init__.py', reloading
+2024-05-15 22:23:30,861:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tritongrpcclient\\__init__.py', reloading
+2024-05-15 22:23:30,861:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tritonhttpclient\\__init__.py', reloading
+2024-05-15 22:23:30,862:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\twilio\\__init__.py', reloading
+2024-05-15 22:23:30,862:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\tzdata\\__init__.py', reloading
+2024-05-15 22:23:30,862:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\wheel\\__init__.py', reloading
+2024-05-15 22:23:30,864:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\wrapt\\__init__.py', reloading
+2024-05-15 22:23:30,864:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\xlsxwriter\\__init__.py', reloading
+2024-05-15 22:23:30,865:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\yapf\\__init__.py', reloading
+2024-05-15 22:23:30,865:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\yapftests\\__init__.py', reloading
+2024-05-15 22:23:30,866:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pythonwin\\pywin\\__init__.py', reloading
+2024-05-15 22:23:31,779:INFO: * Restarting with watchdog (windowsapi)
+2024-05-15 22:23:32,961:WARNING: * Debugger is active!
+2024-05-15 22:23:32,971:INFO: * Debugger PIN: 127-398-117
+2024-05-16 10:04:48,378:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\__init__.py', reloading
+2024-05-16 10:04:48,470:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\aliases.py', reloading
+2024-05-16 10:04:48,491:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\utf_8.py', reloading
+2024-05-16 10:04:48,492:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\cp1255.py', reloading
+2024-05-16 10:04:48,579:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\site-packages\\_distutils_hack\\__init__.py', reloading
+2024-05-16 10:04:48,706:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\__init__.py', reloading
+2024-05-16 10:04:48,783:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\warnings.py', reloading
+2024-05-16 10:04:48,814:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\importlib\\_abc.py', reloading
+2024-05-16 10:04:48,908:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\contextlib.py', reloading
+2024-05-16 10:04:48,923:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\collections\\__init__.py', reloading
+2024-05-16 10:04:48,971:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\keyword.py', reloading
+2024-05-16 10:04:49,003:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\operator.py', reloading
+2024-05-16 10:04:49,009:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\reprlib.py', reloading
+2024-05-16 10:04:49,013:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\functools.py', reloading
+2024-05-16 10:04:49,016:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\types.py', reloading
+2024-05-16 10:04:49,046:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\threading.py', reloading
+2024-05-16 10:04:49,061:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\_weakrefset.py', reloading
+2024-05-16 10:04:53,371:INFO: * Restarting with watchdog (windowsapi)
+2024-05-16 10:05:03,276:WARNING: * Debugger is active!
+2024-05-16 10:05:03,300:INFO: * Debugger PIN: 127-398-117
+2024-05-16 10:05:32,871:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\optparse.py', reloading
+2024-05-16 10:05:32,935:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\logging\\config.py', reloading
+2024-05-16 10:05:32,966:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\logging\\handlers.py', reloading
+2024-05-16 10:05:33,078:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pip\\_vendor\\pyparsing\\core.py', reloading
+2024-05-16 10:05:33,186:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\pip\\_vendor\\packaging\\markers.py', reloading
+2024-05-16 10:05:33,355:INFO: * Restarting with watchdog (windowsapi)
+2024-05-16 10:05:35,461:WARNING: * Debugger is active!
+2024-05-16 10:05:35,467:INFO: * Debugger PIN: 127-398-117
+2024-05-16 10:05:35,696:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\ascii.py', reloading
+2024-05-16 10:05:35,698:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\encodings\\latin_1.py', reloading
+2024-05-16 10:05:35,711:INFO: * Detected change in 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\\Lib\\xmlrpc\\server.py', reloading
+2024-05-16 10:05:35,824:INFO: * Detected change in 'C:\\Users\\adler\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\debugpy\\_vendored\\pydevd\\_pydevd_bundle\\pydevd_concurrency_analyser\\pydevd_concurrency_logger.py', reloading
+2024-05-16 10:05:36,684:INFO: * Restarting with watchdog (windowsapi)
+2024-05-16 10:05:37,676:WARNING: * Debugger is active!
+2024-05-16 10:05:37,681:INFO: * Debugger PIN: 127-398-117
+2024-05-16 10:17:55,163:INFO: * Detected change in 'c:\\Users\\adler\\OneDrive - Shenkar College\\Talent.AI\\TalentAI-research-new\\main_files\\main-regular_version-hr.py', reloading
+2024-05-16 10:17:57,895:INFO: * Restarting with watchdog (windowsapi)

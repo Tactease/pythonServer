@@ -16,7 +16,7 @@ def handle_bad_request_error(error):
 
 @app.errorhandler(404)
 def handle_not_found_error(error):
-    return not_found_error(error)
+    return not_found_error(error)   
 
 @app.errorhandler(500)
 def handle_internal_server_error(error):
@@ -67,10 +67,6 @@ def change_soldier_upon_request_approved_route():
     return jsonify({"error": "Missing key in request", "message": str(e)}), 400
   except Exception as e:
     return jsonify({"error": "Internal Server Error", "message": str(e)}), 500
-
-with app.test_request_context():
-    print([rule.rule for rule in app.url_map.iter_rules()])
-
 
 
 if __name__ == '__main__':
