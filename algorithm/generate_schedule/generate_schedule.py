@@ -126,8 +126,8 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
     missions_by_date = defaultdict(list)
     for mission in missions:
         # Convert start datetime to date (YYYY-MM-DD) for grouping
-        start_date = mission.startDate.date()
-        missions_by_date[start_date].append(mission)
+        startDate = mission.startDate.date()
+        missions_by_date[startDate].append(mission)
 
     total_hours_per_day = {}
     avarage_mission_hours_for_soldier = {}
