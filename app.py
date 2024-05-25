@@ -14,22 +14,6 @@ from algorithm.parse_functions import getMissions, getSoldiers
 
 app = Flask(__name__)
 
-
-@app.errorhandler(400)
-def handle_bad_request_error(error):
-    return bad_request_error(error)
-
-
-@app.errorhandler(404)
-def handle_not_found_error(error):
-    return not_found_error(error)
-
-
-@app.errorhandler(500)
-def handle_internal_server_error(error):
-    return internal_server_error(error)
-
-
 @app.route("/generate_schedule", methods=["POST"])
 def generate_schedule():
     try:
@@ -69,9 +53,13 @@ def update_schedule():
         soldiers = data["soldiers"]
         request_approved = data["request_approved"]
         
-        updated_schedule = change_soldier_upon_request_approved(
-            missions, soldiers, request_approved
-        )
+        try:
+            updated_schedule = change_soldier_upon_request_approved(
+                missions, soldiers, request_approved
+            )
+        except Exception as e:
+            return json.dumps({"error": str(e)})
+    
         print(updated_schedule)
         return jsonify(updated_schedule)
     except KeyError as e:
@@ -82,4 +70,6 @@ def update_schedule():
 
 if __name__ == "__main__":
     port = os.environ.get("PORT", 5000)
+    print(port)
     app.run(debug=True, host="0.0.0.0", port=port)
+    

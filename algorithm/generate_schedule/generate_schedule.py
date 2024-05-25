@@ -63,6 +63,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
             end_hours,  # End
             f'mission_interval_{missionId_key}'  # Name
         )
+
     # Create a BoolVar for each soldier-mission pair
     soldier_mission_vars = {}
     for soldier in soldiers:
@@ -94,7 +95,6 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
         soldier_missions_duration = [soldier_mission_vars[(soldier_id, mission_id)] * mission_durations[mission_id] for
                                      mission_id, _ in soldier_mission_vars.keys() if soldier_id in soldier_mission_vars]
         model.Add(total_hours_per_soldier[soldier_id] >= round(fair_share_hours_per_soldier))
-
 
     ########################## end of constraint #################################
 
@@ -206,7 +206,7 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
                     "soldiersOnMission": assigned_soldiers  # List of assigned soldier IDs
                 }
                 formatted_schedule.append(formatted_mission)
-
+                
         # Convert the list of formatted missions to a JSON string with indentation for readability
         schedule_json_str = json.dumps(formatted_schedule, indent=4)
 
