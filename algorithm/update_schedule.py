@@ -91,7 +91,7 @@ def is_on_mission_during(missions, soldier, start_buffer, end_buffer):
 
 
 def find_soldier_in_missions(missions, personal_number):
-    missions_obj = getMissions(missions)
+    missions_obj = missions
     matching_missions = []
     for mission in missions_obj:
         if personal_number in mission.soldiersOnMission:
@@ -119,6 +119,7 @@ def change_soldier_upon_request_approved(missions_arg, soldiers_arg, request_app
         missions = getMissions(json.loads(missions_arg))
         soldiers = getSoldiers(json.loads(soldiers_arg))
         request_approved_dict = json.loads(request_approved)
+        request_personal_num = str(request_approved_dict["personalNumber"]) 
     except Exception as e:
         return json.dumps({"error": str(e)})
         
@@ -131,18 +132,22 @@ def change_soldier_upon_request_approved(missions_arg, soldiers_arg, request_app
     except Exception as e:
         return json.dumps({"error": str(e)})
 
+    print(matched_request)
+    
     buffer_start = matched_request.startDate - timedelta(days=3)
     buffer_end = matched_request.endDate + timedelta(days=3)
 
     # Find the missions the unavailable soldier is part of during the request period
-    matching_missions = [
-        mission
-        for mission in missions
-        if request_approved_dict["personalNumber"] in mission.soldiersOnMission
-        and mission.endDate >= matched_request.startDate
-        and mission.startDate <= matched_request.endDate
-    ]
-    print(matching_missions)
+    
+    matching_missions = []
+    for mission in missions:
+        if request_personal_num in mission.soldiersOnMission and mission.endDate >= matched_request.startDate and mission.startDate <= matched_request.endDate:
+            matching_missions.append(mission)
+
+    for mission in matching_missions:
+        print(mission)
+    
+
     # Calculate available soldiers and their mission times
     available_soldier_times = defaultdict(int)
     for mission in missions:
@@ -178,7 +183,7 @@ def change_soldier_upon_request_approved(missions_arg, soldiers_arg, request_app
         # Assign this soldier to all matching missions
         try:
             for mission in matching_missions:
-                mission.soldiersOnMission.remove(request_approved_dict["personalNumber"])
+                mission.soldiersOnMission.remove(request_personal_num)
                 mission.soldiersOnMission.append(minimal_soldier_id)
                 print(
                     f"Replaced soldier {request_approved_dict['personalNumber']} with {minimal_soldier_id} in mission {mission._id}"

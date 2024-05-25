@@ -19,8 +19,6 @@ def generate_mission_schedule(missions_arg, soldiers_arg):
         missions = getMissions(json.loads(missions_arg))
         soldiers = getSoldiers(json.loads(soldiers_arg))
     except Exception as e:
-        # print(f"Error processing missions or soldiers data: {e}")
-        # raise e
         return json.dumps({"error": str(e)})
 
     model = cp_model.CpModel()
