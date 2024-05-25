@@ -68,17 +68,16 @@ def getSoldiers(soldiers_data):
             try:
                 requestsList = []
                 # Parse requests for each soldier
-                if "requestsList" in soldier_data:
-                    for request_data in soldier_data["requestsList"]:
+                if "requestList" in soldier_data:
+                    for request_data in soldier_data["requestList"]:
                         try:
                             # Validate that all required keys are present
-                            required_request_keys = ["requestType", "daysOffType", "startDate", "endDate", "status"]
+                            required_request_keys = ["requestType", "startDate", "endDate", "status"]
                             if not all(key in request_data for key in required_request_keys):
                                 raise ValueError(f"Missing required request keys in {request_data}")
                             # Create a Request object
                             request = Request(
                                 requestType=request_data["requestType"],
-                                daysOffType=request_data["daysOffType"],
                                 startDate=request_data["startDate"],
                                 endDate=request_data["endDate"],
                                 status=request_data["status"]
@@ -86,12 +85,10 @@ def getSoldiers(soldiers_data):
                             requestsList.append(request)
                         except (KeyError, ValueError) as e:
                             logging.error(f"Error processing request for soldier {soldier_data.get('personalNumber', 'Unknown')}: {e}")
-
                 # Validate soldier data
                 required_soldier_keys = ["personalNumber", "fullName", "depClass", "pakal"]
                 if not all(key in soldier_data for key in required_soldier_keys):
                     raise ValueError(f"Missing required soldier keys in {soldier_data}")
-
                 # Initialize a Soldier object
                 soldier = Soldier(
                     personalNumber=int(soldier_data["personalNumber"]),
