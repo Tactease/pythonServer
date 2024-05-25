@@ -44,6 +44,10 @@ def add_mission():
     except Exception as e:
         return jsonify({"error": "Internal Server Error", "message": str(e)}), 500
 
+with app.test_request_context():
+    print([rule.rule for rule in app.url_map.iter_rules()])
+
+
 
 @app.route("/update_schedule", methods=["POST"])
 def update_schedule():
